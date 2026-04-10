@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://greenstonehomesolutions.com/sitemap.xml
+Sitemap: https://greenstonehomesolutions.com/sitemap-images.xml
+
+Disallow: /includes/
+Disallow: /thank-you/

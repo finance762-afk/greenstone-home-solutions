@@ -419,55 +419,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   </section>
 
   <!-- ============================================
-       8. WORK GALLERY — Masonry / Stagger
-       ============================================ -->
-  <section class="gallery-section bg-alt">
-    <div class="container">
-      <div class="text-center" style="margin-bottom: var(--space-2xl);" data-animate="fade-up">
-        <span class="eyebrow-label">Portfolio</span>
-        <h2>Our Recent Work</h2>
-        <p class="section-subtitle prose-centered">A curated selection of completed projects across Richmond and surrounding counties.</p>
-      </div>
-
-      <div class="masonry-grid" data-animate="fade-up">
-        <div class="masonry-item">
-          <img src="https://i.imgur.com/qfmHYwo.jpeg" alt="Completed shower remodel with dual showerheads and gray subway tile in Richmond, VA" width="600" height="800" loading="lazy">
-          <div class="masonry-overlay"><span>Shower Remodel</span></div>
-        </div>
-        <div class="masonry-item">
-          <img src="https://i.imgur.com/rD9LF6J.jpeg" alt="Kitchen renovation with subway tile backsplash and granite countertops in Richmond, VA" width="800" height="600" loading="lazy">
-          <div class="masonry-overlay"><span>Kitchen Renovation</span></div>
-        </div>
-        <div class="masonry-item">
-          <img src="https://i.imgur.com/OCoqun0.jpeg" alt="Vaulted ceiling interior renovation with open railing by Greenstone Home Solutions" width="800" height="600" loading="lazy">
-          <div class="masonry-overlay"><span>Interior Renovation</span></div>
-        </div>
-        <div class="masonry-item">
-          <img src="https://i.imgur.com/jOXKoUD.jpeg" alt="Custom patio with pergola and stone fireplace by Greenstone Home Solutions in Richmond, VA" width="800" height="600" loading="lazy">
-          <div class="masonry-overlay"><span>Patio & Pergola</span></div>
-        </div>
-        <div class="masonry-item">
-          <img src="https://i.imgur.com/nqzt0xW.jpeg" alt="Curved river-rock landscape bed with perennials by Greenstone Home Solutions" width="800" height="600" loading="lazy">
-          <div class="masonry-overlay"><span>Landscape Design</span></div>
-        </div>
-        <div class="masonry-item">
-          <img src="https://i.imgur.com/L9cHp6H.jpeg" alt="New industrial dining chandelier installation by Greenstone Home Solutions" width="600" height="800" loading="lazy">
-          <div class="masonry-overlay"><span>Light Fixture Install</span></div>
-        </div>
-        <div class="masonry-item">
-          <img src="https://i.imgur.com/64BxPuI.jpeg" alt="Completed shower with curved rod and hex tile niches by Greenstone Home Solutions" width="600" height="800" loading="lazy">
-          <div class="masonry-overlay"><span>Shower Renovation</span></div>
-        </div>
-        <div class="masonry-item">
-          <img src="https://i.imgur.com/OG56JL6.jpeg" alt="Dense green lawn maintained by Greenstone Home Solutions lawn care team" width="800" height="600" loading="lazy">
-          <div class="masonry-overlay"><span>Lawn Maintenance</span></div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ============================================
-       9. SERVICE AREA CALLOUT
+       8. SERVICE AREA CALLOUT
        ============================================ -->
   <section class="area-section">
     <div class="container">

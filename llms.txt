@@ -12,6 +12,8 @@
 
 ## Service Area
 Richmond, VA and surrounding counties:
+- Richmond City
+- Chesterfield County
 - Henrico County
 - Hanover County
 - King William County
@@ -24,10 +26,7 @@ Richmond, VA and surrounding counties:
 - Bedroom Remodeling: https://greenstonehomesolutions.com/services/bedroom-remodeling
 - Laundry Room Remodeling: https://greenstonehomesolutions.com/services/laundry-room-remodeling
 - Common Area Remodeling: https://greenstonehomesolutions.com/services/common-area-remodeling
-- Building Additions & New Structures: https://greenstonehomesolutions.com/services/building-additions-new-structures
-- Deck & Balcony Construction: https://greenstonehomesolutions.com/services/deck-balcony-construction
 - Patio, Porch & Terrace Construction: https://greenstonehomesolutions.com/services/patio-porch-terrace-construction
-- Detached Garage Construction: https://greenstonehomesolutions.com/services/detached-garage-construction
 - Greenscape & Landscape Design: https://greenstonehomesolutions.com/services/greenscape-landscape-design
 - Irrigation Design & Installation: https://greenstonehomesolutions.com/services/irrigation-design-installation
 - Lawn Care & Maintenance: https://greenstonehomesolutions.com/services/lawn-care-maintenance

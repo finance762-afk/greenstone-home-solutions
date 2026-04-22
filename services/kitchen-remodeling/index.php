@@ -93,14 +93,19 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 <main id="main-content">
 
   <!-- Page Header -->
-  <section class="page-header">
+  <section class="page-header has-divider">
     <div class="container">
       <nav class="breadcrumb" aria-label="Breadcrumb">
         <a href="/">Home</a><span class="sep">/</span><a href="/services">Services</a><span class="sep">/</span><span class="current">Kitchen Remodeling</span>
       </nav>
-      <h1>Kitchen Remodeling in Richmond, VA</h1>
+      <h1><span class="text-accent">Kitchen Remodeling</span> in Richmond, VA</h1>
       <p class="prose">Backsplash installation, cabinetry upgrades, countertop coordination, and full kitchen renovations — designed around how you actually use your kitchen.</p>
       <a href="tel:8042186459" class="btn-primary" style="margin-top: var(--space-lg);"><i data-lucide="phone" style="width:18px;height:18px;"></i> (804) 218-6459</a>
+    </div>
+    <div class="section-divider section-divider--bottom" aria-hidden="true">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,40 C360,0 1080,80 1440,40 L1440,80 L0,80 Z" fill="#ffffff"/>
+      </svg>
     </div>
   </section>
 
@@ -108,10 +113,10 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section style="background: var(--bg);">
     <div class="container">
       <div class="split-reverse">
-        <div class="service-img">
+        <div class="service-img reveal-left">
           <img src="https://i.imgur.com/rD9LF6J.jpeg" alt="Completed kitchen remodel in Richmond VA with subway tile backsplash, granite countertops, and gas range" width="800" height="600" loading="lazy">
         </div>
-        <div>
+        <div class="reveal-right">
           <p class="prose" style="margin-bottom: var(--space-lg);"><strong>Greenstone Home Solutions is a licensed and insured kitchen remodeling company based in Richmond, VA.</strong> A kitchen remodel in the Richmond area ranges from $12,000 for a cosmetic refresh to $40,000 or more for a full renovation with layout changes. We provide kitchen renovation services for homeowners in Richmond and surrounding counties including Henrico, Hanover, King William, New Kent, and Charles City.</p>
           <p class="prose" style="margin-bottom: var(--space-lg);">The kitchen is where most renovation dollars deliver the highest return — both in daily quality of life and in resale value. A well-planned kitchen remodel addresses the functional problems that accumulate over decades: poor traffic flow, insufficient counter space, outdated electrical that cannot handle modern appliances, and backsplash and surfaces that have seen better days.</p>
           <p class="prose">We handle projects from targeted upgrades like backsplash installation against existing countertops to complete gut renovations that reconfigure the entire layout.</p>
@@ -134,13 +139,14 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section style="background: var(--bg);">
     <div class="container">
       <div class="split">
-        <div>
+        <div class="reveal-left">
           <span class="eyebrow-label" data-animate="fade-up">Where It Starts</span>
+          <span class="section-subtitle--accent">What to expect</span>
           <h2 data-animate="fade-up">Design Consultation &amp; Material Selection</h2>
           <p class="prose" style="margin-bottom: var(--space-lg);" data-animate="fade-up">Every kitchen remodel begins with an on-site consultation where Lucas evaluates your existing layout, discusses your priorities, and walks through material options. We bring tile samples, finish swatches, and countertop materials to your home so you can see how they look against your existing cabinetry, flooring, and lighting conditions — not under showroom fluorescents.</p>
           <p class="prose" data-animate="fade-up">This hands-on approach prevents the most common kitchen remodel regret: materials that looked great in a store but clash with your home. For the project shown here, tile samples were evaluated directly against the client's existing granite countertop to ensure the new subway tile backsplash would complement rather than compete with the natural stone pattern.</p>
         </div>
-        <div class="service-img" data-animate="wipe-right">
+        <div class="service-img reveal-right" data-animate="wipe-right">
           <img src="https://i.imgur.com/VQxrnUv.jpeg" alt="Kitchen design consultation with tile samples laid out on granite countertop in Richmond VA" width="800" height="600" loading="lazy">
         </div>
       </div>
@@ -151,10 +157,10 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section class="bg-alt">
     <div class="container">
       <div class="split-reverse">
-        <div class="service-img" data-animate="wipe-right">
+        <div class="service-img reveal-right" data-animate="wipe-right">
           <img src="https://i.imgur.com/ljNethn.jpeg" alt="Kitchen backsplash tile installation in progress in Richmond VA home" width="800" height="600" loading="lazy">
         </div>
-        <div>
+        <div class="reveal-left">
           <h2 data-animate="fade-up">Backsplash Installation</h2>
           <p class="prose" style="margin-bottom: var(--space-lg);" data-animate="fade-up">Backsplash tile is one of the highest-impact kitchen upgrades per dollar spent. It protects your walls from grease and water damage while anchoring the visual design of the entire room. We specialize in subway tile, herringbone patterns, mosaic accents, and large-format porcelain — each requiring different layout techniques and cutting precision.</p>
           <p class="prose" style="margin-bottom: var(--space-lg);" data-animate="fade-up">Proper backsplash installation is more technical than it appears. Surfaces must be clean, level, and properly primed. Tile layout starts from center lines to ensure symmetrical cuts at edges and around outlets. Grout color selection affects the final look as much as the tile itself — a contrasting grout makes a pattern pop, while a matching grout creates a cleaner, more seamless appearance.</p>

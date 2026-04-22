@@ -50,13 +50,18 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 <main id="main-content">
 
   <!-- Page Header -->
-  <section class="page-header">
+  <section class="page-header has-divider">
     <div class="container">
       <nav class="breadcrumb" aria-label="Breadcrumb">
         <a href="/">Home</a><span class="sep">/</span><a href="/service-areas">Service Areas</a><span class="sep">/</span><span class="current">Charles City County</span>
       </nav>
-      <h1>Home Renovation & Landscaping in Charles City County, VA</h1>
+      <h1>Home Renovation & Landscaping in <span class="text-accent">Charles City County</span>, VA</h1>
       <p class="prose">Greenstone Home Solutions provides bathroom remodeling, kitchen renovation, landscape design, building additions, and lawn care services for homeowners in Charles City County, VA. As a licensed and insured contractor based in Richmond, we serve properties throughout Charles City County &mdash; from the Route 5 scenic corridor along the James River to rural homesteads off Route 155.</p>
+    </div>
+    <div class="section-divider section-divider--bottom" aria-hidden="true">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,40 C360,0 1080,80 1440,40 L1440,80 L0,80 Z" fill="#ffffff"/>
+      </svg>
     </div>
   </section>
 
@@ -77,16 +82,17 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section class="bg-alt">
     <div class="container">
       <div class="split" data-animate="fade-up">
-        <div>
+        <div class="reveal-right">
+          <span class="section-subtitle--accent">Respecting the home, renewing the rooms</span>
           <h2>Renovating Older Homes in Charles City County</h2>
           <div class="prose" style="margin-top: var(--space-lg);">
             <p>The typical Charles City County renovation starts with the basics: a <a href="/services/bathroom-remodeling" style="color: var(--primary); font-weight: 600;">bathroom that hasn't been updated since the house was built</a>, a <a href="/services/kitchen-remodeling" style="color: var(--primary); font-weight: 600;">kitchen with laminate counters and mismatched appliances</a>, or a living room still covered in dark wood paneling. These aren't cosmetic fixes &mdash; they're full renovations that often involve subfloor repair, plumbing updates, electrical work, and structural modifications.</p>
             <p style="margin-top: var(--space-md);">We approach older Charles City County homes with respect for their construction while bringing them into the present. That means preserving solid hardwood framing where it exists, addressing moisture issues common in homes near the James River, and designing renovations that feel intentional rather than like a modern box dropped into an older shell.</p>
-            <p style="margin-top: var(--space-md);">For homeowners who need more space, our <a href="/services/building-additions-new-structures" style="color: var(--primary); font-weight: 600;">building additions</a> service extends your home's footprint &mdash; adding a primary suite, expanding a kitchen, or enclosing a porch &mdash; without the cost and disruption of relocating. Many Charles City County properties have the land to grow; the house just needs to catch up.</p>
+            <p style="margin-top: var(--space-md);">Our <a href="/services/common-area-remodeling" style="color: var(--primary); font-weight: 600;">common area remodeling</a> work reshapes living rooms, hallways, and entryways so older floor plans feel more open without altering the home's structural footprint &mdash; the kind of thoughtful interior rework that brings a Charles City County home into the present while respecting its character.</p>
           </div>
           <a href="/contact" class="btn-primary" style="margin-top: var(--space-xl);">Schedule a Consultation <i data-lucide="chevron-right" style="width:18px;height:18px;"></i></a>
         </div>
-        <div class="service-img" data-animate="wipe-right">
+        <div class="service-img reveal-left" data-animate="wipe-right">
           <img src="https://i.imgur.com/TmwpMiR.jpeg" alt="Before and after bedroom renovation by Greenstone Home Solutions in Charles City County, VA" width="800" height="600" loading="lazy" style="aspect-ratio:4/3; object-fit:cover; border-radius: var(--radius);">
         </div>
       </div>
@@ -119,15 +125,15 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section class="bg-alt">
     <div class="container">
       <div class="split-reverse" data-animate="fade-up">
-        <div class="service-img" data-animate="wipe-right">
+        <div class="service-img reveal-left" data-animate="wipe-right">
           <img src="https://i.imgur.com/F7VlHNd.jpeg" alt="Channel drains installed along a patio by Greenstone Home Solutions in Charles City County, VA" width="800" height="600" loading="lazy" style="aspect-ratio:4/3; object-fit:cover; border-radius: var(--radius);">
         </div>
-        <div>
+        <div class="reveal-up">
           <h2>Drainage, Irrigation & Outdoor Solutions</h2>
           <div class="prose" style="margin-top: var(--space-lg);">
             <p>Water management is often the first concern on Charles City County properties. Before we install new landscaping or build an outdoor structure, we assess drainage patterns &mdash; especially on properties near Herring Creek, Kimages Creek, or the James River floodplain. Channel drains along patios, French drains in problem areas, and strategic regrading protect your investment and prevent the standing water issues that plague low-lying Charles City County lots.</p>
             <p style="margin-top: var(--space-md);">Once drainage is addressed, we design and install <a href="/services/irrigation-design-installation" style="color: var(--primary); font-weight: 600;">irrigation systems</a> calibrated for well water flow rates and the sandy-clay soil mix common in this part of the Coastal Plain. Proper irrigation makes the difference between a landscape that thrives and one that struggles through Virginia's unpredictable summers.</p>
-            <p style="margin-top: var(--space-md);">Charles City County's large lots also create opportunities for outdoor structures &mdash; a <a href="/services/deck-balcony-construction" style="color: var(--primary); font-weight: 600;">deck</a> overlooking your wooded backyard, a <a href="/services/patio-porch-terrace-construction" style="color: var(--primary); font-weight: 600;">covered porch</a> for watching storms roll across the river, or a functional outbuilding for storage and workspace.</p>
+            <p style="margin-top: var(--space-md);">Charles City County's large lots also create opportunities for outdoor living &mdash; a paver <a href="/services/patio-porch-terrace-construction" style="color: var(--primary); font-weight: 600;">patio or covered porch</a> overlooking your wooded backyard, a terraced hardscape stepping down toward the river, or integrated <a href="/services/greenscape-landscape-design" style="color: var(--primary); font-weight: 600;">landscape beds</a> framing the whole composition.</p>
           </div>
         </div>
       </div>
@@ -144,7 +150,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
       </div>
       <div class="answer-block">
         <h3>Do you handle permitting for Charles City County projects?</h3>
-        <p>Yes. We handle the permitting process for projects in Charles City County that require it, including building additions, structural modifications, and certain outdoor construction. Charles City County's building department has specific requirements, and we ensure all work meets local code before, during, and after construction.</p>
+        <p>Yes. We handle the permitting process for projects in Charles City County that require it, including structural modifications and certain outdoor construction. Charles City County's building department has specific requirements, and we ensure all work meets local code before, during, and after construction.</p>
       </div>
     </div>
   </section>
@@ -157,19 +163,16 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
       <p class="prose" style="margin-top: var(--space-md); margin-bottom: var(--space-xl);">Greenstone Home Solutions brings our full range of renovation and landscape services to homeowners throughout Charles City County. No project is too remote.</p>
 
       <div class="related-services">
-        <a href="/services/bathroom-remodeling" class="related-chip"><i data-lucide="bath" style="width:16px;height:16px;"></i> Bathroom Remodeling</a>
-        <a href="/services/kitchen-remodeling" class="related-chip"><i data-lucide="cooking-pot" style="width:16px;height:16px;"></i> Kitchen Remodeling</a>
-        <a href="/services/building-additions-new-structures" class="related-chip"><i data-lucide="warehouse" style="width:16px;height:16px;"></i> Building Additions & New Structures</a>
-        <a href="/services/greenscape-landscape-design" class="related-chip"><i data-lucide="trees" style="width:16px;height:16px;"></i> Greenscape & Landscape Design</a>
-        <a href="/services/lawn-care-maintenance" class="related-chip"><i data-lucide="leaf" style="width:16px;height:16px;"></i> Lawn Care & Maintenance</a>
-        <a href="/services/laundry-room-remodeling" class="related-chip"><i data-lucide="wrench" style="width:16px;height:16px;"></i> Laundry Room Remodeling</a>
-        <a href="/services/bedroom-remodeling" class="related-chip"><i data-lucide="lamp" style="width:16px;height:16px;"></i> Bedroom Remodeling</a>
-        <a href="/services/common-area-remodeling" class="related-chip"><i data-lucide="home" style="width:16px;height:16px;"></i> Common Area Remodeling</a>
-        <a href="/services/irrigation-design-installation" class="related-chip"><i data-lucide="droplets" style="width:16px;height:16px;"></i> Irrigation Design & Installation</a>
-        <a href="/services/design-services" class="related-chip"><i data-lucide="layout-grid" style="width:16px;height:16px;"></i> Design Services</a>
-        <a href="/services/deck-balcony-construction" class="related-chip"><i data-lucide="fence" style="width:16px;height:16px;"></i> Deck & Balcony Construction</a>
-        <a href="/services/patio-porch-terrace-construction" class="related-chip"><i data-lucide="hammer" style="width:16px;height:16px;"></i> Patio, Porch & Terrace</a>
-        <a href="/services/detached-garage-construction" class="related-chip"><i data-lucide="warehouse" style="width:16px;height:16px;"></i> Detached Garage Construction</a>
+        <a href="/services/bathroom-remodeling" class="related-chip card-tint-1"><i data-lucide="bath" style="width:16px;height:16px;"></i> Bathroom Remodeling</a>
+        <a href="/services/kitchen-remodeling" class="related-chip card-tint-2"><i data-lucide="cooking-pot" style="width:16px;height:16px;"></i> Kitchen Remodeling</a>
+        <a href="/services/greenscape-landscape-design" class="related-chip card-tint-3"><i data-lucide="trees" style="width:16px;height:16px;"></i> Greenscape & Landscape Design</a>
+        <a href="/services/lawn-care-maintenance" class="related-chip card-tint-neutral"><i data-lucide="leaf" style="width:16px;height:16px;"></i> Lawn Care & Maintenance</a>
+        <a href="/services/laundry-room-remodeling" class="related-chip card-tint-1"><i data-lucide="wrench" style="width:16px;height:16px;"></i> Laundry Room Remodeling</a>
+        <a href="/services/bedroom-remodeling" class="related-chip card-tint-2"><i data-lucide="lamp" style="width:16px;height:16px;"></i> Bedroom Remodeling</a>
+        <a href="/services/common-area-remodeling" class="related-chip card-tint-3"><i data-lucide="home" style="width:16px;height:16px;"></i> Common Area Remodeling</a>
+        <a href="/services/irrigation-design-installation" class="related-chip card-tint-neutral"><i data-lucide="droplets" style="width:16px;height:16px;"></i> Irrigation Design & Installation</a>
+        <a href="/services/design-services" class="related-chip card-tint-1"><i data-lucide="layout-grid" style="width:16px;height:16px;"></i> Design Services</a>
+        <a href="/services/patio-porch-terrace-construction" class="related-chip card-tint-2"><i data-lucide="hammer" style="width:16px;height:16px;"></i> Patio, Porch & Terrace</a>
       </div>
     </div>
   </section>

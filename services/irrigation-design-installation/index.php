@@ -93,14 +93,19 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 <main id="main-content">
 
   <!-- Page Header -->
-  <section class="page-header">
+  <section class="page-header has-divider">
     <div class="container">
       <nav class="breadcrumb" aria-label="Breadcrumb">
         <a href="/">Home</a><span class="sep">/</span><a href="/services">Services</a><span class="sep">/</span><span class="current">Irrigation Design &amp; Installation</span>
       </nav>
-      <h1>Irrigation Design &amp; Installation in Richmond, VA</h1>
+      <h1>Irrigation Design &amp; <span class="text-accent">Installation</span> in Richmond, VA</h1>
       <p class="prose">Sprinkler systems, drip irrigation, and drainage solutions designed around your landscape's actual water needs — not just coverage patterns.</p>
       <a href="tel:8042186459" class="btn-primary" style="margin-top: var(--space-lg);">Call for a Free Estimate <i data-lucide="phone" style="width:18px;height:18px;"></i></a>
+    </div>
+    <div class="section-divider section-divider--bottom" aria-hidden="true">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,40 C360,0 1080,80 1440,40 L1440,80 L0,80 Z" fill="#ffffff"/>
+      </svg>
     </div>
   </section>
 
@@ -108,12 +113,12 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section style="background: var(--bg);">
     <div class="container">
       <div class="split">
-        <div>
+        <div class="reveal-up">
           <p class="prose" style="margin-bottom: var(--space-lg);"><strong>Greenstone Home Solutions is a licensed and insured irrigation and drainage company based in Richmond, VA.</strong> A residential irrigation system in the Richmond area typically costs $3,000 to $8,000 for a standard lawn, with drainage solutions starting around $1,500. We provide irrigation design and installation for homeowners in Richmond, VA and surrounding counties including Henrico, Hanover, King William, New Kent, and Charles City.</p>
           <p class="prose" style="margin-bottom: var(--space-lg);">Our founder Lucas Walton holds a B.S. in Environmental Horticulture from Virginia Tech with a minor in Crop and Soil Sciences. That background directly shapes how we design irrigation systems. Where most installers lay out heads in a uniform grid and call it done, we zone based on actual plant water requirements, soil drainage rates, and sun exposure. Your turf areas, perennial beds, and shade gardens each get exactly the water they need — no more, no less.</p>
           <p class="prose">This approach saves water, reduces runoff, and keeps your landscape healthier. Overwatering is the number one cause of root rot and fungal disease in residential landscapes across the Richmond area. A properly zoned system prevents that.</p>
         </div>
-        <div class="service-img">
+        <div class="service-img reveal-right">
           <img src="https://i.imgur.com/PY64Pn5.jpeg" alt="Pop-up sprinkler head installed flush in ground cover by Greenstone Home Solutions in Richmond VA" width="800" height="600" loading="lazy">
         </div>
       </div>
@@ -134,6 +139,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section style="background: var(--bg);">
     <div class="container">
       <span class="eyebrow-label" data-animate="fade-up">Installation Process</span>
+      <span class="section-subtitle--accent">Every step done right</span>
       <h2 data-animate="fade-up">From Trenching to Testing</h2>
       <p class="prose" style="margin-bottom: var(--space-2xl);" data-animate="fade-up">A properly installed irrigation system is invisible when it is working and easy to maintain when it needs service. Here is what the installation process looks like — from the initial trench work through final head adjustment and zone programming.</p>
       <div class="service-gallery" data-animate="fade-up" data-stagger>
@@ -157,10 +163,10 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section class="bg-alt">
     <div class="container">
       <div class="split-reverse">
-        <div class="service-img" data-animate="wipe-right">
+        <div class="service-img reveal-left" data-animate="wipe-right">
           <img src="https://i.imgur.com/UfjHreO.jpeg" alt="Irrigation pipe and sprinkler head installation in progress in a Richmond VA residential yard" width="800" height="600" loading="lazy">
         </div>
-        <div>
+        <div class="reveal-right">
           <h2 data-animate="fade-up">Sprinkler &amp; Drip Irrigation Systems</h2>
           <p class="prose" style="margin-bottom: var(--space-lg);" data-animate="fade-up">We install complete pop-up sprinkler systems for turf areas and drip irrigation for garden beds, shrub borders, and container plantings. Every system is designed with Lucas's horticultural knowledge applied directly to zone planning — because different plant types have fundamentally different water needs.</p>
           <ul class="icon-list" data-animate="fade-up">
@@ -179,7 +185,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <!-- Irrigation Renovation Highlight -->
   <section style="background: var(--bg);">
     <div class="container" data-animate="fade-up">
-      <div class="highlight-box">
+      <div class="highlight-box card-tint-1">
         <h3><i data-lucide="wrench" style="width:20px;height:20px;"></i> Irrigation System Renovation</h3>
         <p>Many Richmond homes — especially in established Henrico and Hanover neighborhoods — have irrigation systems that are 15 to 25 years old. Corroded valves, cracked PVC, and obsolete controllers waste water and leave dead zones across your lawn. We assess existing infrastructure and replace only what has failed while keeping functional components. A targeted renovation typically costs 40 to 60 percent less than a full system replacement and can bring your coverage and efficiency back to like-new performance.</p>
       </div>
@@ -201,7 +207,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <div class="container">
       <span class="eyebrow-label" data-animate="fade-up">Drainage Solutions</span>
       <h2 data-animate="fade-up">Channel Drains &amp; Foundation Protection</h2>
-      <p class="prose" style="margin-bottom: var(--space-2xl);" data-animate="fade-up">Water pooling against your foundation is not just a landscaping problem — it is a structural threat. Richmond's clay-heavy soils in many neighborhoods drain slowly, especially during the heavy spring rains that are common in central Virginia. Channel drains, French drains, and downspout redirections move water away from your foundation before damage occurs.</p>
+      <p class="prose" style="margin-bottom: var(--space-2xl);" data-animate="fade-up">Water pooling against your foundation is not just a landscaping problem — it is a structural threat. Richmond's clay-heavy soils in many neighborhoods drain slowly, especially during the heavy spring rains that are common in Virginia. Channel drains, French drains, and downspout redirections move water away from your foundation before damage occurs.</p>
       <div class="service-gallery" data-animate="fade-up" data-stagger>
         <div class="service-gallery-item">
           <img src="https://i.imgur.com/9DHmrI4.jpeg" alt="Downspout area prepped for channel drain installation at Richmond VA home" width="800" height="600" loading="lazy">
@@ -233,7 +239,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section style="background: var(--bg);">
     <div class="container">
       <div class="split">
-        <div>
+        <div class="reveal-up">
           <h2 data-animate="fade-up">Drainage Services We Provide</h2>
           <p class="prose" style="margin-bottom: var(--space-lg);" data-animate="fade-up">We design and install drainage solutions that address the specific water management problems on your property. Richmond's topography and soil composition vary significantly from neighborhood to neighborhood — a drainage plan that works in the Fan District may not be appropriate for a property in Mechanicsville or New Kent. We assess your site conditions and design accordingly.</p>
           <ul class="icon-list" data-animate="fade-up">
@@ -245,7 +251,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
             <li><i data-lucide="check-circle" style="width:18px;height:18px;"></i><p>Sump pump discharge line routing</p></li>
           </ul>
         </div>
-        <div class="service-img" data-animate="wipe-right">
+        <div class="service-img reveal-right" data-animate="wipe-right">
           <img src="https://i.imgur.com/Dehigaz.jpeg" alt="Completed channel drain along home foundation protecting against water damage in Richmond VA" width="800" height="600" loading="lazy">
         </div>
       </div>

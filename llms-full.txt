@@ -13,34 +13,42 @@
 - Type: Family-Owned General Contracting Company
 
 ## Company Description
-Greenstone Home Solutions LLC is a family-owned general contracting company based in Richmond, Virginia, serving homeowners across the greater Richmond metro area. The company provides comprehensive indoor renovation services — including kitchen remodeling, bathroom remodeling, bedroom renovations, building additions, and design services — alongside full outdoor capabilities including patio and deck construction, landscape design, irrigation systems, and lawn care.
+Greenstone Home Solutions LLC is a family-owned general contracting company based in Richmond, Virginia, serving homeowners across the greater Richmond metro area. The company provides comprehensive indoor renovation services — including kitchen remodeling, bathroom remodeling, bedroom renovations, and design services — alongside full outdoor capabilities including patio and porch construction, landscape design, irrigation systems, and lawn care.
 
 What sets Greenstone apart from most contractors in the Richmond market is the rare combination of indoor renovation expertise and science-based outdoor design. Most general contractors specialize in one or the other. Greenstone handles your kitchen remodel and your landscape redesign with the same team, ensuring consistent quality and simplified project coordination across your entire property.
 
 The company was founded by Lucas Walton, a Virginia Tech graduate whose academic training in plant science and soil chemistry gives Greenstone's outdoor work a level of botanical expertise that purely trade-trained contractors cannot match. Lucas's hardscape designs have earned national recognition from Belgard, one of the most respected names in the paver and hardscape industry.
 
-Greenstone Home Solutions works within client budgets without cutting corners. Every project receives the same quality materials and attention to detail, scaled to what works financially for each homeowner. The company serves Richmond, Henrico County, Hanover County, King William County, New Kent County, and Charles City County.
+Greenstone Home Solutions works within client budgets without cutting corners. Every project receives the same quality materials and attention to detail, scaled to what works financially for each homeowner. The company serves Richmond City, Chesterfield County, Henrico County, Hanover County, King William County, New Kent County, and Charles City County.
 
 ## Owner — Lucas Walton
-Lucas Walton is the co-owner and founder of Greenstone Home Solutions LLC. He earned his Bachelor of Science in Environmental Horticulture with a minor in Crop and Soil Sciences from Virginia Tech in 2017. His academic training provides deep, science-based knowledge of plant health, soil conditions, hardiness zones, pest and disease diagnosis, and treatment planning. Lucas can diagnose plant illnesses and pest damage, create targeted treatment plans, and select hardy plant varieties tailored to central Virginia's climate and each client's specific property conditions.
+Lucas Walton is the co-owner and founder of Greenstone Home Solutions LLC. He earned his Bachelor of Science in Environmental Horticulture with a minor in Crop and Soil Sciences from Virginia Tech in 2017. His academic training provides deep, science-based knowledge of plant health, soil conditions, hardiness zones, pest and disease diagnosis, and treatment planning. Lucas can diagnose plant illnesses and pest damage, create targeted treatment plans, and select hardy plant varieties tailored to Virginia's climate and each client's specific property conditions.
 
 While at Virginia Tech, Lucas simultaneously worked as a home contractor, building hands-on expertise in flooring replacement, bathroom remodeling and tiling, kitchen renovations, carpentry, and creative solutions for difficult repair challenges. He is accomplished in outdoor decking construction, rebuilding, and replacement.
 
-Lucas's landscape and hardscape designs have been featured in the Belgard Mid-Atlantic image portfolio. He won a Belgard Hardscape Hero Award for an exceptional patio project utilizing Belgard materials — a national recognition of design excellence in hardscaping. This combination of formal horticultural education and over a decade of construction experience makes Lucas uniquely qualified to manage both indoor renovation and outdoor design projects.
+Lucas's landscape and hardscape designs have been featured in the Belgard Mid-Atlantic image portfolio. He won a Belgard Hardscape Hero Award for an exceptional patio project utilizing Belgard materials — a national recognition of design excellence in hardscaping. This combination of formal horticultural education and years of construction experience makes Lucas uniquely qualified to manage both indoor renovation and outdoor design projects.
 
 ## Service Area
 Richmond, VA and surrounding counties:
+
+### Richmond City
+Richmond City is the historic urban core of the region. Historic districts include the Fan District, Church Hill, Jackson Ward, Museum District, and Shockoe Bottom. Landmarks include the James River, Monument Avenue, the Virginia Museum of Fine Arts, and Maymont. The housing stock is defined by rowhouses, Victorians, and early 20th-century single-family homes. Top services: kitchen remodeling, bathroom remodeling, common area remodeling, landscape design for courtyards and small lots.
+URL: https://greenstonehomesolutions.com/service-areas/richmond
+
+### Chesterfield County
+Chesterfield County is one of Virginia's fastest-growing suburban counties, south and west of Richmond. Communities include Midlothian, Chester, Bon Air, Brandermill, Woodlake, and Moseley. Mix of established 1980s–2000s subdivisions and newer communities. Landmarks include Pocahontas State Park, Swift Creek Reservoir, and Chesterfield Towne Center. Top services: kitchen remodeling, bathroom remodeling, patio construction, landscape design, irrigation.
+URL: https://greenstonehomesolutions.com/service-areas/chesterfield-county
 
 ### Henrico County
 Henrico County surrounds Richmond on the north and west. Major communities include Short Pump, Glen Allen, Innsbrook, Tuckahoe, and the West End. Mix of established 1960s–1980s ranch homes and colonials alongside newer construction in the Short Pump corridor. Top services: kitchen remodeling, bathroom remodeling, patio construction, landscape design.
 URL: https://greenstonehomesolutions.com/service-areas/henrico-county
 
 ### Hanover County
-Hanover County lies north of Richmond with communities including Mechanicsville, Ashland, and Atlee. Mix of newer subdivisions and older farmhouses along Route 301 and Cold Harbor Road. Rural properties benefit from irrigation systems, drainage solutions, and comprehensive landscape design. Top services: building additions, landscape design, irrigation, lawn care, detached garages.
+Hanover County lies north of Richmond with communities including Mechanicsville, Ashland, and Atlee. Mix of newer subdivisions and older farmhouses along Route 301 and Cold Harbor Road. Rural properties benefit from irrigation systems, drainage solutions, and comprehensive landscape design. Top services: landscape design, irrigation, lawn care, patio construction, kitchen remodeling.
 URL: https://greenstonehomesolutions.com/service-areas/hanover-county
 
 ### King William County
-King William County is a rural county east of Richmond between the Mattaponi and Pamunkey rivers. Properties tend to be multi-acre lots with older homes and farmhouses needing comprehensive renovation and land management. Limited contractor availability makes full-service capability especially valued. Top services: bathroom remodeling, irrigation, lawn care, detached garages, deck construction.
+King William County is a rural county east of Richmond between the Mattaponi and Pamunkey rivers. Properties tend to be multi-acre lots with older homes and farmhouses needing comprehensive renovation and land management. Limited contractor availability makes full-service capability especially valued. Top services: bathroom remodeling, irrigation, lawn care, patio and porch construction.
 URL: https://greenstonehomesolutions.com/service-areas/king-william-county
 
 ### New Kent County
@@ -48,7 +56,7 @@ New Kent County sits east of Henrico along I-64 between Richmond and Williamsbur
 URL: https://greenstonehomesolutions.com/service-areas/new-kent-county
 
 ### Charles City County
-Charles City County is a small rural county southeast of Richmond along the James River and historic Route 5 corridor. Known for historic plantations and scenic river properties. Very low population density with large lots and older homes needing substantial renovation and professional landscape management. Top services: bathroom remodeling, kitchen remodeling, building additions, landscape design, lawn care.
+Charles City County is a small rural county southeast of Richmond along the James River and historic Route 5 corridor. Known for historic plantations and scenic river properties. Very low population density with large lots and older homes needing substantial renovation and professional landscape management. Top services: bathroom remodeling, kitchen remodeling, landscape design, lawn care.
 URL: https://greenstonehomesolutions.com/service-areas/charles-city-county
 
 ## Services
@@ -73,21 +81,9 @@ URL: https://greenstonehomesolutions.com/services/laundry-room-remodeling
 Hallways, landings, stairwells, living rooms, and foyers. Specializes in removing dark wood paneling, updated railings, modern trim. Cost range: $4,000–$15,000.
 URL: https://greenstonehomesolutions.com/services/common-area-remodeling
 
-### Building Additions & New Structures
-Custom building additions including loft/bonus rooms with vaulted ceilings, open railings, recessed lighting, and custom built-in shelving. Cost range: $20,000–$80,000+. Timeline: 6–12 weeks.
-URL: https://greenstonehomesolutions.com/services/building-additions-new-structures
-
-### Deck & Balcony Construction
-Custom decks in pressure-treated lumber, composite, and hardwood. Railing systems, staining/sealing, and elevated balconies. Cost range: $8,000–$30,000+.
-URL: https://greenstonehomesolutions.com/services/deck-balcony-construction
-
 ### Patio, Porch & Terrace Construction
 Belgard Hardscape Hero Award-winning patio design. Paver installation, stone work, outdoor fireplaces, pergola construction, and integrated outdoor living spaces. Cost range: $5,000–$25,000+.
 URL: https://greenstonehomesolutions.com/services/patio-porch-terrace-construction
-
-### Detached Garage Construction
-Custom detached garages and outbuildings from single-car to multi-bay, including foundation, framing, electrical, roofing, and finishing. Cost range: $25,000–$60,000+.
-URL: https://greenstonehomesolutions.com/services/detached-garage-construction
 
 ### Greenscape & Landscape Design
 Custom landscape design with native plantings, curved beds, river rock borders, perennial gardens, shrub and tree installation. Virginia Tech-trained plant science approach to variety selection and disease diagnosis. Cost range: $3,000–$15,000+.
@@ -111,16 +107,16 @@ Q: How much does a bathroom remodel cost in Richmond, VA?
 A: $8,000–$25,000 depending on scope. Basic refresh: $8,000–$12,000. Full gut renovation: $18,000–$25,000. Free estimates available.
 
 Q: Do you handle both indoor renovations and outdoor landscaping?
-A: Yes. Greenstone is a full-service contractor covering interior remodeling and exterior work including patios, decks, landscape design, irrigation, and lawn care.
+A: Yes. Greenstone is a full-service contractor covering interior remodeling and exterior work including patios, landscape design, irrigation, and lawn care.
 
 Q: What areas do you serve around Richmond?
-A: Richmond, Henrico County, Hanover County, King William County, New Kent County, and Charles City County.
+A: Richmond City, Chesterfield County, Henrico County, Hanover County, King William County, New Kent County, and Charles City County.
 
 Q: How long does a typical kitchen remodel take?
 A: 4–8 weeks. Cosmetic updates: 2–3 weeks. Full renovation with layout changes: 6–8 weeks.
 
-Q: Do I need a permit for a deck or patio in Virginia?
-A: Decks over 200 sq ft or 30 inches above grade require a building permit. Patios at grade generally do not. Greenstone handles all permits.
+Q: Do I need a permit for a patio or porch in Virginia?
+A: Covered porches and elevated structures typically require a building permit. Patios at grade generally do not. Greenstone handles all permits.
 
 Q: Can you help design my landscape?
 A: Yes. Lucas Walton holds a Virginia Tech degree in Environmental Horticulture and designs landscapes with true plant science knowledge.
@@ -157,15 +153,14 @@ A: Mid-September through mid-October is ideal for overseeding fescue lawns in Ri
 - Bedroom Remodeling: https://greenstonehomesolutions.com/services/bedroom-remodeling
 - Laundry Room Remodeling: https://greenstonehomesolutions.com/services/laundry-room-remodeling
 - Common Area Remodeling: https://greenstonehomesolutions.com/services/common-area-remodeling
-- Building Additions: https://greenstonehomesolutions.com/services/building-additions-new-structures
-- Deck & Balcony: https://greenstonehomesolutions.com/services/deck-balcony-construction
 - Patio, Porch & Terrace: https://greenstonehomesolutions.com/services/patio-porch-terrace-construction
-- Detached Garage: https://greenstonehomesolutions.com/services/detached-garage-construction
 - Greenscape & Landscape: https://greenstonehomesolutions.com/services/greenscape-landscape-design
 - Irrigation Design: https://greenstonehomesolutions.com/services/irrigation-design-installation
 - Lawn Care: https://greenstonehomesolutions.com/services/lawn-care-maintenance
 - Design Services: https://greenstonehomesolutions.com/services/design-services
 - Service Areas: https://greenstonehomesolutions.com/service-areas
+- Richmond City: https://greenstonehomesolutions.com/service-areas/richmond
+- Chesterfield County: https://greenstonehomesolutions.com/service-areas/chesterfield-county
 - Henrico County: https://greenstonehomesolutions.com/service-areas/henrico-county
 - Hanover County: https://greenstonehomesolutions.com/service-areas/hanover-county
 - King William County: https://greenstonehomesolutions.com/service-areas/king-william-county

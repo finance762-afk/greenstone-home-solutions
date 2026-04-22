@@ -36,7 +36,7 @@ $schemaMarkup = '[
         "name": "What outdoor living features work best for New Kent County properties?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "New Kent County lots typically have generous backyard space, making them ideal for patios, covered porches, and outdoor kitchens. A stamped concrete or paver patio paired with a covered structure extends your usable living space from spring through fall. We design these additions to complement your home's existing architecture."
+          "text": "New Kent County lots typically have generous backyard space, making them ideal for patios, covered porches, and outdoor kitchens. A stamped concrete or paver patio paired with a covered structure extends your usable living space from spring through fall. We design these additions to complement the existing architecture of the home."
         }
       }
     ]
@@ -50,13 +50,18 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 <main id="main-content">
 
   <!-- Page Header -->
-  <section class="page-header">
+  <section class="page-header has-divider">
     <div class="container">
       <nav class="breadcrumb" aria-label="Breadcrumb">
         <a href="/">Home</a><span class="sep">/</span><a href="/service-areas">Service Areas</a><span class="sep">/</span><span class="current">New Kent County</span>
       </nav>
-      <h1>Home Renovation & Landscaping in New Kent County, VA</h1>
+      <h1>Home Renovation & Landscaping in <span class="text-accent">New Kent County</span>, VA</h1>
       <p class="prose">Greenstone Home Solutions provides landscape design, outdoor living construction, kitchen and bathroom remodeling, and lawn care services for homeowners in New Kent County, VA. As a licensed and insured contractor serving the Richmond metro area, we work with New Kent County homeowners in Providence Forge, Quinton, and communities throughout the I-64 corridor.</p>
+    </div>
+    <div class="section-divider section-divider--bottom" aria-hidden="true">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,40 C360,0 1080,80 1440,40 L1440,80 L0,80 Z" fill="#ffffff"/>
+      </svg>
     </div>
   </section>
 
@@ -64,10 +69,11 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section style="background: var(--bg);">
     <div class="container">
       <div class="split-reverse" data-animate="fade-up">
-        <div class="service-img" data-animate="wipe-right">
+        <div class="service-img reveal-left" data-animate="wipe-right">
           <img src="https://i.imgur.com/pGk5QcC.jpeg" alt="Greenstone Home Solutions crew installing shrubs and arborvitae at a New Kent County residence" width="800" height="600" loading="lazy" style="aspect-ratio:4/3; object-fit:cover; border-radius: var(--radius);">
         </div>
-        <div>
+        <div class="reveal-up">
+          <span class="section-subtitle--accent">Replacing builder-grade with real character</span>
           <h2>Landscape Design for New Kent County's Growing Communities</h2>
           <div class="prose" style="margin-top: var(--space-lg);">
             <p>New Kent County has seen steady residential growth over the past two decades as the Richmond metro expands east along I-64 toward Williamsburg. Communities like Brickshire, The Colonies at Williamsburg, and Farms of New Kent brought hundreds of new homes &mdash; but the builder-grade landscaping installed during construction wasn't designed to last.</p>
@@ -105,7 +111,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section style="background: var(--bg);">
     <div class="container">
       <div class="split" data-animate="fade-up">
-        <div>
+        <div class="reveal-right">
           <h2>Interior Renovation for New Kent County Homes</h2>
           <div class="prose" style="margin-top: var(--space-lg);">
             <p>Bathroom and kitchen remodels are our most-requested interior services in New Kent County. Older homes along Route 33 and in communities around Quinton frequently have original bathrooms with pink or avocado tile, pedestal sinks, and tub-only setups that don't meet modern expectations. We gut these rooms down to the studs and rebuild them with custom tile showers, new vanities, updated plumbing, and proper ventilation.</p>
@@ -113,7 +119,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
             <p style="margin-top: var(--space-md);">We also handle <a href="/services/lawn-care-maintenance" style="color: var(--primary); font-weight: 600;">lawn care and maintenance</a> for New Kent County properties, keeping your turf healthy through the seasonal demands of Virginia's humid climate. Paired with an irrigation system, regular lawn maintenance keeps your property looking sharp year-round.</p>
           </div>
         </div>
-        <div class="service-img" data-animate="wipe-right">
+        <div class="service-img reveal-left" data-animate="wipe-right">
           <img src="https://i.imgur.com/qfmHYwo.jpeg" alt="Completed shower remodel with custom tile work by Greenstone Home Solutions in New Kent County" width="800" height="600" loading="lazy" style="aspect-ratio:4/3; object-fit:cover; border-radius: var(--radius);">
         </div>
       </div>
@@ -143,19 +149,16 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
       <p class="prose" style="margin-top: var(--space-md); margin-bottom: var(--space-xl);">Every service Greenstone Home Solutions offers is available to homeowners across New Kent County. From interior remodels to landscape installations, we handle it all.</p>
 
       <div class="related-services">
-        <a href="/services/greenscape-landscape-design" class="related-chip"><i data-lucide="trees" style="width:16px;height:16px;"></i> Greenscape & Landscape Design</a>
-        <a href="/services/patio-porch-terrace-construction" class="related-chip"><i data-lucide="hammer" style="width:16px;height:16px;"></i> Patio, Porch & Terrace</a>
-        <a href="/services/kitchen-remodeling" class="related-chip"><i data-lucide="cooking-pot" style="width:16px;height:16px;"></i> Kitchen Remodeling</a>
-        <a href="/services/bathroom-remodeling" class="related-chip"><i data-lucide="bath" style="width:16px;height:16px;"></i> Bathroom Remodeling</a>
-        <a href="/services/lawn-care-maintenance" class="related-chip"><i data-lucide="leaf" style="width:16px;height:16px;"></i> Lawn Care & Maintenance</a>
-        <a href="/services/irrigation-design-installation" class="related-chip"><i data-lucide="droplets" style="width:16px;height:16px;"></i> Irrigation Design & Installation</a>
-        <a href="/services/bedroom-remodeling" class="related-chip"><i data-lucide="lamp" style="width:16px;height:16px;"></i> Bedroom Remodeling</a>
-        <a href="/services/laundry-room-remodeling" class="related-chip"><i data-lucide="wrench" style="width:16px;height:16px;"></i> Laundry Room Remodeling</a>
-        <a href="/services/common-area-remodeling" class="related-chip"><i data-lucide="home" style="width:16px;height:16px;"></i> Common Area Remodeling</a>
-        <a href="/services/building-additions-new-structures" class="related-chip"><i data-lucide="warehouse" style="width:16px;height:16px;"></i> Building Additions & New Structures</a>
-        <a href="/services/design-services" class="related-chip"><i data-lucide="layout-grid" style="width:16px;height:16px;"></i> Design Services</a>
-        <a href="/services/deck-balcony-construction" class="related-chip"><i data-lucide="fence" style="width:16px;height:16px;"></i> Deck & Balcony Construction</a>
-        <a href="/services/detached-garage-construction" class="related-chip"><i data-lucide="warehouse" style="width:16px;height:16px;"></i> Detached Garage Construction</a>
+        <a href="/services/greenscape-landscape-design" class="related-chip card-tint-1"><i data-lucide="trees" style="width:16px;height:16px;"></i> Greenscape & Landscape Design</a>
+        <a href="/services/patio-porch-terrace-construction" class="related-chip card-tint-2"><i data-lucide="hammer" style="width:16px;height:16px;"></i> Patio, Porch & Terrace</a>
+        <a href="/services/kitchen-remodeling" class="related-chip card-tint-3"><i data-lucide="cooking-pot" style="width:16px;height:16px;"></i> Kitchen Remodeling</a>
+        <a href="/services/bathroom-remodeling" class="related-chip card-tint-neutral"><i data-lucide="bath" style="width:16px;height:16px;"></i> Bathroom Remodeling</a>
+        <a href="/services/lawn-care-maintenance" class="related-chip card-tint-1"><i data-lucide="leaf" style="width:16px;height:16px;"></i> Lawn Care & Maintenance</a>
+        <a href="/services/irrigation-design-installation" class="related-chip card-tint-2"><i data-lucide="droplets" style="width:16px;height:16px;"></i> Irrigation Design & Installation</a>
+        <a href="/services/bedroom-remodeling" class="related-chip card-tint-3"><i data-lucide="lamp" style="width:16px;height:16px;"></i> Bedroom Remodeling</a>
+        <a href="/services/laundry-room-remodeling" class="related-chip card-tint-neutral"><i data-lucide="wrench" style="width:16px;height:16px;"></i> Laundry Room Remodeling</a>
+        <a href="/services/common-area-remodeling" class="related-chip card-tint-1"><i data-lucide="home" style="width:16px;height:16px;"></i> Common Area Remodeling</a>
+        <a href="/services/design-services" class="related-chip card-tint-2"><i data-lucide="layout-grid" style="width:16px;height:16px;"></i> Design Services</a>
       </div>
     </div>
   </section>

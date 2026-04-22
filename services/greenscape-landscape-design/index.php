@@ -68,7 +68,7 @@ $schemaMarkup = '[
         "name": "Can you diagnose why my existing plants are dying?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Absolutely. Lucas's training in plant pathology means we can identify diseases, pest damage, nutrient deficiencies, and environmental stress. We diagnose the issue and recommend treatment or hardy replacement varieties suited to your specific conditions."
+          "text": "Absolutely. The Virginia Tech plant pathology training means we can identify diseases, pest damage, nutrient deficiencies, and environmental stress. We diagnose the issue and recommend treatment or hardy replacement varieties suited to your specific conditions."
         }
       }
     ]
@@ -93,14 +93,19 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 <main id="main-content">
 
   <!-- Page Header -->
-  <section class="page-header">
+  <section class="page-header has-divider">
     <div class="container">
       <nav class="breadcrumb" aria-label="Breadcrumb">
         <a href="/">Home</a><span class="sep">/</span><a href="/services">Services</a><span class="sep">/</span><span class="current">Greenscape &amp; Landscape Design</span>
       </nav>
-      <h1>Greenscape &amp; Landscape Design in Richmond, VA</h1>
+      <h1>Greenscape &amp; <span class="text-accent">Landscape Design</span> in Richmond, VA</h1>
       <p class="prose">Science-based landscape design rooted in Virginia Tech horticultural training — custom garden beds, native plantings, and outdoor spaces built to thrive in Richmond's climate.</p>
       <a href="tel:8042186459" class="btn-primary" style="margin-top: var(--space-lg);">Call for a Free Consultation <i data-lucide="phone" style="width:18px;height:18px;"></i></a>
+    </div>
+    <div class="section-divider section-divider--bottom" aria-hidden="true">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,40 C360,0 1080,80 1440,40 L1440,80 L0,80 Z" fill="#ffffff"/>
+      </svg>
     </div>
   </section>
 
@@ -108,10 +113,10 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section style="background: var(--bg);">
     <div class="container">
       <div class="split-reverse">
-        <div class="service-img">
+        <div class="service-img reveal-left">
           <img src="https://i.imgur.com/nqzt0xW.jpeg" alt="Curved river-rock garden bed with colorful perennials installed by Greenstone Home Solutions in Richmond VA" width="800" height="600" loading="lazy">
         </div>
-        <div>
+        <div class="reveal-right">
           <p class="prose" style="margin-bottom: var(--space-lg);"><strong>Greenstone Home Solutions is a licensed and insured landscape design company based in Richmond, VA.</strong> Professional landscape design in Richmond typically costs $3,000 to $15,000 or more depending on property size and complexity. We provide custom landscape design backed by Virginia Tech horticultural science for homeowners in Richmond, VA and surrounding counties including Henrico, Hanover, King William, New Kent, and Charles City.</p>
           <p class="prose" style="margin-bottom: var(--space-lg);">What separates our work from typical landscaping contractors is education. Our founder, Lucas Walton, holds a B.S. in Environmental Horticulture with a minor in Crop and Soil Sciences from Virginia Tech. That means every plant selection, bed layout, and soil amendment recommendation is grounded in actual plant science — not guesswork or nursery availability.</p>
           <p class="prose">When we design a landscape, we start with the soil and microclimate conditions on your specific property. Different areas of a single yard can have dramatically different drainage, sun exposure, and pH levels. Understanding those conditions before selecting a single plant is the difference between a landscape that thrives for decades and one that needs replacing in three years.</p>
@@ -134,23 +139,24 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section style="background: var(--bg);">
     <div class="container" data-animate="fade-up">
       <span class="eyebrow-label">The Greenstone Difference</span>
+      <span class="section-subtitle--accent">Rooted in Virginia Tech horticulture</span>
       <h2>Landscape Design Backed by Plant Science</h2>
       <p class="prose" style="margin-bottom: var(--space-lg);">Most landscaping companies design by aesthetics alone. They pick plants that look good at the garden center, install them, and hope for the best. At Greenstone, we approach landscape design the way it is taught in a university horticulture program — because that is exactly where Lucas learned it.</p>
       <p class="prose" style="margin-bottom: var(--space-2xl);">Virginia Tech's Environmental Horticulture program covers plant physiology, soil chemistry, pest and disease identification, and climate-adapted design. His minor in Crop and Soil Sciences adds training in soil testing, nutrient management, and the relationship between soil health and plant performance. This background means we can do things most landscapers simply cannot.</p>
       <div class="grid-2" data-animate="fade-up" data-stagger>
-        <div class="highlight-box">
+        <div class="highlight-box card-tint-1">
           <h3><i data-lucide="microscope" style="width:20px;height:20px;"></i> Diagnose Plant Problems</h3>
           <p>Yellowing leaves, wilting, spots, and dieback all have specific causes. Lucas can identify fungal diseases, bacterial infections, pest damage, and nutrient deficiencies on sight — and recommend targeted treatment plans rather than blanket chemical applications.</p>
         </div>
-        <div class="highlight-box">
+        <div class="highlight-box card-tint-2">
           <h3><i data-lucide="flask-conical" style="width:20px;height:20px;"></i> Soil Analysis &amp; Amendment</h3>
           <p>Richmond soils vary widely — from heavy clay in Henrico to sandy loam in New Kent. We test soil pH, organic matter content, and drainage characteristics before recommending amendments. Getting the soil right is the single most important factor in long-term plant health.</p>
         </div>
-        <div class="highlight-box">
+        <div class="highlight-box card-tint-3">
           <h3><i data-lucide="leaf" style="width:20px;height:20px;"></i> Climate-Smart Plant Selection</h3>
           <p>Richmond sits at the border of USDA hardiness zones 7a and 7b. We select varieties proven to handle both our summer heat and occasional hard freezes, prioritizing native species that require less supplemental water and resist local pests naturally.</p>
         </div>
-        <div class="highlight-box">
+        <div class="highlight-box card-tint-neutral">
           <h3><i data-lucide="sun" style="width:20px;height:20px;"></i> Microclimate Mapping</h3>
           <p>A north-facing bed under mature oaks has completely different conditions than a south-facing slope along a driveway. We map sun exposure, wind patterns, and drainage on your property to match the right plant to the right location every time.</p>
         </div>
@@ -162,7 +168,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section class="bg-alt">
     <div class="container">
       <div class="split">
-        <div>
+        <div class="reveal-up">
           <h2 data-animate="fade-up">What We Design &amp; Install</h2>
           <p class="prose" style="margin-bottom: var(--space-lg);" data-animate="fade-up">Our greenscape and landscape design services cover everything from a single garden bed refresh to a complete property transformation. Every project is custom — we do not work from templates or pre-made plans because no two properties in the Richmond area have the same conditions.</p>
           <ul class="icon-list" data-animate="fade-up">
@@ -176,7 +182,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
             <li><i data-lucide="check-circle" style="width:18px;height:18px;"></i><p>Seasonal interest planning so your landscape looks good in every month</p></li>
           </ul>
         </div>
-        <div class="service-img" data-animate="wipe-right">
+        <div class="service-img reveal-right" data-animate="wipe-right">
           <img src="https://i.imgur.com/pGk5QcC.jpeg" alt="Greenstone crew installing shrubs and arborvitae along a fence line in Richmond VA" width="800" height="600" loading="lazy">
         </div>
       </div>
@@ -196,7 +202,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <!-- Native Plants & Regional Knowledge -->
   <section style="background: var(--bg);">
     <div class="container" data-animate="fade-up">
-      <h2>Native &amp; Climate-Adapted Plants for Central Virginia</h2>
+      <h2>Native &amp; Climate-Adapted Plants for Virginia</h2>
       <p class="prose" style="margin-bottom: var(--space-lg);">We prioritize native Virginia species whenever the design allows. Native plants evolved alongside local insects, birds, and soil organisms, which means they establish faster, need less water once rooted, and resist local diseases and pests without heavy chemical intervention.</p>
       <p class="prose" style="margin-bottom: var(--space-lg);">Some of our most-used native and adapted species for Richmond landscapes include Virginia sweetspire, Eastern redbud, inkberry holly, black-eyed Susan, blue-star amsonia, and switchgrass. For privacy hedges, we use native hollies and recommend arborvitae varieties proven to perform in zone 7a/7b — not the big-box varieties that brown out after two Virginia summers.</p>
       <p class="prose">We also design for seasonal interest. A well-planned landscape should look good in January, not just June. That means incorporating evergreen structure, winter-blooming species like witch hazel, ornamental bark, and seed heads that hold through the cold months. Richmond homeowners in neighborhoods across Henrico, the Fan District, and Hanover County consistently tell us they are surprised by how much their landscape improves during the off-season once proper variety selection is in place.</p>

@@ -93,14 +93,19 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 <main id="main-content">
 
   <!-- Page Header -->
-  <section class="page-header">
+  <section class="page-header has-divider">
     <div class="container">
       <nav class="breadcrumb" aria-label="Breadcrumb">
         <a href="/">Home</a><span class="sep">/</span><a href="/services">Services</a><span class="sep">/</span><span class="current">Design Services</span>
       </nav>
-      <h1>Design Services in Richmond, VA</h1>
+      <h1><span class="text-accent">Design Services</span> in Richmond, VA</h1>
       <p class="prose">Light fixture replacement, ceiling fan installation, and TV wall mounting -- the finishing touches that transform how your home looks and feels.</p>
       <a href="tel:8042186459" class="btn-primary" style="margin-top: var(--space-lg);">Call for a Free Estimate <i data-lucide="phone" style="width:18px;height:18px;"></i></a>
+    </div>
+    <div class="section-divider section-divider--bottom" aria-hidden="true">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,40 C360,0 1080,80 1440,40 L1440,80 L0,80 Z" fill="#ffffff"/>
+      </svg>
     </div>
   </section>
 
@@ -108,12 +113,12 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section style="background: var(--bg);">
     <div class="container">
       <div class="split">
-        <div>
+        <div class="reveal-up">
           <p class="prose" style="margin-bottom: var(--space-lg);"><strong>Greenstone Home Solutions is a licensed and insured design services company based in Richmond, VA.</strong> Light fixture replacement, ceiling fan installation, and TV wall mounting in Richmond typically cost $150 to $500 per fixture depending on complexity and wiring needs. We provide finishing-touch design services for homeowners in Richmond, VA and surrounding counties including Henrico, Hanover, King William, New Kent, and Charles City.</p>
           <p class="prose" style="margin-bottom: var(--space-lg);">These are the upgrades that make the biggest visual impact for the least disruption. A dated plastic dome light becomes a modern flush mount in under an hour. A wobbly ceiling fan gets replaced with a quiet, balanced unit that actually moves air. A TV goes from sitting on a stand with tangled cords to a clean, wall-mounted display with zero visible wiring.</p>
           <p class="prose">We handle the electrical connections, junction box upgrades, stud-finding, bracket installation, and in-wall wire routing so every finished result looks intentional -- not improvised.</p>
         </div>
-        <div class="service-img">
+        <div class="service-img reveal-right">
           <div class="before-after-large">
             <div class="ba-label">Before &amp; After</div>
             <img src="https://i.imgur.com/zhnFTMI.jpeg" alt="Before and after: plastic dome light replaced with modern flush-mount fixture in Richmond VA home" width="800" height="600" loading="lazy">
@@ -127,6 +132,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section class="bg-alt">
     <div class="container">
       <span class="eyebrow-label" data-animate="fade-up">Light Fixture Replacement</span>
+      <span class="section-subtitle--accent">Finishing touches that transform</span>
       <h2 data-animate="fade-up">From Builder-Grade to Beautiful</h2>
       <p class="prose" style="margin-bottom: var(--space-2xl);" data-animate="fade-up">Most Richmond homes come with the same builder-grade light fixtures installed in the 1980s and 1990s -- brass-finished dome lights, dated flush mounts, and ornate chandeliers that collect dust. Replacing them is one of the fastest ways to modernize a room. We install flush mounts, semi-flush fixtures, pendant lights, chandeliers, and dining room statement pieces. Every installation includes proper junction box assessment, secure mounting, and wiring connections.</p>
 
@@ -170,13 +176,13 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
       <p class="prose" style="margin-bottom: var(--space-2xl);" data-animate="fade-up">Ceiling fans with integrated light kits serve double duty -- circulating air to reduce HVAC costs while providing overhead lighting. We replace outdated fans, install new fans where only a light existed before, and upgrade wobbly units with modern, balanced models. Fan-rated junction boxes, proper blade clearance, and secure downrod mounting are included with every installation.</p>
 
       <div class="split-reverse" data-animate="fade-up">
-        <div class="service-img">
+        <div class="service-img reveal-left">
           <div class="before-after-large">
             <div class="ba-label">Before &amp; After</div>
             <img src="https://i.imgur.com/E7TKmsh.jpeg" alt="Before and after: recessed light replaced with modern industrial ceiling fan with light kit" width="800" height="600" loading="lazy">
           </div>
         </div>
-        <div>
+        <div class="reveal-right">
           <h3>Recessed Light to Full Ceiling Fan</h3>
           <p class="prose" style="margin-bottom: var(--space-lg);">Converting a recessed light to a ceiling fan requires replacing the housing with a fan-rated box and running a dedicated switch leg if you want independent fan and light controls. The result is a room that stays comfortable year-round -- fans push warm air down in winter and create a cooling breeze in summer, reducing energy bills by up to 30% on HVAC costs for Richmond homeowners dealing with Virginia's humid summers.</p>
 
@@ -190,11 +196,11 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
       </div>
 
       <div class="split" style="margin-top: var(--space-3xl);" data-animate="fade-up">
-        <div>
+        <div class="reveal-up">
           <h3>Fan Upgrades &amp; Replacements</h3>
           <p class="prose">Old ceiling fans with pull chains, noisy motors, and wobbling blades are more than an annoyance -- they are an energy waste. Modern fans with DC motors run quieter, use less electricity, and come with remote controls and dimmable LED light kits. We remove the old unit, inspect the mounting hardware, and install the replacement with proper balancing. If the existing box is not fan-rated, we upgrade it before mounting the new fan. In older Henrico County and Hanover homes, we frequently find lightweight boxes that were never designed to support a fan -- catching that before installation prevents dangerous failures down the road.</p>
         </div>
-        <div class="service-img">
+        <div class="service-img reveal-right">
           <div class="before-after-large">
             <div class="ba-label">Before &amp; After</div>
             <img src="https://i.imgur.com/1W5jbgW.jpeg" alt="Before and after: old brown ceiling fan replaced with modern fan with crystal light kit" width="800" height="600" loading="lazy">
@@ -227,12 +233,12 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
       </div>
 
       <div class="split" style="margin-top: var(--space-2xl);" data-animate="fade-up">
-        <div>
+        <div class="reveal-right">
           <h3>The Concealed-Wiring Process</h3>
           <p class="prose" style="margin-bottom: var(--space-lg);">Hiding TV wires properly requires more than fishing a cable through drywall. We cut precise access points behind the TV and near the floor, install a UL-listed low-voltage wire channel inside the wall cavity, and add a recessed power outlet directly behind the TV so nothing protrudes from the wall surface. HDMI, coaxial, and speaker wires all route through the same channel for a single clean path.</p>
           <p class="prose">For homes in King William, New Kent, and Charles City counties with older wall construction, we adapt the approach to work with plaster, lathe, or unconventional stud spacing -- ensuring a secure mount regardless of what the walls are made of.</p>
         </div>
-        <div class="service-img">
+        <div class="service-img reveal-left">
           <div class="before-after-large">
             <div class="ba-label">Before &amp; After</div>
             <img src="https://i.imgur.com/aGK6VEK.jpeg" alt="Before and after: bare TV bracket replaced with finished concealed-outlet wall mount" width="800" height="600" loading="lazy">
@@ -326,8 +332,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
       <div class="related-services">
         <a href="/services/bathroom-remodeling" class="related-chip">Bathroom Remodeling</a>
         <a href="/services/kitchen-remodeling" class="related-chip">Kitchen Remodeling</a>
-        <a href="/services/building-additions-new-structures" class="related-chip">Building Additions &amp; New Structures</a>
         <a href="/services/common-area-remodeling" class="related-chip">Common Area Remodeling</a>
+        <a href="/services/bedroom-remodeling" class="related-chip">Bedroom Remodeling</a>
       </div>
       <p class="last-updated">Last Updated: <?php echo date('F Y'); ?></p>
     </div>

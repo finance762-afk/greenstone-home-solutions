@@ -94,7 +94,7 @@ $schemaMarkup    = '[
         "name": "What is the best time of year to start a landscaping project in Virginia?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Spring (March-May) and fall (September-November) are ideal for planting in central Virginia. Hardscape work (patios, retaining walls) can be done year-round. We plan projects around seasonal windows for best plant establishment."
+          "text": "Spring (March-May) and fall (September-November) are ideal for planting in Virginia. Hardscape work (patios, retaining walls) can be done year-round. We plan projects around seasonal windows for best plant establishment."
         }
       },
       {
@@ -158,15 +158,20 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <main id="main-content">
 
   <!-- Page Header -->
-  <section class="page-header">
+  <section class="page-header has-divider">
     <div class="container">
       <nav class="breadcrumb" aria-label="Breadcrumb">
         <a href="/">Home</a>
         <span class="sep">/</span>
         <span class="current">FAQ</span>
       </nav>
-      <h1>Frequently Asked Questions &mdash; Greenstone Home Solutions</h1>
+      <h1><span class="text-accent">Frequently Asked Questions</span> &mdash; Greenstone Home Solutions</h1>
       <p class="prose-centered">Greenstone Home Solutions is a licensed and insured home remodeling and outdoor living company based in Richmond, VA. Below you will find answers to the questions our clients ask most often.</p>
+    </div>
+    <div class="section-divider section-divider--bottom" aria-hidden="true">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,40 C360,0 1080,80 1440,40 L1440,80 L0,80 Z" fill="#ffffff"/>
+      </svg>
     </div>
   </section>
 
@@ -177,7 +182,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
       <h2 data-animate="fade-up">Company &amp; Scheduling</h2>
 
       <div class="faq-list">
-        <div class="faq-item" data-animate="fade-up">
+        <div class="faq-item card-tint-1" data-animate="fade-up">
           <button class="faq-question" aria-expanded="false">
             What areas does Greenstone Home Solutions serve?
             <i data-lucide="chevron-down"></i>
@@ -189,7 +194,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
           </div>
         </div>
 
-        <div class="faq-item" data-animate="fade-up">
+        <div class="faq-item card-tint-2" data-animate="fade-up">
           <button class="faq-question" aria-expanded="false">
             How do I get a free estimate?
             <i data-lucide="chevron-down"></i>
@@ -201,7 +206,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
           </div>
         </div>
 
-        <div class="faq-item" data-animate="fade-up">
+        <div class="faq-item card-tint-3" data-animate="fade-up">
           <button class="faq-question" aria-expanded="false">
             Is Greenstone Home Solutions licensed and insured?
             <i data-lucide="chevron-down"></i>
@@ -213,7 +218,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
           </div>
         </div>
 
-        <div class="faq-item" data-animate="fade-up">
+        <div class="faq-item card-tint-neutral" data-animate="fade-up">
           <button class="faq-question" aria-expanded="false">
             Do you offer financing or payment plans?
             <i data-lucide="chevron-down"></i>
@@ -225,7 +230,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
           </div>
         </div>
 
-        <div class="faq-item" data-animate="fade-up">
+        <div class="faq-item card-tint-1" data-animate="fade-up">
           <button class="faq-question" aria-expanded="false">
             How far in advance should I schedule my project?
             <i data-lucide="chevron-down"></i>
@@ -256,10 +261,11 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   <section class="faq-section bg-alt">
     <div class="container">
       <span class="eyebrow-label" data-animate="fade-up">Indoor Renovation</span>
+      <span class="section-subtitle--accent">inside the home</span>
       <h2 data-animate="fade-up">Remodeling &amp; Additions</h2>
 
       <div class="faq-list">
-        <div class="faq-item" data-animate="fade-up">
+        <div class="faq-item card-tint-2" data-animate="fade-up">
           <button class="faq-question" aria-expanded="false">
             Can you remodel my bathroom and kitchen at the same time?
             <i data-lucide="chevron-down"></i>
@@ -271,7 +277,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
           </div>
         </div>
 
-        <div class="faq-item" data-animate="fade-up">
+        <div class="faq-item card-tint-3" data-animate="fade-up">
           <button class="faq-question" aria-expanded="false">
             How long does a typical bathroom remodel take in Richmond?
             <i data-lucide="chevron-down"></i>
@@ -283,7 +289,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
           </div>
         </div>
 
-        <div class="faq-item" data-animate="fade-up">
+        <div class="faq-item card-tint-neutral" data-animate="fade-up">
           <button class="faq-question" aria-expanded="false">
             Do you handle permits for renovation projects in Henrico County?
             <i data-lucide="chevron-down"></i>
@@ -295,7 +301,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
           </div>
         </div>
 
-        <div class="faq-item" data-animate="fade-up">
+        <div class="faq-item card-tint-1" data-animate="fade-up">
           <button class="faq-question" aria-expanded="false">
             What types of tile do you work with?
             <i data-lucide="chevron-down"></i>
@@ -307,14 +313,14 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
           </div>
         </div>
 
-        <div class="faq-item" data-animate="fade-up">
+        <div class="faq-item card-tint-2" data-animate="fade-up">
           <button class="faq-question" aria-expanded="false">
-            Can you add a room addition to my existing home?
+            Do you handle whole-home renovations or just single rooms?
             <i data-lucide="chevron-down"></i>
           </button>
           <div class="faq-answer">
             <div class="faq-answer-inner">
-              <p class="prose">Yes, we build loft additions, bonus rooms, in-law suites, and structural expansions. We handle design, permitting, framing, electrical coordination, and finishing &mdash; a single point of contact from start to move-in. See our <a href="/services/building-additions-new-structures">building additions &amp; new structures</a> page for project details.</p>
+              <p class="prose">Both. We take on whole-home renovation projects that touch multiple rooms &mdash; kitchen, bathrooms, common areas, and bedrooms all sequenced under one contract &mdash; as well as single-room projects. Our indoor-outdoor capability means we can also coordinate an interior remodel with related outdoor work like a <a href="/services/patio-porch-terrace-construction">new patio</a> or <a href="/services/greenscape-landscape-design">landscape redesign</a> on the same schedule.</p>
             </div>
           </div>
         </div>
@@ -329,19 +335,19 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
       <h2 data-animate="fade-up">Patios, Irrigation &amp; Plant Care</h2>
 
       <div class="faq-list">
-        <div class="faq-item" data-animate="fade-up">
+        <div class="faq-item card-tint-3" data-animate="fade-up">
           <button class="faq-question" aria-expanded="false">
             What is the best time of year to start a landscaping project in Virginia?
             <i data-lucide="chevron-down"></i>
           </button>
           <div class="faq-answer">
             <div class="faq-answer-inner">
-              <p class="prose">Spring (March&ndash;May) and fall (September&ndash;November) are ideal for planting in central Virginia. Hardscape work &mdash; patios, retaining walls, walkways &mdash; can be done year-round. We plan projects around seasonal windows for best plant establishment and long-term health.</p>
+              <p class="prose">Spring (March&ndash;May) and fall (September&ndash;November) are ideal for planting in Virginia. Hardscape work &mdash; patios, retaining walls, walkways &mdash; can be done year-round. We plan projects around seasonal windows for best plant establishment and long-term health.</p>
             </div>
           </div>
         </div>
 
-        <div class="faq-item" data-animate="fade-up">
+        <div class="faq-item card-tint-neutral" data-animate="fade-up">
           <button class="faq-question" aria-expanded="false">
             Do you design irrigation systems for large properties?
             <i data-lucide="chevron-down"></i>
@@ -353,7 +359,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
           </div>
         </div>
 
-        <div class="faq-item" data-animate="fade-up">
+        <div class="faq-item card-tint-1" data-animate="fade-up">
           <button class="faq-question" aria-expanded="false">
             What Belgard products do you use for patio construction?
             <i data-lucide="chevron-down"></i>
@@ -365,19 +371,19 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
           </div>
         </div>
 
-        <div class="faq-item" data-animate="fade-up">
+        <div class="faq-item card-tint-2" data-animate="fade-up">
           <button class="faq-question" aria-expanded="false">
             Can you diagnose why my plants are dying?
             <i data-lucide="chevron-down"></i>
           </button>
           <div class="faq-answer">
             <div class="faq-answer-inner">
-              <p class="prose">Yes. Lucas holds a Virginia Tech degree in Environmental Horticulture and can identify plant diseases, pest damage, nutrient deficiencies, and environmental stress. We diagnose the issue and recommend treatment or replacement varieties suited to central Virginia's climate. Visit our <a href="/services/greenscape-landscape-design">greenscape &amp; landscape design</a> page to learn more.</p>
+              <p class="prose">Yes. Lucas holds a Virginia Tech degree in Environmental Horticulture and can identify plant diseases, pest damage, nutrient deficiencies, and environmental stress. We diagnose the issue and recommend treatment or replacement varieties suited to Virginia's climate. Visit our <a href="/services/greenscape-landscape-design">greenscape &amp; landscape design</a> page to learn more.</p>
             </div>
           </div>
         </div>
 
-        <div class="faq-item" data-animate="fade-up">
+        <div class="faq-item card-tint-3" data-animate="fade-up">
           <button class="faq-question" aria-expanded="false">
             Do you provide ongoing lawn maintenance contracts?
             <i data-lucide="chevron-down"></i>

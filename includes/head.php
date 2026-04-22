@@ -14,10 +14,10 @@
   <meta property="og:url" content="<?php echo $canonicalUrl; ?>">
   <meta property="og:type" content="website">
 
-  <!-- Google Fonts — DM Serif Display + Inter -->
+  <!-- Google Fonts — DM Serif Display + Inter + Cormorant Garamond (accent) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
 
   <!-- Preload heading font -->
   <link rel="preload" as="font" type="font/woff2" href="https://fonts.gstatic.com/s/dmserifdisplay/v15/-nFnOHM81r4j6k0gjAW3mujVU2B2G_5x0g.woff2" crossorigin>
@@ -34,7 +34,7 @@
   <link rel="icon" type="image/png" href="https://i.imgur.com/Tq3YbDp.png">
 
   <!-- Stylesheet -->
-  <link rel="stylesheet" href="/assets/css/styles.css?v=6">
+  <link rel="stylesheet" href="/assets/css/styles.css?v=7">
 
   <!-- Preconnect / DNS Prefetch -->
   <link rel="preconnect" href="https://unpkg.com">

@@ -36,47 +36,44 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   </section>
 
   <!-- Indoor Services -->
-  <section style="background: var(--bg);">
+  <section class="has-divider" style="background: var(--bg); position:relative;">
     <div class="container">
-      <h3 class="service-group-title">Indoor Renovation</h3>
+      <div class="reveal-up" style="margin-bottom: var(--space-xl);">
+        <span class="section-subtitle--accent">Inside the home</span>
+        <h3 class="service-group-title" style="margin-top: 0;">Indoor Renovation</h3>
+      </div>
       <div class="grid-3 services-main-grid" data-animate="fade-up" data-stagger>
-        <a href="/services/bathroom-remodeling" class="service-card">
+        <a href="/services/bathroom-remodeling" class="service-card card-tint-1">
           <i data-lucide="bath" class="card-icon"></i>
           <h3>Bathroom Remodeling</h3>
           <p>Custom tile work, vanity installations, and full gut renovations that transform your bathroom into a modern retreat.</p>
           <span class="card-link">Learn More <i data-lucide="chevron-right" style="width:14px;height:14px;"></i></span>
         </a>
-        <a href="/services/kitchen-remodeling" class="service-card">
+        <a href="/services/kitchen-remodeling" class="service-card card-tint-2">
           <i data-lucide="cooking-pot" class="card-icon"></i>
           <h3>Kitchen Remodeling</h3>
           <p>Countertops, cabinetry, backsplash, and layout redesigns built for how you actually cook and gather.</p>
           <span class="card-link">Learn More <i data-lucide="chevron-right" style="width:14px;height:14px;"></i></span>
         </a>
-        <a href="/services/bedroom-remodeling" class="service-card">
+        <a href="/services/bedroom-remodeling" class="service-card card-tint-3">
           <i data-lucide="lamp" class="card-icon"></i>
           <h3>Bedroom Remodeling</h3>
           <p>Flooring, built-ins, lighting, and layout changes that turn your bedroom into a comfortable, functional space.</p>
           <span class="card-link">Learn More <i data-lucide="chevron-right" style="width:14px;height:14px;"></i></span>
         </a>
-        <a href="/services/laundry-room-remodeling" class="service-card">
+        <a href="/services/laundry-room-remodeling" class="service-card card-tint-neutral">
           <i data-lucide="wrench" class="card-icon"></i>
           <h3>Laundry Room Remodeling</h3>
           <p>Efficient storage solutions, updated plumbing, and smart layouts for a laundry room that works harder for you.</p>
           <span class="card-link">Learn More <i data-lucide="chevron-right" style="width:14px;height:14px;"></i></span>
         </a>
-        <a href="/services/common-area-remodeling" class="service-card">
+        <a href="/services/common-area-remodeling" class="service-card card-tint-1">
           <i data-lucide="home" class="card-icon"></i>
           <h3>Common Area Remodeling</h3>
           <p>Living rooms, hallways, and shared spaces updated with new flooring, paint, lighting, and architectural details.</p>
           <span class="card-link">Learn More <i data-lucide="chevron-right" style="width:14px;height:14px;"></i></span>
         </a>
-        <a href="/services/building-additions-new-structures" class="service-card">
-          <i data-lucide="warehouse" class="card-icon"></i>
-          <h3>Building Additions & New Structures</h3>
-          <p>Room additions, loft conversions, and new structures that expand your living space without moving.</p>
-          <span class="card-link">Learn More <i data-lucide="chevron-right" style="width:14px;height:14px;"></i></span>
-        </a>
-        <a href="/services/design-services" class="service-card">
+        <a href="/services/design-services" class="service-card card-tint-2">
           <i data-lucide="layout-grid" class="card-icon"></i>
           <h3>Design Services</h3>
           <p>Light fixtures, ceiling fans, TV mounting with hidden wiring, and design consultation for renovation projects.</p>
@@ -84,44 +81,40 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         </a>
       </div>
     </div>
+    <div class="section-divider section-divider--bottom" aria-hidden="true">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,40 C360,0 1080,80 1440,40 L1440,80 L0,80 Z" fill="var(--bg-alt)"/>
+      </svg>
+    </div>
   </section>
 
   <!-- Outdoor Services -->
   <section class="bg-alt">
     <div class="container">
-      <h3 class="service-group-title">Outdoor & Landscape</h3>
+      <div class="reveal-up" style="margin-bottom: var(--space-xl);">
+        <span class="section-subtitle--accent">Outside the home</span>
+        <h3 class="service-group-title" style="margin-top: 0;">Outdoor &amp; Landscape</h3>
+      </div>
       <div class="grid-3 services-main-grid" data-animate="fade-up" data-stagger>
-        <a href="/services/deck-balcony-construction" class="service-card">
-          <i data-lucide="fence" class="card-icon"></i>
-          <h3>Deck & Balcony Construction</h3>
-          <p>Custom composite and wood decks, elevated balconies, and railings designed for your home's architecture.</p>
-          <span class="card-link">Learn More <i data-lucide="chevron-right" style="width:14px;height:14px;"></i></span>
-        </a>
-        <a href="/services/patio-porch-terrace-construction" class="service-card">
+        <a href="/services/patio-porch-terrace-construction" class="service-card card-tint-3">
           <i data-lucide="hammer" class="card-icon"></i>
           <h3>Patio, Porch & Terrace</h3>
           <p>Stone patios, covered porches, and multi-level terraces for outdoor living in Virginia's climate.</p>
           <span class="card-link">Learn More <i data-lucide="chevron-right" style="width:14px;height:14px;"></i></span>
         </a>
-        <a href="/services/detached-garage-construction" class="service-card">
-          <i data-lucide="warehouse" class="card-icon"></i>
-          <h3>Detached Garage Construction</h3>
-          <p>Custom-built garages and outbuildings with proper foundations, electrical, and finishes that match your home.</p>
-          <span class="card-link">Learn More <i data-lucide="chevron-right" style="width:14px;height:14px;"></i></span>
-        </a>
-        <a href="/services/greenscape-landscape-design" class="service-card">
+        <a href="/services/greenscape-landscape-design" class="service-card card-tint-1">
           <i data-lucide="trees" class="card-icon"></i>
           <h3>Greenscape & Landscape Design</h3>
           <p>Custom landscape plans with native plantings, hardscape integration, and year-round visual interest.</p>
           <span class="card-link">Learn More <i data-lucide="chevron-right" style="width:14px;height:14px;"></i></span>
         </a>
-        <a href="/services/irrigation-design-installation" class="service-card">
+        <a href="/services/irrigation-design-installation" class="service-card card-tint-neutral">
           <i data-lucide="droplets" class="card-icon"></i>
           <h3>Irrigation Design & Installation</h3>
           <p>Efficient sprinkler and drip systems designed to keep your landscape healthy while conserving water.</p>
           <span class="card-link">Learn More <i data-lucide="chevron-right" style="width:14px;height:14px;"></i></span>
         </a>
-        <a href="/services/lawn-care-maintenance" class="service-card">
+        <a href="/services/lawn-care-maintenance" class="service-card card-tint-2">
           <i data-lucide="leaf" class="card-icon"></i>
           <h3>Lawn Care & Maintenance</h3>
           <p>Mowing, fertilization, aeration, and seasonal maintenance for a thick, green, healthy lawn year-round.</p>

@@ -21,11 +21,6 @@
       <image:title>Kitchen Renovation Richmond VA</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://i.imgur.com/OCoqun0.jpeg</image:loc>
-      <image:caption>Finished loft addition with vaulted ceiling and open railing by Greenstone Home Solutions</image:caption>
-      <image:title>Loft Addition Richmond VA</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://i.imgur.com/nqzt0xW.jpeg</image:loc>
       <image:caption>Curved river-rock landscape bed with colorful perennials by Greenstone Home Solutions</image:caption>
       <image:title>Landscape Design Richmond VA</image:title>
@@ -132,28 +127,33 @@
     </image:image>
   </url>
 
-  <!-- Building Additions -->
+  <!-- Richmond City -->
   <url>
-    <loc>https://greenstonehomesolutions.com/services/building-additions-new-structures</loc>
+    <loc>https://greenstonehomesolutions.com/service-areas/richmond</loc>
     <image:image>
-      <image:loc>https://i.imgur.com/OCoqun0.jpeg</image:loc>
-      <image:caption>Finished loft addition with vaulted ceiling and open railing</image:caption>
-      <image:title>Loft Addition</image:title>
+      <image:loc>https://i.imgur.com/rD9LF6J.jpeg</image:loc>
+      <image:caption>Kitchen renovation with subway tile and granite countertops by Greenstone Home Solutions in Richmond VA</image:caption>
+      <image:title>Richmond VA Kitchen Renovation</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://i.imgur.com/bpxdldj.jpeg</image:loc>
-      <image:caption>Bonus room addition with recessed lighting by Greenstone Home Solutions</image:caption>
-      <image:title>Bonus Room Addition</image:title>
+      <image:loc>https://i.imgur.com/jOXKoUD.jpeg</image:loc>
+      <image:caption>Stone patio with pergola and outdoor fireplace built in Richmond VA</image:caption>
+      <image:title>Richmond VA Patio Pergola</image:title>
+    </image:image>
+  </url>
+
+  <!-- Chesterfield County -->
+  <url>
+    <loc>https://greenstonehomesolutions.com/service-areas/chesterfield-county</loc>
+    <image:image>
+      <image:loc>https://i.imgur.com/nqzt0xW.jpeg</image:loc>
+      <image:caption>Curved river-rock landscape bed with perennials in Chesterfield County VA</image:caption>
+      <image:title>Chesterfield County Landscape Design</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://i.imgur.com/BcuSZoU.jpeg</image:loc>
-      <image:caption>Custom built-in shelving unit during construction</image:caption>
-      <image:title>Built-In Shelving Construction</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://i.imgur.com/RpfvKM4.jpeg</image:loc>
-      <image:caption>Completed illuminated wall-to-wall built-in shelving</image:caption>
-      <image:title>Illuminated Built-In Shelving</image:title>
+      <image:loc>https://i.imgur.com/qfmHYwo.jpeg</image:loc>
+      <image:caption>Bathroom remodel with subway tile and dual showerheads in Chesterfield County VA</image:caption>
+      <image:title>Chesterfield County Bathroom Remodel</image:title>
     </image:image>
   </url>
 

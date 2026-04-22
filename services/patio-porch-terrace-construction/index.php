@@ -94,13 +94,18 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 <main id="main-content">
 
   <!-- Page Header -->
-  <section class="page-header">
+  <section class="page-header has-divider">
     <div class="container">
       <nav class="breadcrumb" aria-label="Breadcrumb">
         <a href="/">Home</a><span class="sep">/</span><a href="/services">Services</a><span class="sep">/</span><span class="current">Patio, Porch & Terrace Construction</span>
       </nav>
-      <h1>Patio, Porch & Terrace Construction in Richmond, VA</h1>
+      <h1>Patio, Porch & <span class="text-accent">Terrace Construction</span> in Richmond, VA</h1>
       <p class="prose">A custom patio in Richmond typically costs $5,000–$25,000+ depending on materials and features like outdoor fireplaces or pergolas. Greenstone Home Solutions provides award-winning patio and hardscape construction for homeowners across the greater Richmond metro area.</p>
+    </div>
+    <div class="section-divider section-divider--bottom" aria-hidden="true">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,40 C360,0 1080,80 1440,40 L1440,80 L0,80 Z" fill="#ffffff"/>
+      </svg>
     </div>
   </section>
 
@@ -108,11 +113,12 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section style="background: var(--bg);">
     <div class="container">
       <div class="split">
-        <div class="service-img" data-animate="wipe-right">
+        <div class="service-img reveal-left" data-animate="wipe-right">
           <img src="https://i.imgur.com/jOXKoUD.jpeg" alt="Belgard Hardscape Hero Award-winning patio with wood pergola, stone fireplace, and paver patio in Richmond, Virginia" width="800" height="600" loading="lazy">
         </div>
-        <div>
+        <div class="reveal-right">
           <span class="eyebrow-label">Belgard Hardscape Hero Award Winner</span>
+          <span class="section-subtitle--accent">Award-winning craftsmanship</span>
           <h2>Recognized for Excellence in Hardscape Construction</h2>
           <div class="prose">
             <p>Greenstone Home Solutions is a licensed and insured outdoor construction company based in Richmond, VA. Owner Lucas Walton won a <strong>Belgard Hardscape Hero Award</strong> for a patio project using Belgard materials, and his work is featured in the <strong>Belgard Mid-Atlantic image portfolio</strong> — a distinction earned by a select group of contractors across the region.</p>
@@ -126,7 +132,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <!-- Belgard Highlight Box -->
   <section class="bg-alt">
     <div class="container" data-animate="fade-up">
-      <div class="highlight-box" style="border-left: 4px solid var(--accent); max-width: 800px; margin-inline: auto;">
+      <div class="highlight-box card-tint-1" style="border-left: 4px solid var(--accent); max-width: 800px; margin-inline: auto;">
         <h3><i data-lucide="award" style="width:22px;height:22px;color:var(--accent);vertical-align:middle;"></i> About the Belgard Hardscape Hero Award</h3>
         <p>Belgard's Hardscape Hero program recognizes exceptional outdoor living projects from contractors across North America. Winners are selected based on craftsmanship, design creativity, and effective use of Belgard products. Lucas's winning project featured a complete outdoor living space with Belgard pavers, a custom stone fireplace, and integrated seating — the kind of project that transforms a backyard into a genuine extension of the home.</p>
       </div>
@@ -221,15 +227,15 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <div class="container" data-animate="fade-up">
       <h2>Choosing the Right Patio Material</h2>
       <div class="grid-3" data-stagger>
-        <div class="highlight-box">
+        <div class="highlight-box card-tint-2">
           <h3>Belgard Pavers</h3>
           <p>Engineered concrete pavers with color-lock technology that resists fading. Available in dozens of styles from traditional brick to modern large-format slabs. Lifetime structural warranty. Our recommended choice for most Richmond-area patios — and the material behind our Hardscape Hero Award project.</p>
         </div>
-        <div class="highlight-box">
+        <div class="highlight-box card-tint-3">
           <h3>Natural Stone</h3>
           <p>Flagstone, bluestone, and travertine deliver a one-of-a-kind look with natural variation in color and texture. Ideal for organic, flowing patio designs. Slightly higher material cost but exceptional durability — natural stone patios can last 50+ years with minimal maintenance.</p>
         </div>
-        <div class="highlight-box">
+        <div class="highlight-box card-tint-neutral">
           <h3>Stamped & Poured Concrete</h3>
           <p>A budget-friendly option that can mimic the look of stone or brick. Best for simple, flat patio areas. We recommend pavers over stamped concrete for Virginia's climate — freeze-thaw cycles can crack poured surfaces, while individual pavers flex without damage.</p>
         </div>
@@ -241,7 +247,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section style="background: var(--bg);">
     <div class="container" data-animate="fade-up">
       <div class="split-reverse">
-        <div>
+        <div class="reveal-up">
           <h2>Why Drainage Planning Matters for Every Patio</h2>
           <div class="prose">
             <p>Richmond averages 44 inches of rainfall per year. Without proper drainage planning, water pools on patio surfaces, undermines base material, and can direct moisture toward your home's foundation. Every patio we build includes deliberate grading — typically a 1–2% slope away from the house — and, where needed, integrated channel drains or French drains at the patio perimeter.</p>
@@ -249,7 +255,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
             <p>Proper drainage isn't an optional add-on. It's built into the base price of every project because it's built into the base of every patio — literally. Skipping this step is why so many patios fail within 5–10 years. Ours don't.</p>
           </div>
         </div>
-        <div class="service-img">
+        <div class="service-img reveal-right">
           <img src="https://i.imgur.com/jOXKoUD.jpeg" alt="Paver patio with integrated drainage and outdoor living features in Richmond, VA" width="800" height="600" loading="lazy">
         </div>
       </div>
@@ -321,8 +327,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
       <div class="related-services">
         <h3>Related Services</h3>
         <div>
-          <a href="/services/deck-balcony-construction" class="related-chip">Deck & Balcony Construction</a>
           <a href="/services/greenscape-landscape-design" class="related-chip">Greenscape & Landscape Design</a>
+          <a href="/services/lawn-care-maintenance" class="related-chip">Lawn Care & Maintenance</a>
           <a href="/services/irrigation-design-installation" class="related-chip">Irrigation Design & Installation</a>
         </div>
       </div>

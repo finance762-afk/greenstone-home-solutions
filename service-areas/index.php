@@ -1,6 +1,6 @@
 <?php
 $pageTitle       = "Service Areas | Greenstone Home Solutions — Richmond, VA & Surrounding Counties";
-$pageDescription = "Greenstone Home Solutions serves homeowners in Richmond, VA, Henrico County, Hanover County, King William County, New Kent County, and Charles City County. Call (804) 218-6459.";
+$pageDescription = "Greenstone Home Solutions serves homeowners in Richmond, Chesterfield County, Henrico County, Hanover County, King William County, New Kent County, and Charles City County. Call (804) 218-6459.";
 $canonicalUrl    = "https://greenstonehomesolutions.com/service-areas";
 $ogImage         = "https://i.imgur.com/jOXKoUD.jpeg";
 $currentPage     = "service-areas";
@@ -45,6 +45,18 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
       </div>
 
       <div class="grid-3" data-animate="fade-up" data-stagger>
+        <a href="/service-areas/richmond" class="service-card">
+          <i data-lucide="map-pin" class="card-icon"></i>
+          <h3>Richmond</h3>
+          <p>Fan District, Church Hill, Museum District, Carytown, Windsor Farms — historic rowhouses and city-lot homes with architectural character worth preserving.</p>
+          <span class="card-link">View Services in Richmond <i data-lucide="chevron-right" style="width:14px;height:14px;"></i></span>
+        </a>
+        <a href="/service-areas/chesterfield-county" class="service-card">
+          <i data-lucide="map-pin" class="card-icon"></i>
+          <h3>Chesterfield County</h3>
+          <p>Midlothian, Chester, Bon Air, Brandermill, Woodlake, Moseley — established subdivisions and newer communities across one of Virginia&rsquo;s fastest-growing suburban counties.</p>
+          <span class="card-link">View Services in Chesterfield <i data-lucide="chevron-right" style="width:14px;height:14px;"></i></span>
+        </a>
         <a href="/service-areas/henrico-county" class="service-card">
           <i data-lucide="map-pin" class="card-icon"></i>
           <h3>Henrico County</h3>
@@ -87,7 +99,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           <span class="eyebrow-label">Coverage Area</span>
           <h2>Greater Richmond Metro</h2>
           <div class="prose" style="margin-top: var(--space-lg);">
-            <p>Greenstone Home Solutions is based in Richmond, Virginia and serves homeowners throughout the surrounding counties. Whether your project is a <a href="/services/bathroom-remodeling" style="color: var(--primary); font-weight: 600;">bathroom remodel</a> in Short Pump, a <a href="/services/greenscape-landscape-design" style="color: var(--primary); font-weight: 600;">landscape redesign</a> in Mechanicsville, or a <a href="/services/building-additions-new-structures" style="color: var(--primary); font-weight: 600;">room addition</a> in New Kent — we bring the same craftsmanship and attention to detail to every job.</p>
+            <p>Greenstone Home Solutions is based in Richmond, Virginia and serves homeowners throughout the surrounding counties. Whether your project is a <a href="/services/bathroom-remodeling" style="color: var(--primary); font-weight: 600;">bathroom remodel</a> in Short Pump, a <a href="/services/greenscape-landscape-design" style="color: var(--primary); font-weight: 600;">landscape redesign</a> in Mechanicsville, or a <a href="/services/kitchen-remodeling" style="color: var(--primary); font-weight: 600;">kitchen renovation</a> in New Kent — we bring the same craftsmanship and attention to detail to every job.</p>
             <p style="margin-top: var(--space-md);">Our service radius covers the entire Richmond metro area. If you're unsure whether your property falls within our coverage, call us at <a href="tel:8042186459" style="color: var(--primary); font-weight: 700;">(804) 218-6459</a> — we're happy to discuss your project.</p>
           </div>
         </div>
@@ -116,16 +128,13 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
             <li><i data-lucide="lamp" style="width:20px;height:20px;"></i> <p><a href="/services/bedroom-remodeling" style="color: var(--primary); font-weight: 600;">Bedroom Remodeling</a></p></li>
             <li><i data-lucide="wrench" style="width:20px;height:20px;"></i> <p><a href="/services/laundry-room-remodeling" style="color: var(--primary); font-weight: 600;">Laundry Room Remodeling</a></p></li>
             <li><i data-lucide="home" style="width:20px;height:20px;"></i> <p><a href="/services/common-area-remodeling" style="color: var(--primary); font-weight: 600;">Common Area Remodeling</a></p></li>
-            <li><i data-lucide="warehouse" style="width:20px;height:20px;"></i> <p><a href="/services/building-additions-new-structures" style="color: var(--primary); font-weight: 600;">Building Additions & New Structures</a></p></li>
             <li><i data-lucide="layout-grid" style="width:20px;height:20px;"></i> <p><a href="/services/design-services" style="color: var(--primary); font-weight: 600;">Design Services</a></p></li>
           </ul>
         </div>
         <div>
           <h3 style="margin-bottom: var(--space-lg); font-size: 1.1rem;">Outdoor & Landscape</h3>
           <ul class="icon-list">
-            <li><i data-lucide="fence" style="width:20px;height:20px;"></i> <p><a href="/services/deck-balcony-construction" style="color: var(--primary); font-weight: 600;">Deck & Balcony Construction</a></p></li>
             <li><i data-lucide="hammer" style="width:20px;height:20px;"></i> <p><a href="/services/patio-porch-terrace-construction" style="color: var(--primary); font-weight: 600;">Patio, Porch & Terrace Construction</a></p></li>
-            <li><i data-lucide="warehouse" style="width:20px;height:20px;"></i> <p><a href="/services/detached-garage-construction" style="color: var(--primary); font-weight: 600;">Detached Garage Construction</a></p></li>
             <li><i data-lucide="trees" style="width:20px;height:20px;"></i> <p><a href="/services/greenscape-landscape-design" style="color: var(--primary); font-weight: 600;">Greenscape & Landscape Design</a></p></li>
             <li><i data-lucide="droplets" style="width:20px;height:20px;"></i> <p><a href="/services/irrigation-design-installation" style="color: var(--primary); font-weight: 600;">Irrigation Design & Installation</a></p></li>
             <li><i data-lucide="leaf" style="width:20px;height:20px;"></i> <p><a href="/services/lawn-care-maintenance" style="color: var(--primary); font-weight: 600;">Lawn Care & Maintenance</a></p></li>

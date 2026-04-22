@@ -50,13 +50,18 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 <main id="main-content">
 
   <!-- Page Header -->
-  <section class="page-header">
+  <section class="page-header has-divider">
     <div class="container">
       <nav class="breadcrumb" aria-label="Breadcrumb">
         <a href="/">Home</a><span class="sep">/</span><a href="/service-areas">Service Areas</a><span class="sep">/</span><span class="current">King William County</span>
       </nav>
-      <h1>Home Renovation & Landscaping in King William County, VA</h1>
+      <h1>Home Renovation & Landscaping in <span class="text-accent">King William County</span>, VA</h1>
       <p class="prose">Greenstone Home Solutions provides home renovation, landscaping, irrigation, and outdoor construction services for homeowners in King William County, VA. As a licensed and insured contractor based in Richmond, we bring full-service craftsmanship to every property in King William &mdash; from farmhouses along the Mattaponi River to country homes off Route 30.</p>
+    </div>
+    <div class="section-divider section-divider--bottom" aria-hidden="true">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,40 C360,0 1080,80 1440,40 L1440,80 L0,80 Z" fill="#ffffff"/>
+      </svg>
     </div>
   </section>
 
@@ -64,7 +69,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section style="background: var(--bg);">
     <div class="container">
       <div class="split" data-animate="fade-up">
-        <div>
+        <div class="reveal-right">
+          <span class="section-subtitle--accent">Modernizing homes with good bones</span>
           <h2>Updating Dated Interiors Across King William County</h2>
           <div class="prose" style="margin-top: var(--space-lg);">
             <p>Many homes in King William County were built in the 1960s through 1980s, and their interiors show it &mdash; wood paneling, vinyl flooring, cramped bathrooms with builder-grade fixtures, and kitchens that haven't been touched in decades. Homeowners in the King William area often know these rooms need work but struggle to find a contractor willing to make the drive from Richmond.</p>
@@ -72,7 +78,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           </div>
           <a href="/contact" class="btn-primary" style="margin-top: var(--space-xl);">Schedule a Consultation <i data-lucide="chevron-right" style="width:18px;height:18px;"></i></a>
         </div>
-        <div class="service-img" data-animate="wipe-right">
+        <div class="service-img reveal-left" data-animate="wipe-right">
           <img src="https://i.imgur.com/64BxPuI.jpeg" alt="Custom tile shower installation completed by Greenstone Home Solutions in King William County, VA" width="800" height="600" loading="lazy" style="aspect-ratio:4/3; object-fit:cover; border-radius: var(--radius);">
         </div>
       </div>
@@ -106,15 +112,15 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section style="background: var(--bg);">
     <div class="container">
       <div class="split-reverse" data-animate="fade-up">
-        <div class="service-img" data-animate="wipe-right">
+        <div class="service-img reveal-left" data-animate="wipe-right">
           <img src="https://i.imgur.com/PY64Pn5.jpeg" alt="Irrigation sprinkler head installed on a large King William County lawn by Greenstone Home Solutions" width="800" height="600" loading="lazy" style="aspect-ratio:4/3; object-fit:cover; border-radius: var(--radius);">
         </div>
-        <div>
+        <div class="reveal-up">
           <h2>Irrigation & Land Management for Large Lots</h2>
           <div class="prose" style="margin-top: var(--space-lg);">
             <p>One of the defining characteristics of King William County properties is their size. Two-, five-, and even ten-acre residential lots are common, and maintaining that much turf and landscaping without a proper <a href="/services/irrigation-design-installation" style="color: var(--primary); font-weight: 600;">irrigation system</a> is a losing battle against Virginia's July and August heat.</p>
             <p style="margin-top: var(--space-md);">We design and install irrigation systems sized for King William County properties &mdash; accounting for well water pressure, sandy Coastal Plain soils, and the distance between zones on larger lots. Paired with professional <a href="/services/lawn-care-maintenance" style="color: var(--primary); font-weight: 600;">lawn care</a> and <a href="/services/greenscape-landscape-design" style="color: var(--primary); font-weight: 600;">landscape design</a>, your property stays green and structured year-round.</p>
-            <p style="margin-top: var(--space-md);">For homeowners who need covered outdoor workspace or vehicle storage, we also build <a href="/services/detached-garage-construction" style="color: var(--primary); font-weight: 600;">detached garages</a> and workshops &mdash; structures that are especially practical on King William County's larger rural properties. And when summer evenings call for outdoor living, a custom <a href="/services/deck-balcony-construction" style="color: var(--primary); font-weight: 600;">deck</a> turns unused backyard space into a gathering area.</p>
+            <p style="margin-top: var(--space-md);">When summer evenings call for outdoor living, a paver <a href="/services/patio-porch-terrace-construction" style="color: var(--primary); font-weight: 600;">patio or covered porch</a> turns unused backyard space into a gathering area &mdash; especially practical on King William County's larger rural lots where there is room to build generously.</p>
           </div>
         </div>
       </div>
@@ -144,19 +150,16 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
       <p class="prose" style="margin-top: var(--space-md); margin-bottom: var(--space-xl);">Every service Greenstone Home Solutions offers is available to homeowners throughout King William County. Whether your project is interior renovation, outdoor construction, or landscape management, we handle it.</p>
 
       <div class="related-services">
-        <a href="/services/bathroom-remodeling" class="related-chip"><i data-lucide="bath" style="width:16px;height:16px;"></i> Bathroom Remodeling</a>
-        <a href="/services/kitchen-remodeling" class="related-chip"><i data-lucide="cooking-pot" style="width:16px;height:16px;"></i> Kitchen Remodeling</a>
-        <a href="/services/bedroom-remodeling" class="related-chip"><i data-lucide="lamp" style="width:16px;height:16px;"></i> Bedroom Remodeling</a>
-        <a href="/services/laundry-room-remodeling" class="related-chip"><i data-lucide="wrench" style="width:16px;height:16px;"></i> Laundry Room Remodeling</a>
-        <a href="/services/common-area-remodeling" class="related-chip"><i data-lucide="home" style="width:16px;height:16px;"></i> Common Area Remodeling</a>
-        <a href="/services/building-additions-new-structures" class="related-chip"><i data-lucide="warehouse" style="width:16px;height:16px;"></i> Building Additions & New Structures</a>
-        <a href="/services/design-services" class="related-chip"><i data-lucide="layout-grid" style="width:16px;height:16px;"></i> Design Services</a>
-        <a href="/services/deck-balcony-construction" class="related-chip"><i data-lucide="fence" style="width:16px;height:16px;"></i> Deck & Balcony Construction</a>
-        <a href="/services/patio-porch-terrace-construction" class="related-chip"><i data-lucide="hammer" style="width:16px;height:16px;"></i> Patio, Porch & Terrace</a>
-        <a href="/services/detached-garage-construction" class="related-chip"><i data-lucide="warehouse" style="width:16px;height:16px;"></i> Detached Garage Construction</a>
-        <a href="/services/greenscape-landscape-design" class="related-chip"><i data-lucide="trees" style="width:16px;height:16px;"></i> Greenscape & Landscape Design</a>
-        <a href="/services/irrigation-design-installation" class="related-chip"><i data-lucide="droplets" style="width:16px;height:16px;"></i> Irrigation Design & Installation</a>
-        <a href="/services/lawn-care-maintenance" class="related-chip"><i data-lucide="leaf" style="width:16px;height:16px;"></i> Lawn Care & Maintenance</a>
+        <a href="/services/bathroom-remodeling" class="related-chip card-tint-1"><i data-lucide="bath" style="width:16px;height:16px;"></i> Bathroom Remodeling</a>
+        <a href="/services/kitchen-remodeling" class="related-chip card-tint-2"><i data-lucide="cooking-pot" style="width:16px;height:16px;"></i> Kitchen Remodeling</a>
+        <a href="/services/bedroom-remodeling" class="related-chip card-tint-3"><i data-lucide="lamp" style="width:16px;height:16px;"></i> Bedroom Remodeling</a>
+        <a href="/services/laundry-room-remodeling" class="related-chip card-tint-neutral"><i data-lucide="wrench" style="width:16px;height:16px;"></i> Laundry Room Remodeling</a>
+        <a href="/services/common-area-remodeling" class="related-chip card-tint-1"><i data-lucide="home" style="width:16px;height:16px;"></i> Common Area Remodeling</a>
+        <a href="/services/design-services" class="related-chip card-tint-2"><i data-lucide="layout-grid" style="width:16px;height:16px;"></i> Design Services</a>
+        <a href="/services/patio-porch-terrace-construction" class="related-chip card-tint-3"><i data-lucide="hammer" style="width:16px;height:16px;"></i> Patio, Porch & Terrace</a>
+        <a href="/services/greenscape-landscape-design" class="related-chip card-tint-neutral"><i data-lucide="trees" style="width:16px;height:16px;"></i> Greenscape & Landscape Design</a>
+        <a href="/services/irrigation-design-installation" class="related-chip card-tint-1"><i data-lucide="droplets" style="width:16px;height:16px;"></i> Irrigation Design & Installation</a>
+        <a href="/services/lawn-care-maintenance" class="related-chip card-tint-2"><i data-lucide="leaf" style="width:16px;height:16px;"></i> Lawn Care & Maintenance</a>
       </div>
     </div>
   </section>

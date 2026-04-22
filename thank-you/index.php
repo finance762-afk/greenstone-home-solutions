@@ -16,7 +16,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php'; ?>
 
 <main id="main-content">
-  <section style="padding: var(--space-4xl) var(--space-lg); text-align: center; min-height: 60vh; display: flex; align-items: center;">
+  <section style="padding: calc(var(--navbar-height) + var(--space-4xl)) var(--space-lg) var(--space-4xl); text-align: center; min-height: 80vh; display: flex; align-items: center; background: var(--bg-dark); color: #fff;">
     <div class="container">
       <i data-lucide="check-circle" style="width: 64px; height: 64px; color: var(--primary); margin-bottom: var(--space-xl);"></i>
       <h1 style="margin-bottom: var(--space-md);">Thank You for Contacting Greenstone Home Solutions!</h1>

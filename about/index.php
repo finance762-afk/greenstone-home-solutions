@@ -77,14 +77,19 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 <main id="main-content">
 
   <!-- Page Header + Breadcrumb -->
-  <section class="page-header">
+  <section class="page-header has-divider">
     <div class="container">
       <nav class="breadcrumb" aria-label="Breadcrumb">
         <a href="/">Home</a>
         <span class="sep">/</span>
         <span class="current">About</span>
       </nav>
-      <h1>About Greenstone Home Solutions — Richmond's Indoor & Outdoor Renovation Experts</h1>
+      <h1>About Greenstone Home Solutions — Richmond's <span class="text-accent">Indoor & Outdoor</span> Renovation Experts</h1>
+    </div>
+    <div class="section-divider section-divider--bottom" aria-hidden="true">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,40 C360,0 1080,80 1440,40 L1440,80 L0,80 Z" fill="#ffffff"/>
+      </svg>
     </div>
   </section>
 
@@ -93,12 +98,12 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section class="section">
     <div class="container">
       <div class="split">
-        <div class="split-content">
+        <div class="split-content reveal-up">
           <p class="prose"><strong>Greenstone Home Solutions is a licensed and insured home renovation and landscape design company based in Richmond, Virginia.</strong> Founded by Lucas Walton, the company delivers a rare combination of interior remodeling craftsmanship and science-driven outdoor living design to homeowners across the greater Richmond metro area.</p>
 
-          <p class="prose">Lucas grew up around construction sites. By his teenage years, he was already learning the fundamentals of framing, tile work, and finish carpentry from experienced tradespeople in central Virginia. That early exposure became the foundation for a career that would eventually bridge two industries most contractors treat as entirely separate: indoor renovation and outdoor design.</p>
+          <p class="prose">Lucas's path into the trades began during his Virginia Tech years, when he worked on home renovation projects in Virginia while completing his degree &mdash; framing, tile work, and finish carpentry learned from seasoned tradespeople on real job sites. That hands-on foundation became the start of a career that would eventually bridge two industries most contractors treat as entirely separate: indoor renovation and outdoor design.</p>
 
-          <p class="prose">In 2017, Lucas graduated from Virginia Tech with a Bachelor of Science in Environmental Horticulture and a minor in Crop and Soil Sciences. His coursework covered plant physiology, pest and disease diagnostics, soil chemistry, irrigation engineering, and sustainable landscape management. These are not theoretical subjects for Lucas — they directly inform how he selects hardy plant varieties for central Virginia's clay-heavy soils, how he engineers drainage solutions for <a href="/services/patio-porch-terrace-construction">patios and terraces</a>, and how he designs <a href="/services/greenscape-landscape-design">landscape installations</a> that thrive through Richmond's humid summers and unpredictable freeze-thaw cycles.</p>
+          <p class="prose">In 2017, Lucas graduated from Virginia Tech with a Bachelor of Science in Environmental Horticulture and a minor in Crop and Soil Sciences. His coursework covered plant physiology, pest and disease diagnostics, soil chemistry, irrigation engineering, and sustainable landscape management. These are not theoretical subjects for Lucas — they directly inform how he selects hardy plant varieties for Virginia's clay-heavy soils, how he engineers drainage solutions for <a href="/services/patio-porch-terrace-construction">patios and terraces</a>, and how he designs <a href="/services/greenscape-landscape-design">landscape installations</a> that thrive through Richmond's humid summers and unpredictable freeze-thaw cycles.</p>
 
           <p class="prose">While attending Virginia Tech, Lucas worked simultaneously as a home contractor. He spent semesters and summers installing hardwood and luxury vinyl flooring, building custom tile showers, gutting and rebuilding kitchens, and framing structural additions. By the time he finished his degree, he had accumulated years of hands-on construction experience alongside his academic training — a combination that sets Greenstone apart from competitors who specialize in only one discipline.</p>
 
@@ -106,7 +111,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 
           <p class="prose">Lucas is also accomplished in outdoor decking and structural rebuilds. Whether it is replacing a deteriorated deck frame, constructing a new elevated balcony, or rebuilding a porch with composite decking and aluminum railings, his structural knowledge ensures every project meets code and lasts. Greenstone approaches every job — large or small — with the same commitment: work within the client's budget, deliver the highest craftsmanship possible, and leave the property better than they found it.</p>
         </div>
-        <div class="service-img" data-animate="wipe-right">
+        <div class="service-img reveal-left" data-animate="wipe-right">
           <picture>
             <source srcset="https://i.imgur.com/CN2OKqv.jpeg" type="image/jpeg">
             <img src="https://i.imgur.com/CN2OKqv.jpeg" alt="Greenstone Home Solutions farmhouse renovation before and after in Richmond, Virginia" width="800" height="600" loading="lazy">
@@ -121,40 +126,41 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section class="section bg-alt" data-animate="fade-up">
     <div class="container">
       <span class="eyebrow-label">Credentials & Recognition</span>
+      <span class="section-subtitle--accent">earned, not claimed</span>
       <h2 class="section-title">Built on Education, Proven by Results</h2>
 
       <div class="grid-3">
-        <div class="highlight-box" data-animate="fade-up">
+        <div class="highlight-box card-tint-1" data-animate="fade-up">
           <i data-lucide="award"></i>
           <h3>Belgard Hardscape Hero Award</h3>
           <p>National recognition from Belgard for an outstanding patio project — awarded to contractors who demonstrate exceptional design and installation quality.</p>
         </div>
 
-        <div class="highlight-box" data-animate="fade-up">
+        <div class="highlight-box card-tint-2" data-animate="fade-up">
           <i data-lucide="graduation-cap"></i>
           <h3>Virginia Tech Graduate</h3>
           <p>B.S. in Environmental Horticulture with a minor in Crop & Soil Sciences. Applied plant science training that directly shapes every landscape project.</p>
         </div>
 
-        <div class="highlight-box" data-animate="fade-up">
+        <div class="highlight-box card-tint-3" data-animate="fade-up">
           <i data-lucide="star"></i>
           <h3>Belgard Mid-Atlantic Portfolio</h3>
           <p>Greenstone's landscape and hardscape work has been featured in Belgard's regional portfolio, showcasing projects built across the Richmond metro area.</p>
         </div>
 
-        <div class="highlight-box" data-animate="fade-up">
+        <div class="highlight-box card-tint-neutral" data-animate="fade-up">
           <i data-lucide="clock"></i>
           <h3>10+ Years Experience</h3>
           <p>Over a decade of combined experience in residential construction, landscaping, and hardscaping — from framing walls to laying pavers.</p>
         </div>
 
-        <div class="highlight-box" data-animate="fade-up">
+        <div class="highlight-box card-tint-1" data-animate="fade-up">
           <i data-lucide="shield-check"></i>
           <h3>Licensed & Insured</h3>
           <p>Fully licensed and insured for residential renovation and outdoor construction throughout the Commonwealth of Virginia.</p>
         </div>
 
-        <div class="highlight-box" data-animate="fade-up">
+        <div class="highlight-box card-tint-2" data-animate="fade-up">
           <i data-lucide="users"></i>
           <h3>Family-Owned Business</h3>
           <p>Greenstone is a family-owned operation. Every project gets direct involvement from ownership — no layers of subcontractors or project managers between you and the work.</p>
@@ -168,13 +174,13 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section class="section" data-animate="fade-up">
     <div class="container">
       <div class="split-reverse">
-        <div class="service-img" data-animate="wipe-right">
+        <div class="service-img reveal-left" data-animate="wipe-right">
           <picture>
             <source srcset="https://i.imgur.com/nqzt0xW.jpeg" type="image/jpeg">
             <img src="https://i.imgur.com/nqzt0xW.jpeg" alt="Greenstone Home Solutions curved landscape bed design in Richmond, Virginia" width="800" height="600" loading="lazy">
           </picture>
         </div>
-        <div class="split-content">
+        <div class="split-content reveal-right">
           <h2 class="section-title">What Sets Greenstone Apart</h2>
 
           <div class="icon-list">
@@ -190,7 +196,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
               <i data-lucide="leaf"></i>
               <div>
                 <strong>Science-Based Landscape Design</strong>
-                <p>Lucas's Virginia Tech training in environmental horticulture and soil science means your landscape plan is built on real plant science — not guesswork. He diagnoses soil conditions, selects disease-resistant varieties for central Virginia's climate, and designs irrigation systems that conserve water while keeping plantings healthy.</p>
+                <p>Lucas's Virginia Tech training in environmental horticulture and soil science means your landscape plan is built on real plant science — not guesswork. He diagnoses soil conditions, selects disease-resistant varieties for Virginia's climate, and designs irrigation systems that conserve water while keeping plantings healthy.</p>
               </div>
             </div>
 
@@ -231,6 +237,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
       <p class="prose-centered">Greenstone Home Solutions serves homeowners across five counties in the greater Richmond, Virginia metro area. Whether you need interior renovation, outdoor construction, or a full-property transformation, we bring the same level of craftsmanship to every community we work in.</p>
 
       <div class="related-services" style="margin-top: var(--space-xl);">
+        <a href="/service-areas/richmond" class="county-chip">Richmond</a>
+        <a href="/service-areas/chesterfield-county" class="county-chip">Chesterfield County</a>
         <a href="/service-areas/henrico-county" class="county-chip">Henrico County</a>
         <a href="/service-areas/hanover-county" class="county-chip">Hanover County</a>
         <a href="/service-areas/king-william-county" class="county-chip">King William County</a>

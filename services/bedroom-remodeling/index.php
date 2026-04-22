@@ -85,17 +85,22 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 <main id="main-content">
 
   <!-- Page Header -->
-  <section class="page-header">
+  <section class="page-header has-divider">
     <div class="container">
       <nav class="breadcrumb" aria-label="Breadcrumb">
         <a href="/">Home</a><span class="sep">/</span><a href="/services">Services</a><span class="sep">/</span><span class="current">Bedroom Remodeling</span>
       </nav>
-      <h1>Bedroom Remodeling in Richmond, VA</h1>
+      <h1><span class="text-accent">Bedroom Remodeling</span> in Richmond, VA</h1>
       <p class="prose">Dark paneling out, modern finishes in. We transform dated bedrooms into bright, functional spaces with paint, flooring, built-ins, and smart storage solutions.</p>
       <div style="margin-top: var(--space-lg); display: flex; gap: var(--space-md); flex-wrap: wrap; align-items: center;">
         <a href="/contact" class="btn-primary">Get a Free Estimate <i data-lucide="chevron-right" style="width:18px;height:18px;"></i></a>
         <a href="tel:8042186459" style="color: rgba(255,255,255,0.9); font-weight: 600;"><i data-lucide="phone" style="width:18px;height:18px;vertical-align:middle;"></i> (804) 218-6459</a>
       </div>
+    </div>
+    <div class="section-divider section-divider--bottom" aria-hidden="true">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,40 C360,0 1080,80 1440,40 L1440,80 L0,80 Z" fill="#ffffff"/>
+      </svg>
     </div>
   </section>
 
@@ -130,13 +135,14 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section style="background: var(--bg);">
     <div class="container">
       <div class="split">
-        <div>
+        <div class="reveal-right">
+          <span class="section-subtitle--accent">Out with the old</span>
           <h2 data-animate="fade-up">Removing Dark Wood Paneling</h2>
           <p class="prose" style="margin-bottom: var(--space-lg);" data-animate="fade-up">Dark wood paneling is the single most common complaint we hear from Richmond homeowners looking to update their bedrooms. Removing it is not as straightforward as pulling it off the wall — what is behind the paneling varies significantly from house to house, and that determines the approach.</p>
           <p class="prose" style="margin-bottom: var(--space-lg);" data-animate="fade-up">In many Henrico and Hanover County homes from the 1970s, paneling was nailed directly over drywall. In those cases, removal leaves nail holes and adhesive residue that require skim coating before paint. In older homes, particularly in the Fan District and Church Hill neighborhoods of Richmond, paneling was sometimes installed directly over studs with no drywall behind it at all. Those walls need full drywall installation before any finish work can begin.</p>
           <p class="prose" data-animate="fade-up">We assess the wall condition during our initial consultation so there are no surprises once demo starts. Every estimate accounts for what we expect to find behind the paneling based on the home's age and construction style.</p>
         </div>
-        <div class="service-img" data-animate="wipe-right">
+        <div class="service-img reveal-left" data-animate="wipe-right">
           <img src="https://i.imgur.com/TmwpMiR.jpeg" alt="Bedroom transformation showing built-in desk area after paneling removal in Richmond VA" width="800" height="600" loading="lazy">
         </div>
       </div>
@@ -167,10 +173,10 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section style="background: var(--bg);">
     <div class="container">
       <div class="split-reverse">
-        <div class="service-img" data-animate="wipe-right">
+        <div class="service-img reveal-left" data-animate="wipe-right">
           <img src="https://i.imgur.com/QyW3uBL.jpeg" alt="Renovated bedroom with teal accent walls and modern furnishings in Richmond VA home" width="800" height="600" loading="lazy">
         </div>
-        <div>
+        <div class="reveal-right">
           <h2 data-animate="fade-up">Built-Ins, Storage &amp; Functional Upgrades</h2>
           <p class="prose" style="margin-bottom: var(--space-lg);" data-animate="fade-up">A bedroom remodel is an opportunity to solve the storage and functionality problems that come with older home layouts. Many bedrooms in Richmond-area homes have undersized closets, no built-in storage, and layouts that waste usable floor space.</p>
           <p class="prose" style="margin-bottom: var(--space-lg);" data-animate="fade-up">We build custom solutions including built-in desks that transform unused corners into productive workspaces, closet systems that double usable storage without expanding the footprint, window seats with hidden storage, and shelving units integrated into the wall rather than taking up floor space.</p>
@@ -226,7 +232,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <!-- Accent Walls & Design Choices -->
   <section class="bg-alt">
     <div class="container" data-animate="fade-up">
-      <div class="highlight-box">
+      <div class="highlight-box card-tint-2">
         <h3>Accent Walls &amp; Color Strategy</h3>
         <p>A well-chosen accent wall transforms a bedroom without the cost of a full renovation. In the after photo shown above, a rich teal accent wall adds depth and personality to what was previously a flat, paneled room. We help clients select colors that work with their existing furniture, flooring, and natural light conditions. Richmond homes with south-facing bedrooms handle bold, saturated colors well. North-facing rooms benefit from warmer tones that counteract the cooler natural light. This kind of detail is part of every consultation — not an afterthought.</p>
       </div>
@@ -292,7 +298,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         <a href="/services/common-area-remodeling" class="related-chip">Common Area Remodeling</a>
         <a href="/services/laundry-room-remodeling" class="related-chip">Laundry Room Remodeling</a>
         <a href="/services/design-services" class="related-chip">Design Services</a>
-        <a href="/services/building-additions-new-structures" class="related-chip">Building Additions</a>
+        <a href="/services/bathroom-remodeling" class="related-chip">Bathroom Remodeling</a>
       </div>
       <p class="last-updated">Last Updated: <?php echo date('F Y'); ?></p>
     </div>

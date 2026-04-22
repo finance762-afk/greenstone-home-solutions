@@ -71,27 +71,35 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 <main id="main-content">
 
   <!-- Page Header -->
-  <section class="page-header">
+  <section class="page-header has-divider">
     <div class="container">
       <nav class="breadcrumb" aria-label="Breadcrumb">
         <a href="/">Home</a>
         <span class="sep">/</span>
         <span class="current">Contact</span>
       </nav>
-      <h1>Contact Greenstone Home Solutions — Free Estimates in Richmond, VA</h1>
+      <h1>Contact Greenstone Home Solutions — <span class="text-accent">Free Estimates</span> in Richmond, VA</h1>
       <p class="prose">Ready to start your project? Give us a call or fill out the form below for a free estimate.</p>
+    </div>
+    <div class="section-divider section-divider--bottom" aria-hidden="true">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,40 C360,0 1080,80 1440,40 L1440,80 L0,80 Z" fill="#ffffff"/>
+      </svg>
     </div>
   </section>
 
   <!-- Contact Split: Form + Info -->
-  <section style="padding: var(--section-pad);">
+  <section style="padding: var(--section-pad); position: relative;">
+    <svg class="floating-accent float-animate" style="top:15%; right:5%; width:120px; height:120px;" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <circle cx="60" cy="60" r="55" fill="none" stroke="var(--primary)" stroke-width="3"/>
+    </svg>
     <div class="container">
-      <p class="prose" style="margin-bottom: var(--space-2xl);">Greenstone Home Solutions is a licensed and insured home remodeling and outdoor living company based in Richmond, Virginia. Whether you need a <a href="/services/kitchen-remodeling">kitchen remodel</a>, a <a href="/services/deck-balcony-construction">new deck</a>, or <a href="/services/greenscape-landscape-design">landscape design</a>, our team is here to help. Reach out today for a no-obligation estimate — most consultations are scheduled within 48 hours.</p>
+      <p class="prose" style="margin-bottom: var(--space-2xl);">Greenstone Home Solutions is a licensed and insured home remodeling and outdoor living company based in Richmond, Virginia. Whether you need a <a href="/services/kitchen-remodeling">kitchen remodel</a>, a <a href="/services/patio-porch-terrace-construction">new patio</a>, or <a href="/services/greenscape-landscape-design">landscape design</a>, our team is here to help. Reach out today for a no-obligation estimate — most consultations are scheduled within 48 hours.</p>
 
       <div class="split" style="align-items: start; gap: var(--space-3xl);">
 
         <!-- LEFT: Form -->
-        <div>
+        <div class="reveal-up">
           <h2 class="section-title" style="text-align: left; margin-bottom: var(--space-xl);">Request a Free Estimate</h2>
           <form action="https://formsubmit.co/greenstonehomesolutions@gmail.com" method="POST">
             <input type="hidden" name="_next" value="https://greenstonehomesolutions.com/thank-you">
@@ -124,10 +132,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
                 <option value="Bedroom Remodeling">Bedroom Remodeling</option>
                 <option value="Laundry Room Remodeling">Laundry Room Remodeling</option>
                 <option value="Common Area Remodeling">Common Area Remodeling</option>
-                <option value="Building Additions & New Structures">Building Additions & New Structures</option>
-                <option value="Deck & Balcony Construction">Deck & Balcony Construction</option>
                 <option value="Patio, Porch & Terrace Construction">Patio, Porch & Terrace Construction</option>
-                <option value="Detached Garage Construction">Detached Garage Construction</option>
                 <option value="Greenscape & Landscape Design">Greenscape & Landscape Design</option>
                 <option value="Irrigation Design & Installation">Irrigation Design & Installation</option>
                 <option value="Lawn Care & Maintenance">Lawn Care & Maintenance</option>
@@ -147,7 +152,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         </div>
 
         <!-- RIGHT: Contact Info -->
-        <div data-animate="fade-up">
+        <div class="reveal-left" data-animate="fade-up">
           <div class="highlight-box">
             <h3>Get in Touch</h3>
             <ul class="icon-list">
@@ -198,6 +203,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section class="bg-alt" style="padding: var(--section-pad);" data-animate="fade-up">
     <div class="container">
       <span class="eyebrow-label">Our Service Area</span>
+      <span class="section-subtitle--accent">where we work</span>
       <h2 class="section-title" style="margin-bottom: var(--space-xl);">Serving Greater Richmond, Virginia</h2>
       <div style="border-radius: var(--radius); overflow: hidden; box-shadow: var(--elevation-2); aspect-ratio: 16/9;">
         <iframe

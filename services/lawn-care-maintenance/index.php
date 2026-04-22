@@ -68,7 +68,7 @@ $schemaMarkup = '[
         "name": "Do you offer one-time treatments or only ongoing service?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Both. We offer single treatments like aeration, overseeding, or targeted weed control, as well as monthly and seasonal maintenance packages. We recommend what makes sense for your lawn's current condition."
+          "text": "Both. We offer single treatments like aeration, overseeding, or targeted weed control, as well as monthly and seasonal maintenance packages. We recommend what makes sense for the current condition of your lawn."
         }
       }
     ]
@@ -93,14 +93,19 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 <main id="main-content">
 
   <!-- Page Header -->
-  <section class="page-header">
+  <section class="page-header has-divider">
     <div class="container">
       <nav class="breadcrumb" aria-label="Breadcrumb">
         <a href="/">Home</a><span class="sep">/</span><a href="/services">Services</a><span class="sep">/</span><span class="current">Lawn Care &amp; Maintenance</span>
       </nav>
-      <h1>Lawn Care &amp; Maintenance in Richmond, VA</h1>
+      <h1>Lawn Care &amp; <span class="text-accent">Maintenance</span> in Richmond, VA</h1>
       <p class="prose">Turf science meets hands-on care — fertilization, weed control, aeration, and mowing programs built around your lawn's actual needs, not a generic schedule.</p>
       <a href="tel:8042186459" class="btn-primary" style="margin-top: var(--space-lg);">Call for a Free Lawn Assessment <i data-lucide="phone" style="width:18px;height:18px;"></i></a>
+    </div>
+    <div class="section-divider section-divider--bottom" aria-hidden="true">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,40 C360,0 1080,80 1440,40 L1440,80 L0,80 Z" fill="#ffffff"/>
+      </svg>
     </div>
   </section>
 
@@ -108,12 +113,12 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section style="background: var(--bg);">
     <div class="container">
       <div class="split">
-        <div>
+        <div class="reveal-up">
           <p class="prose" style="margin-bottom: var(--space-lg);"><strong>Greenstone Home Solutions is a licensed and insured lawn care company based in Richmond, VA.</strong> Professional lawn care in Richmond typically costs $150 to $400 per month for regular maintenance depending on lawn size and service level. We provide science-based lawn care for homeowners in Richmond, VA and surrounding counties including Henrico, Hanover, King William, New Kent, and Charles City.</p>
           <p class="prose" style="margin-bottom: var(--space-lg);">Most lawn care companies follow a one-size-fits-all calendar: fertilize in spring, mow weekly, spray for weeds when they appear. That approach misses the point. Every lawn has a specific grass type, soil pH, compaction level, and pest pressure profile — and the treatment plan should reflect that. Ours does, because our founder Lucas Walton studied this at Virginia Tech.</p>
           <p class="prose">Lucas holds a B.S. in Environmental Horticulture with a minor in Crop and Soil Sciences from Virginia Tech. His turf science training means we approach lawn care the way an agronomist would — with soil tests, grass variety identification, and targeted treatment plans rather than generic spray-and-pray schedules.</p>
         </div>
-        <div class="service-img">
+        <div class="service-img reveal-right">
           <img src="https://i.imgur.com/OG56JL6.jpeg" alt="Dense healthy green lawn maintained by Greenstone Home Solutions in Richmond VA" width="800" height="600" loading="lazy">
         </div>
       </div>
@@ -133,7 +138,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <!-- Turf Science Credentials -->
   <section style="background: var(--bg);">
     <div class="container" data-animate="fade-up">
-      <div class="highlight-box">
+      <div class="highlight-box card-tint-1">
         <h3><i data-lucide="graduation-cap" style="width:20px;height:20px;"></i> Virginia Tech Turf Science Behind Every Treatment Plan</h3>
         <p>Lucas's Crop and Soil Sciences minor at Virginia Tech covered soil chemistry, nutrient cycling, turfgrass physiology, and integrated pest management. When we assess your lawn, we are not guessing — we are applying the same diagnostic framework used in university turf research programs. We test soil pH and nutrient levels, identify your grass species, assess thatch depth and compaction, and check for disease or pest activity before recommending a single treatment. This eliminates wasted applications and puts every dollar toward what your lawn actually needs.</p>
       </div>
@@ -143,22 +148,23 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <!-- Services Breakdown -->
   <section class="bg-alt">
     <div class="container" data-animate="fade-up">
+      <span class="section-subtitle--accent">Tailored to your turf</span>
       <h2>Lawn Care Services We Provide</h2>
       <p class="prose" style="margin-bottom: var(--space-2xl);">We offer both ongoing maintenance programs and individual treatments. Whether your lawn needs a full recovery plan or just consistent professional mowing, we tailor the service to match your turf's condition and your goals.</p>
       <div class="grid-2" data-animate="fade-up" data-stagger>
-        <div class="highlight-box">
+        <div class="highlight-box card-tint-2">
           <h3><i data-lucide="scissors" style="width:20px;height:20px;"></i> Mowing &amp; Edging</h3>
           <p>Weekly or biweekly mowing at the correct height for your grass type. Tall fescue lawns in Richmond should be mowed at 3.5 to 4 inches — cutting shorter stresses the plant and invites weed competition. We edge along hardscapes, blow debris, and adjust mowing patterns to prevent rut formation.</p>
         </div>
-        <div class="highlight-box">
+        <div class="highlight-box card-tint-3">
           <h3><i data-lucide="flask-conical" style="width:20px;height:20px;"></i> Fertilization Programs</h3>
           <p>Fertilization schedules based on soil test results, not calendar dates. We apply the right NPK ratio at the right time for your grass species. Fescue lawns get their heaviest feeding in fall when root growth peaks. Spring applications are lighter to avoid excessive top growth that weakens the plant heading into summer heat.</p>
         </div>
-        <div class="highlight-box">
+        <div class="highlight-box card-tint-neutral">
           <h3><i data-lucide="shield" style="width:20px;height:20px;"></i> Weed Control</h3>
           <p>Pre-emergent applications timed for Richmond's soil temperatures — typically late February to early March for crabgrass prevention. Post-emergent treatments target specific broadleaf weeds identified in your lawn. We use selective herbicides that eliminate the weed without damaging your turf.</p>
         </div>
-        <div class="highlight-box">
+        <div class="highlight-box card-tint-1">
           <h3><i data-lucide="wind" style="width:20px;height:20px;"></i> Core Aeration</h3>
           <p>Mechanical core aeration breaks up compacted soil, improves water infiltration, and allows oxygen to reach the root zone. Richmond's clay-heavy soils compact quickly, especially in high-traffic areas. We recommend aeration in early fall for fescue lawns, timed to pair with overseeding for maximum seed-to-soil contact.</p>
         </div>
@@ -173,19 +179,19 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
       <h2>Seasonal Lawn Program for Richmond, VA</h2>
       <p class="prose" style="margin-bottom: var(--space-2xl);">Richmond sits in the transition zone between warm-season and cool-season grass regions. That means your lawn faces stress from both summer heat and winter cold. A proper maintenance calendar accounts for both. Here is how we structure our year-round lawn care program for tall fescue — the dominant turf type across Henrico, Hanover, and the greater Richmond metro.</p>
       <div class="grid-2" data-animate="fade-up" data-stagger>
-        <div class="highlight-box">
+        <div class="highlight-box card-tint-2">
           <h3><i data-lucide="flower-2" style="width:20px;height:20px;"></i> Spring (March – May)</h3>
           <p>Pre-emergent crabgrass control when soil temps hit 55 degrees Fahrenheit. Light fertilization. First mowing once growth reaches 4 inches. Spot treatment for early broadleaf weeds like clover and dandelion. Soil test if not done in fall.</p>
         </div>
-        <div class="highlight-box">
+        <div class="highlight-box card-tint-3">
           <h3><i data-lucide="sun" style="width:20px;height:20px;"></i> Summer (June – August)</h3>
           <p>Mowing height raised to 4 inches to shade roots and retain soil moisture. Reduced fertilization — fescue is semi-dormant in Virginia summers. Targeted grub control if Japanese beetle larvae are present. Irrigation monitoring to prevent both overwatering and drought stress.</p>
         </div>
-        <div class="highlight-box">
+        <div class="highlight-box card-tint-neutral">
           <h3><i data-lucide="trees" style="width:20px;height:20px;"></i> Fall (September – November)</h3>
           <p>Core aeration in early September. Overseeding mid-September through mid-October — this is the single most important window for fescue lawn improvement in Richmond. Heavy fertilization to build root reserves before winter. Leaf removal to prevent smothering and fungal issues.</p>
         </div>
-        <div class="highlight-box">
+        <div class="highlight-box card-tint-1">
           <h3><i data-lucide="snowflake" style="width:20px;height:20px;"></i> Winter (December – February)</h3>
           <p>Final mowing at 3 inches before dormancy. Equipment maintenance and blade sharpening. Soil testing to plan spring applications. Lime application if fall soil tests indicate low pH — common in Richmond's naturally acidic soils.</p>
         </div>

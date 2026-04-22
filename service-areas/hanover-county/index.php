@@ -42,14 +42,19 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 <main id="main-content">
 
   <!-- Page Header -->
-  <section class="page-header">
+  <section class="page-header has-divider">
     <div class="container">
       <nav class="breadcrumb" aria-label="Breadcrumb">
         <a href="/">Home</a><span class="sep">/</span><a href="/service-areas">Service Areas</a><span class="sep">/</span><span class="current">Hanover County</span>
       </nav>
-      <h1>Home Renovation & Landscaping in Hanover County, VA</h1>
+      <h1>Home Renovation & Landscaping in <span class="text-accent">Hanover County</span>, VA</h1>
       <p class="prose">Building additions, landscape design, irrigation systems, lawn care, and full interior renovations for Hanover County homeowners — Mechanicsville, Ashland, Atlee, and surrounding communities.</p>
       <a href="tel:8042186459" class="btn-primary" style="margin-top: var(--space-lg);"><i data-lucide="phone" style="width:18px;height:18px;"></i> (804) 218-6459</a>
+    </div>
+    <div class="section-divider section-divider--bottom" aria-hidden="true">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,40 C360,0 1080,80 1440,40 L1440,80 L0,80 Z" fill="#ffffff"/>
+      </svg>
     </div>
   </section>
 
@@ -57,10 +62,10 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section style="background: var(--bg);">
     <div class="container">
       <div class="split-reverse">
-        <div class="service-img">
+        <div class="service-img reveal-left">
           <img src="https://i.imgur.com/nqzt0xW.jpeg" alt="Curved landscape bed with perennials and greenscape design in Hanover County VA" width="800" height="600" loading="lazy">
         </div>
-        <div>
+        <div class="reveal-up">
           <p class="prose" style="margin-bottom: var(--space-lg);"><strong>Greenstone Home Solutions provides home renovation, building additions, landscape design, and property maintenance for homeowners in Hanover County, VA.</strong> Greenstone Home Solutions is a licensed and insured remodeling and landscaping company based in Richmond, serving Hanover County communities including Mechanicsville, Ashland, and the Atlee-Rutland corridor.</p>
           <p class="prose" style="margin-bottom: var(--space-lg);">Hanover County sits directly north of Richmond and encompasses a wide range of properties — from newer family-oriented subdivisions in Atlee and Rutland to older farmhouses and colonials along Route 301 and Cold Harbor Road. The county's mix of rural acreage and growing suburban neighborhoods creates demand for services that span from comprehensive landscape plans for five-acre lots to interior renovation of historic homes in Ashland's downtown district.</p>
           <p class="prose">Whether you need landscaping near me in Hanover County or a full home addition to accommodate a growing family in Mechanicsville, we provide every service under one roof.</p>
@@ -83,14 +88,15 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section style="background: var(--bg);">
     <div class="container">
       <div class="split">
-        <div>
-          <span class="eyebrow-label" data-animate="fade-up">Growing Families</span>
-          <h2 data-animate="fade-up">Building Additions for Mechanicsville &amp; Atlee Homes</h2>
-          <p class="prose" style="margin-bottom: var(--space-lg);" data-animate="fade-up">Mechanicsville is one of the fastest-growing communities in the Richmond metro area, and Hanover County families frequently outgrow their homes before they are ready to leave their neighborhood. Building additions — whether a new primary bedroom suite, a loft conversion for a home office, or a sunroom that connects indoor and outdoor living — let homeowners expand in place rather than uproot.</p>
-          <p class="prose" style="margin-bottom: var(--space-lg);" data-animate="fade-up">In the Atlee and Rutland subdivisions, homes built in the 2000s and 2010s often have the footprint for an addition but were not originally designed with one. We evaluate roof lines, foundation capacity, and lot setback requirements before drafting plans. Hanover County's permitting process is straightforward when you submit complete drawings with structural details upfront — something we handle as part of every addition project.</p>
-          <p class="prose" data-animate="fade-up">Loft and second-story additions are particularly effective in Hanover County ranch homes where the existing attic space can be converted with dormers, proper insulation, and code-compliant egress windows. The result is usable square footage at a fraction of the cost of a ground-level addition.</p>
+        <div class="reveal-right">
+          <span class="eyebrow-label" data-animate="fade-up">Outdoor Living</span>
+          <span class="section-subtitle--accent">Where the backyard becomes the best room</span>
+          <h2 data-animate="fade-up">Patios, Porches &amp; Landscape Design for Mechanicsville &amp; Atlee Homes</h2>
+          <p class="prose" style="margin-bottom: var(--space-lg);" data-animate="fade-up">Mechanicsville is one of the fastest-growing communities in the Richmond metro area, and Hanover County homeowners are increasingly investing in the outdoor half of their property. Paver patios, covered porches, and integrated landscape design turn wooded lots and suburban backyards into true extensions of the home — functional spaces for dining, entertaining, and quiet evenings outside.</p>
+          <p class="prose" style="margin-bottom: var(--space-lg);" data-animate="fade-up">In the Atlee and Rutland subdivisions, homes built in the 2000s and 2010s often have generous rear yards with unused potential. We evaluate drainage, sun exposure, and lot grade before drafting a plan that coordinates hardscape, planting beds, and any needed irrigation. Hanover County's permitting process is straightforward for most outdoor construction when you submit complete drawings upfront — something we handle as part of every project.</p>
+          <p class="prose" data-animate="fade-up">Kitchen and bathroom renovations remain popular in Hanover County ranch homes, where thoughtful interior updates combined with an outdoor living upgrade deliver more livable square footage and more resale value than either project on its own.</p>
         </div>
-        <div class="service-img" data-animate="wipe-right">
+        <div class="service-img reveal-left" data-animate="wipe-right">
           <img src="https://i.imgur.com/OCoqun0.jpeg" alt="Loft addition construction in progress in Hanover County VA home" width="800" height="600" loading="lazy">
         </div>
       </div>
@@ -121,15 +127,12 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
             <li><i data-lucide="check-circle" style="width:18px;height:18px;"></i><p><a href="/services/bedroom-remodeling">Bedroom Remodeling</a></p></li>
             <li><i data-lucide="check-circle" style="width:18px;height:18px;"></i><p><a href="/services/laundry-room-remodeling">Laundry Room Remodeling</a></p></li>
             <li><i data-lucide="check-circle" style="width:18px;height:18px;"></i><p><a href="/services/common-area-remodeling">Common Area Remodeling</a></p></li>
-            <li><i data-lucide="check-circle" style="width:18px;height:18px;"></i><p><a href="/services/building-additions-new-structures">Building Additions & New Structures</a></p></li>
             <li><i data-lucide="check-circle" style="width:18px;height:18px;"></i><p><a href="/services/design-services">Design Services</a></p></li>
           </ul>
         </div>
         <div>
           <ul class="icon-list">
-            <li><i data-lucide="check-circle" style="width:18px;height:18px;"></i><p><a href="/services/deck-balcony-construction">Deck & Balcony Construction</a></p></li>
             <li><i data-lucide="check-circle" style="width:18px;height:18px;"></i><p><a href="/services/patio-porch-terrace-construction">Patio, Porch & Terrace Construction</a></p></li>
-            <li><i data-lucide="check-circle" style="width:18px;height:18px;"></i><p><a href="/services/detached-garage-construction">Detached Garage Construction</a></p></li>
             <li><i data-lucide="check-circle" style="width:18px;height:18px;"></i><p><a href="/services/greenscape-landscape-design">Greenscape & Landscape Design</a></p></li>
             <li><i data-lucide="check-circle" style="width:18px;height:18px;"></i><p><a href="/services/irrigation-design-installation">Irrigation Design & Installation</a></p></li>
             <li><i data-lucide="check-circle" style="width:18px;height:18px;"></i><p><a href="/services/lawn-care-maintenance">Lawn Care & Maintenance</a></p></li>
@@ -183,10 +186,12 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <div class="container" data-animate="fade-up">
       <h3 style="margin-bottom: var(--space-lg);">Other Counties We Serve</h3>
       <div class="related-services">
-        <a href="/service-areas/henrico-county" class="related-chip">Henrico County</a>
-        <a href="/service-areas/king-william-county" class="related-chip">King William County</a>
-        <a href="/service-areas/new-kent-county" class="related-chip">New Kent County</a>
-        <a href="/service-areas/charles-city-county" class="related-chip">Charles City County</a>
+        <a href="/service-areas/richmond" class="related-chip card-tint-1">Richmond</a>
+        <a href="/service-areas/chesterfield-county" class="related-chip card-tint-2">Chesterfield County</a>
+        <a href="/service-areas/henrico-county" class="related-chip card-tint-3">Henrico County</a>
+        <a href="/service-areas/king-william-county" class="related-chip card-tint-neutral">King William County</a>
+        <a href="/service-areas/new-kent-county" class="related-chip card-tint-1">New Kent County</a>
+        <a href="/service-areas/charles-city-county" class="related-chip card-tint-2">Charles City County</a>
       </div>
       <p class="last-updated">Last Updated: <?php echo date('F Y'); ?></p>
     </div>

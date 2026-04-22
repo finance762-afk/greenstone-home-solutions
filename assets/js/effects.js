@@ -42,7 +42,7 @@
       mobileMenu.classList.toggle('open');
       hamburger.classList.toggle('active');
       hamburger.setAttribute('aria-expanded', !isOpen);
-      document.body.style.overflow = isOpen ? '' : 'hidden';
+      document.body.classList.toggle('menu-open', !isOpen);
     });
 
     // Close on link tap
@@ -51,7 +51,7 @@
         mobileMenu.classList.remove('open');
         hamburger.classList.remove('active');
         hamburger.setAttribute('aria-expanded', 'false');
-        document.body.style.overflow = '';
+        document.body.classList.remove('menu-open');
       });
     });
 
@@ -126,6 +126,24 @@
       }
     });
   });
+
+  // === V7 MULTI-DIRECTIONAL REVEAL OBSERVER ===
+  var revealSelectors = '.reveal-up, .reveal-down, .reveal-left, .reveal-right, .reveal-scale';
+  var revealEls = document.querySelectorAll(revealSelectors);
+  if (revealEls.length && 'IntersectionObserver' in window) {
+    var revealObserver = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('in-view');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.15, rootMargin: '0px 0px -40px 0px' });
+    revealEls.forEach(function(el) { revealObserver.observe(el); });
+  } else {
+    // Fallback for older browsers: show immediately
+    revealEls.forEach(function(el) { el.classList.add('in-view'); });
+  }
 
   // === GA4 EVENT STUBS ===
 

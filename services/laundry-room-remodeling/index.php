@@ -81,14 +81,19 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 <main id="main-content">
 
   <!-- Page Header -->
-  <section class="page-header">
+  <section class="page-header has-divider">
     <div class="container">
       <nav class="breadcrumb" aria-label="Breadcrumb">
         <a href="/">Home</a><span class="sep">/</span><a href="/services">Services</a><span class="sep">/</span><span class="current">Laundry Room Remodeling</span>
       </nav>
-      <h1>Laundry Room Remodeling in Richmond, VA</h1>
+      <h1><span class="text-accent">Laundry Room Remodeling</span> in Richmond, VA</h1>
       <p class="prose">A laundry room remodel in Richmond ranges from $3,000 for basic updates to $12,000+ for a full renovation with new flooring, storage, and plumbing work. Greenstone Home Solutions is a licensed and insured home remodeling company based in Richmond, VA.</p>
       <a href="tel:8042186459" class="btn-primary" style="margin-top: var(--space-lg);">Call (804) 218-6459 <i data-lucide="phone" style="width:18px;height:18px;"></i></a>
+    </div>
+    <div class="section-divider section-divider--bottom" aria-hidden="true">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,40 C360,0 1080,80 1440,40 L1440,80 L0,80 Z" fill="#ffffff"/>
+      </svg>
     </div>
   </section>
 
@@ -96,15 +101,16 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section style="background: var(--bg);">
     <div class="container">
       <div class="split">
-        <div>
+        <div class="reveal-right">
           <span class="eyebrow-label">Transform Your Space</span>
+          <span class="section-subtitle--accent">Built for real life</span>
           <h2>From Utility Closet to Functional Workroom</h2>
           <div class="prose" style="margin-top: var(--space-lg);">
             <p>Greenstone Home Solutions provides laundry room renovation for homeowners in Richmond, VA and surrounding counties including Henrico, Hanover, King William, New Kent, and Charles City. Many laundry rooms in the Richmond area were originally designed as afterthoughts — cramped utility closets tucked behind the kitchen or squeezed into a basement corner with exposed pipes and bare concrete floors.</p>
             <p style="margin-top: var(--space-md);">We turn those neglected spaces into organized, well-lit rooms that make laundry day less of a chore. Our remodels typically include new flooring, improved lighting, dedicated storage cabinetry, and updated plumbing connections. The result is a room that works as hard as the rest of your home.</p>
           </div>
         </div>
-        <div class="service-img">
+        <div class="service-img reveal-left">
           <img src="https://i.imgur.com/RZgGUFE.jpeg" alt="Before and after laundry room remodel in Richmond VA showing updated flooring and modern layout by Greenstone Home Solutions" width="800" height="600" loading="lazy">
         </div>
       </div>
@@ -119,32 +125,32 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         <p class="prose-centered" style="margin-top: var(--space-md);">Every laundry room project is different. Here are the most common improvements Richmond homeowners request.</p>
       </div>
       <div class="grid-3" data-animate="fade-up" data-stagger>
-        <div class="card" style="padding: var(--space-lg);">
+        <div class="card card-tint-1" style="padding: var(--space-lg);">
           <i data-lucide="square-dashed-bottom" style="width:36px;height:36px;color:var(--accent);margin-bottom:var(--space-md);"></i>
           <h3>Flooring Replacement</h3>
           <p>Swapping cracked tile, worn vinyl, or bare concrete for durable luxury vinyl plank or porcelain tile that handles moisture and heavy foot traffic.</p>
         </div>
-        <div class="card" style="padding: var(--space-lg);">
+        <div class="card card-tint-2" style="padding: var(--space-lg);">
           <i data-lucide="archive" style="width:36px;height:36px;color:var(--accent);margin-bottom:var(--space-md);"></i>
           <h3>Storage & Cabinetry</h3>
           <p>Wall-mounted cabinets, open shelving, pull-out hamper inserts, and countertops above front-loaders that create a dedicated folding surface.</p>
         </div>
-        <div class="card" style="padding: var(--space-lg);">
+        <div class="card card-tint-3" style="padding: var(--space-lg);">
           <i data-lucide="lightbulb" style="width:36px;height:36px;color:var(--accent);margin-bottom:var(--space-md);"></i>
           <h3>Lighting Upgrades</h3>
           <p>Replacing a single overhead bulb with recessed LED fixtures or under-cabinet task lighting that makes sorting and treating stains easier.</p>
         </div>
-        <div class="card" style="padding: var(--space-lg);">
+        <div class="card card-tint-neutral" style="padding: var(--space-lg);">
           <i data-lucide="pipette" style="width:36px;height:36px;color:var(--accent);margin-bottom:var(--space-md);"></i>
           <h3>Plumbing & Hookups</h3>
           <p>Relocating drain lines, adding hot water connections, installing utility sinks, and upgrading supply valves to support modern high-efficiency machines.</p>
         </div>
-        <div class="card" style="padding: var(--space-lg);">
+        <div class="card card-tint-1" style="padding: var(--space-lg);">
           <i data-lucide="fan" style="width:36px;height:36px;color:var(--accent);margin-bottom:var(--space-md);"></i>
           <h3>HVAC Access Improvements</h3>
           <p>Many Richmond laundry rooms share space with HVAC equipment. We design around mechanical systems, improving access panels while reclaiming usable square footage.</p>
         </div>
-        <div class="card" style="padding: var(--space-lg);">
+        <div class="card card-tint-2" style="padding: var(--space-lg);">
           <i data-lucide="maximize" style="width:36px;height:36px;color:var(--accent);margin-bottom:var(--space-md);"></i>
           <h3>Layout Optimization</h3>
           <p>Repositioning appliances, adding stackable configurations, and improving traffic flow so the room works for your household size and routine.</p>

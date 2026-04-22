@@ -93,14 +93,19 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 <main id="main-content">
 
   <!-- Page Header -->
-  <section class="page-header">
+  <section class="page-header has-divider">
     <div class="container">
       <nav class="breadcrumb" aria-label="Breadcrumb">
         <a href="/">Home</a><span class="sep">/</span><a href="/services">Services</a><span class="sep">/</span><span class="current">Bathroom Remodeling</span>
       </nav>
-      <h1>Bathroom Remodeling in Richmond, VA</h1>
+      <h1><span class="text-accent">Bathroom Remodeling</span> in Richmond, VA</h1>
       <p class="prose">Full demo-to-finish bathroom renovation — custom tile, modern fixtures, and accessibility upgrades for homeowners across the greater Richmond area.</p>
       <a href="tel:8042186459" class="btn-primary" style="margin-top: var(--space-lg);">Call for a Free Estimate <i data-lucide="phone" style="width:18px;height:18px;"></i></a>
+    </div>
+    <div class="section-divider section-divider--bottom" aria-hidden="true">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,40 C360,0 1080,80 1440,40 L1440,80 L0,80 Z" fill="#ffffff"/>
+      </svg>
     </div>
   </section>
 
@@ -108,12 +113,12 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section style="background: var(--bg);">
     <div class="container">
       <div class="split">
-        <div>
+        <div class="reveal-right">
           <p class="prose" style="margin-bottom: var(--space-lg);"><strong>Greenstone Home Solutions is a licensed and insured bathroom remodeling company based in Richmond, VA.</strong> A bathroom remodel in Richmond typically costs $8,000 to $25,000 and takes 2 to 6 weeks depending on scope. We provide full bathroom renovation for homeowners in Richmond and surrounding counties including Henrico, Hanover, King William, New Kent, and Charles City.</p>
           <p class="prose" style="margin-bottom: var(--space-lg);">Whether you need a simple vanity swap or a complete gut renovation down to the studs, our team handles every phase of the project. From initial demolition and subfloor repair through plumbing rough-in, waterproofing, tile installation, and final fixture placement, we manage the entire process so you have a single point of contact from start to finish.</p>
           <p class="prose">Richmond homes built between the 1950s and 1990s often have outdated plumbing, deteriorating subfloors, and inefficient layouts. A full renovation addresses these hidden issues while transforming the space into something that works for how you live now, not how the original builder designed it decades ago.</p>
         </div>
-        <div class="service-img" data-animate="wipe-right">
+        <div class="service-img reveal-left" data-animate="wipe-right">
           <img src="https://i.imgur.com/qfmHYwo.jpeg" alt="Completed bathroom remodel in Richmond VA with dual showerhead, subway tile, grab bar, and recessed niche" width="800" height="600" loading="lazy">
         </div>
       </div>
@@ -157,10 +162,11 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section class="bg-alt">
     <div class="container">
       <div class="split-reverse">
-        <div class="service-img" data-animate="wipe-right">
+        <div class="service-img reveal-right" data-animate="wipe-right">
           <img src="https://i.imgur.com/GgFoDNb.jpeg" alt="Shower wall tile setting in progress during Richmond bathroom remodel" width="800" height="600" loading="lazy">
         </div>
-        <div>
+        <div class="reveal-left">
+          <span class="section-subtitle--accent">Built to last</span>
           <h2 data-animate="fade-up">Custom Tile Installation</h2>
           <p class="prose" style="margin-bottom: var(--space-lg);" data-animate="fade-up">Tile is where a bathroom remodel becomes personal. We specialize in subway tile, hexagon mosaic, large-format porcelain, and natural stone installations. Every tile job starts with proper waterproofing — we use Kerdi membrane or equivalent on all wet-area walls and floors before a single tile is set.</p>
           <p class="prose" data-animate="fade-up">Our work includes recessed niches for shampoo and soap, accent bands, mosaic feature walls, and custom patterns. The hexagonal mosaic niche accents shown here are a popular choice among Richmond homeowners looking for a modern but timeless look. We also handle all grouting, sealing, and trim work to ensure clean lines and a watertight finish that holds up in Virginia's humid climate.</p>
@@ -173,7 +179,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section style="background: var(--bg);">
     <div class="container">
       <div class="split">
-        <div>
+        <div class="reveal-left">
           <h2 data-animate="fade-up">Fixtures &amp; Finishing Details</h2>
           <p class="prose" style="margin-bottom: var(--space-lg);" data-animate="fade-up">The finishing phase brings everything together — dual showerheads with both rainfall and handheld options, modern vanities with soft-close drawers, and properly installed grab bars that blend into the design rather than looking like afterthoughts.</p>
           <ul class="icon-list" data-animate="fade-up">
@@ -184,7 +190,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
             <li><i data-lucide="check-circle" style="width:18px;height:18px;"></i><p>Ventilation upgrades to prevent mold in Virginia humidity</p></li>
           </ul>
         </div>
-        <div class="service-img" data-animate="wipe-right">
+        <div class="service-img reveal-right" data-animate="wipe-right">
           <img src="https://i.imgur.com/xTwOMrc.jpeg" alt="Tile installation with hexagon mosaic niche accents in Richmond VA bathroom" width="800" height="600" loading="lazy">
         </div>
       </div>
@@ -205,10 +211,10 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section style="background: var(--bg);">
     <div class="container">
       <div class="split-reverse">
-        <div class="service-img" data-animate="wipe-right">
+        <div class="service-img reveal-left" data-animate="wipe-right">
           <img src="https://i.imgur.com/64BxPuI.jpeg" alt="Completed bathroom remodel with curved rod, hex niches, grab bar, and natural light in Richmond VA" width="800" height="600" loading="lazy">
         </div>
-        <div>
+        <div class="reveal-right">
           <h2 data-animate="fade-up">The Finished Product</h2>
           <p class="prose" style="margin-bottom: var(--space-lg);" data-animate="fade-up">This Richmond bathroom went from a dated, poorly ventilated space to a bright, accessible retreat with custom tile work, dual showerheads, recessed niches with hexagonal mosaic accents, and a grab bar integrated into the design. The curved shower rod provides extra room, and natural light floods in through a repositioned window.</p>
           <p class="prose" data-animate="fade-up">Every material was selected to handle Richmond's seasonal humidity swings. Porcelain tile on the walls, proper waterproofing behind it, and adequate ventilation prevent the mold and mildew issues that plague many older bathrooms in Henrico and Hanover County homes.</p>
@@ -220,7 +226,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <!-- Accessibility Highlight -->
   <section class="bg-alt">
     <div class="container" data-animate="fade-up">
-      <div class="highlight-box">
+      <div class="highlight-box card-tint-1">
         <h3>Accessibility &amp; Aging-in-Place Upgrades</h3>
         <p>A bathroom remodel is the ideal time to add accessibility features. When walls are open during a gut renovation, we can install structural backing for grab bars, lower thresholds for curbless shower entries, add bench seating, and install handheld showerheads on adjustable slide bars. These modifications cost significantly less when done during a renovation versus retrofitting later, and they make the space safer for everyone — not just those with mobility concerns.</p>
       </div>

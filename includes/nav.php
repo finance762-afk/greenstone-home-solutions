@@ -17,10 +17,7 @@
           <li><a href="/services/bedroom-remodeling" role="menuitem">Bedroom Remodeling</a></li>
           <li><a href="/services/laundry-room-remodeling" role="menuitem">Laundry Room Remodeling</a></li>
           <li><a href="/services/common-area-remodeling" role="menuitem">Common Area Remodeling</a></li>
-          <li><a href="/services/building-additions-new-structures" role="menuitem">Building Additions & New Structures</a></li>
-          <li><a href="/services/deck-balcony-construction" role="menuitem">Deck & Balcony Construction</a></li>
           <li><a href="/services/patio-porch-terrace-construction" role="menuitem">Patio, Porch & Terrace Construction</a></li>
-          <li><a href="/services/detached-garage-construction" role="menuitem">Detached Garage Construction</a></li>
           <li><a href="/services/greenscape-landscape-design" role="menuitem">Greenscape & Landscape Design</a></li>
           <li><a href="/services/irrigation-design-installation" role="menuitem">Irrigation Design & Installation</a></li>
           <li><a href="/services/lawn-care-maintenance" role="menuitem">Lawn Care & Maintenance</a></li>
@@ -30,6 +27,8 @@
       <li class="has-dropdown">
         <a href="/service-areas" <?php if ($currentPage === 'service-areas') echo 'aria-current="page"'; ?>>Service Areas</a>
         <ul class="dropdown" role="menu" style="display:none">
+          <li><a href="/service-areas/richmond" role="menuitem">Richmond</a></li>
+          <li><a href="/service-areas/chesterfield-county" role="menuitem">Chesterfield County</a></li>
           <li><a href="/service-areas/henrico-county" role="menuitem">Henrico County</a></li>
           <li><a href="/service-areas/hanover-county" role="menuitem">Hanover County</a></li>
           <li><a href="/service-areas/king-william-county" role="menuitem">King William County</a></li>
@@ -66,10 +65,7 @@
     <a href="/services/bedroom-remodeling">Bedroom Remodeling</a>
     <a href="/services/laundry-room-remodeling">Laundry Room Remodeling</a>
     <a href="/services/common-area-remodeling">Common Area Remodeling</a>
-    <a href="/services/building-additions-new-structures">Building Additions & New Structures</a>
-    <a href="/services/deck-balcony-construction">Deck & Balcony Construction</a>
     <a href="/services/patio-porch-terrace-construction">Patio, Porch & Terrace Construction</a>
-    <a href="/services/detached-garage-construction">Detached Garage Construction</a>
     <a href="/services/greenscape-landscape-design">Greenscape & Landscape Design</a>
     <a href="/services/irrigation-design-installation">Irrigation Design & Installation</a>
     <a href="/services/lawn-care-maintenance">Lawn Care & Maintenance</a>
@@ -79,6 +75,8 @@
   <div class="mobile-dropdown-label">Service Areas <i data-lucide="chevron-down" style="width:18px;height:18px;transition:transform 0.3s ease;"></i></div>
   <div class="mobile-dropdown-items">
     <a href="/service-areas">All Service Areas</a>
+    <a href="/service-areas/richmond">Richmond</a>
+    <a href="/service-areas/chesterfield-county">Chesterfield County</a>
     <a href="/service-areas/henrico-county">Henrico County</a>
     <a href="/service-areas/hanover-county">Hanover County</a>
     <a href="/service-areas/king-william-county">King William County</a>

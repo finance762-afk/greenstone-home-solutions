@@ -81,14 +81,19 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 <main id="main-content">
 
   <!-- Page Header -->
-  <section class="page-header">
+  <section class="page-header has-divider">
     <div class="container">
       <nav class="breadcrumb" aria-label="Breadcrumb">
         <a href="/">Home</a><span class="sep">/</span><a href="/services">Services</a><span class="sep">/</span><span class="current">Common Area Remodeling</span>
       </nav>
-      <h1>Common Area Remodeling in Richmond, VA</h1>
+      <h1>Common Area <span class="text-accent">Remodeling</span> in Richmond, VA</h1>
       <p class="prose">Common area renovations in Richmond — hallways, stairwells, landings, and living spaces — typically cost $4,000 to $15,000 depending on scope and square footage. Greenstone Home Solutions is a licensed and insured home remodeling company based in Richmond, VA.</p>
       <a href="tel:8042186459" class="btn-primary" style="margin-top: var(--space-lg);">Call (804) 218-6459 <i data-lucide="phone" style="width:18px;height:18px;"></i></a>
+    </div>
+    <div class="section-divider section-divider--bottom" aria-hidden="true">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,40 C360,0 1080,80 1440,40 L1440,80 L0,80 Z" fill="#ffffff"/>
+      </svg>
     </div>
   </section>
 
@@ -106,11 +111,12 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section class="bg-alt">
     <div class="container">
       <div class="split-reverse">
-        <div class="service-img" data-animate="wipe-right">
+        <div class="service-img reveal-left" data-animate="wipe-right">
           <img src="https://i.imgur.com/s6CaPFG.jpeg" alt="Updated hallway with white painted railing and fresh walls in Richmond VA home" width="800" height="600" loading="lazy">
         </div>
-        <div>
+        <div class="reveal-right">
           <span class="eyebrow-label">Connective Spaces Matter</span>
+          <span class="section-subtitle--accent">Where your home connects</span>
           <h2>The Rooms Between Your Rooms Define Your Home</h2>
           <div class="prose" style="margin-top: var(--space-lg);">
             <p>Greenstone Home Solutions provides interior renovation for homeowners in Richmond, VA and surrounding counties including Henrico, Hanover, King William, New Kent, and Charles City. Hallways, stairwells, landings, and foyers are the connective tissue of your home. You walk through them dozens of times a day, yet they are often the last spaces to receive any attention during a renovation.</p>
@@ -129,19 +135,19 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         <p class="prose-centered" style="margin-top: var(--space-md);">Every shared space in your home contributes to how the whole house feels. Here is what we typically work on.</p>
       </div>
       <div class="grid-2" data-animate="fade-up" data-stagger>
-        <div class="highlight-box">
+        <div class="highlight-box card-tint-1">
           <h3><i data-lucide="move-horizontal" style="width:22px;height:22px;color:var(--accent);vertical-align:middle;margin-right:var(--space-sm);"></i> Hallways & Corridors</h3>
           <p>Removing dark paneling, repairing or replacing drywall, adding wainscoting or chair rail, fresh paint in light tones, and updated lighting fixtures that open up the space visually.</p>
         </div>
-        <div class="highlight-box">
+        <div class="highlight-box card-tint-2">
           <h3><i data-lucide="stairs" style="width:22px;height:22px;color:var(--accent);vertical-align:middle;margin-right:var(--space-sm);"></i> Stairwells & Railings</h3>
           <p>Replacing heavy oak balusters with clean square or iron profiles, painting handrails white or matte black, refinishing treads, and adding runner carpeting or removing carpet to expose hardwood.</p>
         </div>
-        <div class="highlight-box">
+        <div class="highlight-box card-tint-3">
           <h3><i data-lucide="door-open" style="width:22px;height:22px;color:var(--accent);vertical-align:middle;margin-right:var(--space-sm);"></i> Foyers & Entryways</h3>
           <p>Your foyer sets the first impression. We update flooring, replace dated light fixtures, add coat closet organization, and install modern trim packages that carry through to the rest of the home.</p>
         </div>
-        <div class="highlight-box">
+        <div class="highlight-box card-tint-neutral">
           <h3><i data-lucide="sofa" style="width:22px;height:22px;color:var(--accent);vertical-align:middle;margin-right:var(--space-sm);"></i> Living Rooms & Landings</h3>
           <p>Open floor plan adjustments, fireplace surround updates, built-in shelving, crown molding, and lighting redesigns that transform how the room functions for your household.</p>
         </div>
@@ -218,17 +224,17 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <div class="container">
       <h2 style="text-align: center; margin-bottom: var(--space-2xl);">Popular Railing & Trim Updates in Richmond</h2>
       <div class="grid-3" data-animate="fade-up" data-stagger>
-        <div class="card" style="padding: var(--space-lg);">
+        <div class="card card-tint-1" style="padding: var(--space-lg);">
           <i data-lucide="columns-3" style="width:36px;height:36px;color:var(--accent);margin-bottom:var(--space-md);"></i>
           <h3>Square Profile Balusters</h3>
           <p>Clean, modern lines that replace turned oak balusters. Painted white or stained to match treads, these create a lighter, more contemporary look on any staircase.</p>
         </div>
-        <div class="card" style="padding: var(--space-lg);">
+        <div class="card card-tint-2" style="padding: var(--space-lg);">
           <i data-lucide="grip-vertical" style="width:36px;height:36px;color:var(--accent);margin-bottom:var(--space-md);"></i>
           <h3>Iron Balusters</h3>
           <p>Wrought iron or hollow metal balusters in matte black add visual weight without bulk. Popular in Hanover and Henrico homes seeking a transitional look between traditional and modern.</p>
         </div>
-        <div class="card" style="padding: var(--space-lg);">
+        <div class="card card-tint-3" style="padding: var(--space-lg);">
           <i data-lucide="panel-top" style="width:36px;height:36px;color:var(--accent);margin-bottom:var(--space-md);"></i>
           <h3>Wainscoting & Chair Rail</h3>
           <p>Board-and-batten or shaker-style wainscoting adds architectural detail to plain hallway walls. A chair rail with two-tone paint above and below creates depth without crowding narrow corridors.</p>

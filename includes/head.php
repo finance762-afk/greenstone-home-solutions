@@ -34,7 +34,7 @@
   <link rel="icon" type="image/png" href="https://i.imgur.com/Tq3YbDp.png">
 
   <!-- Stylesheet -->
-  <link rel="stylesheet" href="/assets/css/styles.css?v=7">
+  <link rel="stylesheet" href="/assets/css/styles.css?v=8">
 
   <!-- Preconnect / DNS Prefetch -->
   <link rel="preconnect" href="https://unpkg.com">

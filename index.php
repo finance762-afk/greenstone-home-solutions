@@ -338,21 +338,21 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section class="stats-section" style="position:relative; overflow:hidden;">
     <div class="stat-watermark" style="right:-40px; bottom:-80px;">500+</div>
     <div class="container" style="position:relative; z-index:1;">
-      <div class="stats-grid">
-        <div class="stat-counter reveal-up" data-animate="fade-up">
-          <div class="stat-number" data-count="10" data-suffix="+">0</div>
+      <div class="stats-grid reveal-up" data-animate="fade-up">
+        <div class="stat-counter">
+          <div class="stat-number" data-count="10" data-suffix="+">10+</div>
           <div class="stat-label">Years of Experience</div>
         </div>
-        <div class="stat-counter reveal-up reveal-delay-1" data-animate="fade-up">
-          <div class="stat-number" data-count="500" data-suffix="+">0</div>
+        <div class="stat-counter">
+          <div class="stat-number" data-count="500" data-suffix="+">500+</div>
           <div class="stat-label">Projects Completed</div>
         </div>
-        <div class="stat-counter reveal-up reveal-delay-2" data-animate="fade-up">
-          <div class="stat-number" data-count="7">0</div>
+        <div class="stat-counter">
+          <div class="stat-number" data-count="7">7</div>
           <div class="stat-label">Service Areas</div>
         </div>
-        <div class="stat-counter reveal-up reveal-delay-3" data-animate="fade-up">
-          <div class="stat-number" data-count="100" data-suffix="%">0</div>
+        <div class="stat-counter">
+          <div class="stat-number" data-count="100" data-suffix="%">100%</div>
           <div class="stat-label">Satisfaction Guarantee</div>
         </div>
       </div>

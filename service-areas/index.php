@@ -41,15 +41,15 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
       <div class="text-center" style="margin-bottom: var(--space-2xl);">
         <span class="eyebrow-label">Where We Work</span>
         <h2>Our Service Area</h2>
-        <p class="section-subtitle prose-centered">We serve homeowners across five counties in the greater Richmond metropolitan area, bringing the same level of craftsmanship to every community.</p>
+        <p class="section-subtitle prose-centered">We serve homeowners across the greater Richmond metropolitan area, bringing the same level of craftsmanship to every community.</p>
       </div>
 
       <div class="grid-3" data-animate="fade-up" data-stagger>
-        <a href="/service-areas/richmond" class="service-card">
+        <a href="/service-areas/richmond-city" class="service-card">
           <i data-lucide="map-pin" class="card-icon"></i>
-          <h3>Richmond</h3>
-          <p>Fan District, Church Hill, Museum District, Carytown, Windsor Farms — historic rowhouses and city-lot homes with architectural character worth preserving.</p>
-          <span class="card-link">View Services in Richmond <i data-lucide="chevron-right" style="width:14px;height:14px;"></i></span>
+          <h3>Richmond City</h3>
+          <p>Fan District, Church Hill, Museum District, Carytown, Scott's Addition, Manchester — historic rowhouses and city-lot homes with architectural character worth preserving.</p>
+          <span class="card-link">View Services in Richmond City <i data-lucide="chevron-right" style="width:14px;height:14px;"></i></span>
         </a>
         <a href="/service-areas/chesterfield-county" class="service-card">
           <i data-lucide="map-pin" class="card-icon"></i>

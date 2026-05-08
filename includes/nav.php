@@ -27,7 +27,7 @@
       <li class="has-dropdown">
         <a href="/service-areas" <?php if ($currentPage === 'service-areas') echo 'aria-current="page"'; ?>>Service Areas</a>
         <ul class="dropdown" role="menu" style="display:none">
-          <li><a href="/service-areas/richmond" role="menuitem">Richmond</a></li>
+          <li><a href="/service-areas/richmond-city" role="menuitem">Richmond City</a></li>
           <li><a href="/service-areas/chesterfield-county" role="menuitem">Chesterfield County</a></li>
           <li><a href="/service-areas/henrico-county" role="menuitem">Henrico County</a></li>
           <li><a href="/service-areas/hanover-county" role="menuitem">Hanover County</a></li>
@@ -75,7 +75,7 @@
   <div class="mobile-dropdown-label">Service Areas <i data-lucide="chevron-down" style="width:18px;height:18px;transition:transform 0.3s ease;"></i></div>
   <div class="mobile-dropdown-items">
     <a href="/service-areas">All Service Areas</a>
-    <a href="/service-areas/richmond">Richmond</a>
+    <a href="/service-areas/richmond-city">Richmond City</a>
     <a href="/service-areas/chesterfield-county">Chesterfield County</a>
     <a href="/service-areas/henrico-county">Henrico County</a>
     <a href="/service-areas/hanover-county">Hanover County</a>

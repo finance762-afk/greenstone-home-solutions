@@ -39,6 +39,7 @@ $schemaMarkup = '[
       "contactType": "customer service",
       "areaServed": [
         {"@type": "City", "name": "Richmond"},
+        {"@type": "AdministrativeArea", "name": "Chesterfield County"},
         {"@type": "AdministrativeArea", "name": "Henrico County"},
         {"@type": "AdministrativeArea", "name": "Hanover County"},
         {"@type": "AdministrativeArea", "name": "King William County"},
@@ -181,7 +182,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
                 <i data-lucide="map-pin" style="width: 20px; height: 20px;"></i>
                 <div>
                   <strong>Service Area</strong>
-                  <p>Richmond, <a href="/service-areas/henrico-county">Henrico County</a>, <a href="/service-areas/hanover-county">Hanover County</a>, <a href="/service-areas/king-william-county">King William County</a>, <a href="/service-areas/new-kent-county">New Kent County</a>, <a href="/service-areas/charles-city-county">Charles City County</a></p>
+                  <p><a href="/service-areas/richmond-city">Richmond City</a>, <a href="/service-areas/chesterfield-county">Chesterfield County</a>, <a href="/service-areas/henrico-county">Henrico County</a>, <a href="/service-areas/hanover-county">Hanover County</a>, <a href="/service-areas/king-william-county">King William County</a>, <a href="/service-areas/new-kent-county">New Kent County</a>, <a href="/service-areas/charles-city-county">Charles City County</a></p>
                 </div>
               </li>
             </ul>

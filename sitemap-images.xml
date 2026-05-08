@@ -104,7 +104,7 @@
 
   <!-- Richmond City -->
   <url>
-    <loc>https://greenstonehomesolutions.com/service-areas/richmond</loc>
+    <loc>https://greenstonehomesolutions.com/service-areas/richmond-city</loc>
     <image:image>
       <image:loc>https://i.imgur.com/rD9LF6J.jpeg</image:loc>
       <image:caption>Kitchen renovation with subway tile and granite countertops by Greenstone Home Solutions in Richmond VA</image:caption>
@@ -249,6 +249,26 @@
       <image:loc>https://i.imgur.com/OG56JL6.jpeg</image:loc>
       <image:caption>Dense healthy green lawn maintained by Greenstone Home Solutions team</image:caption>
       <image:title>Professional Lawn Maintenance</image:title>
+    </image:image>
+  </url>
+
+  <!-- Richmond City -->
+  <url>
+    <loc>https://greenstonehomesolutions.com/service-areas/richmond-city</loc>
+    <image:image>
+      <image:loc>https://i.imgur.com/rD9LF6J.jpeg</image:loc>
+      <image:caption>Kitchen renovation with modern finishes for a Richmond City homeowner by Greenstone Home Solutions</image:caption>
+      <image:title>Kitchen Remodel Richmond City VA</image:title>
+    </image:image>
+  </url>
+
+  <!-- Chesterfield County -->
+  <url>
+    <loc>https://greenstonehomesolutions.com/service-areas/chesterfield-county</loc>
+    <image:image>
+      <image:loc>https://i.imgur.com/jOXKoUD.jpeg</image:loc>
+      <image:caption>Custom patio and outdoor living space built by Greenstone Home Solutions for a Chesterfield County homeowner</image:caption>
+      <image:title>Patio Construction Chesterfield County VA</image:title>
     </image:image>
   </url>
 

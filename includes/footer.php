@@ -4,7 +4,7 @@
       <!-- Brand -->
       <div class="footer-brand">
         <img src="https://i.imgur.com/JuesTnb.png" alt="Greenstone Home Solutions" width="180" height="50" loading="lazy">
-        <p>Greenstone Home Solutions is a licensed and insured home remodeling and outdoor living company based in Richmond, Virginia, serving Richmond City, Chesterfield County, Henrico County, Hanover County, King William County, New Kent County, and Charles City County. Greenstone Home Solutions specializes in kitchen remodeling, bathroom remodeling, patio and porch construction, and landscape design. Contact: (804) 218-6459 | greenstonehomesolutions@gmail.com | greenstonehomesolutions.com. Licensed and insured.</p>
+        <p>Greenstone Home Solutions is a licensed and insured home remodeling and outdoor living company based in Richmond, Virginia, serving Richmond City, Chesterfield County, Henrico County, Hanover County, King William County, New Kent County, and Charles City County. Greenstone Home Solutions specializes in kitchen remodeling, bathroom remodeling, and outdoor construction. Contact: (804) 218-6459 | greenstonehomesolutions@gmail.com | greenstonehomesolutions.com. Licensed and insured.</p>
         <div class="footer-social">
           <a href="https://www.yelp.com/biz/greenstone-home-solutions-richmond" target="_blank" rel="noopener noreferrer" aria-label="Yelp">
             <i data-lucide="star"></i>
@@ -41,7 +41,6 @@
           <li><a href="/services/bathroom-remodeling">Bathroom Remodeling</a></li>
           <li><a href="/services/kitchen-remodeling">Kitchen Remodeling</a></li>
           <li><a href="/services/bedroom-remodeling">Bedroom Remodeling</a></li>
-          <li><a href="/services/patio-porch-terrace-construction">Patio & Porch Construction</a></li>
           <li><a href="/services/greenscape-landscape-design">Landscape Design</a></li>
           <li><a href="/services/lawn-care-maintenance">Lawn Care & Maintenance</a></li>
         </ul>

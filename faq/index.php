@@ -14,7 +14,7 @@ $schemaMarkup    = '[
         "name": "What areas does Greenstone Home Solutions serve?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "We serve Richmond, VA and five surrounding counties: Henrico, Hanover, King William, New Kent, and Charles City. Visit our service areas page for full coverage details."
+          "text": "We serve Richmond City, Chesterfield County, Henrico County, Hanover County, King William County, New Kent County, and Charles City County. Visit our service areas page for full coverage details."
         }
       },
       {
@@ -189,7 +189,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
           </button>
           <div class="faq-answer">
             <div class="faq-answer-inner">
-              <p class="prose">We serve Richmond, VA and five surrounding counties: Henrico, Hanover, King William, New Kent, and Charles City. Each county has unique housing stock and soil conditions we know well. Visit our <a href="/service-areas">service areas page</a> for full coverage details and county-specific information.</p>
+              <p class="prose">We serve Richmond City, Chesterfield County, Henrico County, Hanover County, King William County, New Kent County, and Charles City County. Each area has unique housing stock and soil conditions we know well. Visit our <a href="/service-areas">service areas page</a> for full coverage details and area-specific information.</p>
             </div>
           </div>
         </div>

@@ -237,7 +237,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <div class="container" data-animate="fade-up">
       <h3 style="margin-bottom: var(--space-lg);">Other Areas We Serve</h3>
       <div class="related-services">
-        <a href="/service-areas/richmond" class="related-chip">Richmond</a>
+        <a href="/service-areas/richmond-city" class="related-chip">Richmond City</a>
         <a href="/service-areas/henrico-county" class="related-chip">Henrico County</a>
         <a href="/service-areas/hanover-county" class="related-chip">Hanover County</a>
         <a href="/service-areas/king-william-county" class="related-chip">King William County</a>

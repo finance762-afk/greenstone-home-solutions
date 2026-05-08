@@ -187,7 +187,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           </button>
           <div class="faq-answer">
             <div class="faq-answer-inner">
-              <p>We work on all residential property types in King William County, from older farmhouses needing full interior renovation to newer country homes requiring landscape design, irrigation systems, and outdoor structures like detached garages and workshops.</p>
+              <p>We work on all residential property types in King William County, from older farmhouses needing full interior renovation to newer country homes requiring landscape design, irrigation systems, and custom patios or porch additions.</p>
             </div>
           </div>
         </div>

@@ -101,7 +101,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         <div class="split-content reveal-up">
           <p class="prose"><strong>Greenstone Home Solutions is a licensed and insured home renovation and landscape design company based in Richmond, Virginia.</strong> Founded by Lucas Walton, the company delivers a rare combination of interior remodeling craftsmanship and science-driven outdoor living design to homeowners across the greater Richmond metro area.</p>
 
-          <p class="prose">Lucas's path into the trades began during his Virginia Tech years, when he worked on home renovation projects in Virginia while completing his degree &mdash; framing, tile work, and finish carpentry learned from seasoned tradespeople on real job sites. That hands-on foundation became the start of a career that would eventually bridge two industries most contractors treat as entirely separate: indoor renovation and outdoor design.</p>
+          <p class="prose">Lucas grew up around construction sites. By his college years, he was already learning the fundamentals of framing, tile work, and finish carpentry from experienced tradespeople in Virginia. That early exposure became the foundation for a career that would eventually bridge two industries most contractors treat as entirely separate: indoor renovation and outdoor design.</p>
 
           <p class="prose">In 2017, Lucas graduated from Virginia Tech with a Bachelor of Science in Environmental Horticulture and a minor in Crop and Soil Sciences. His coursework covered plant physiology, pest and disease diagnostics, soil chemistry, irrigation engineering, and sustainable landscape management. These are not theoretical subjects for Lucas — they directly inform how he selects hardy plant varieties for Virginia's clay-heavy soils, how he engineers drainage solutions for <a href="/services/patio-porch-terrace-construction">patios and terraces</a>, and how he designs <a href="/services/greenscape-landscape-design">landscape installations</a> that thrive through Richmond's humid summers and unpredictable freeze-thaw cycles.</p>
 
@@ -237,7 +237,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
       <p class="prose-centered">Greenstone Home Solutions serves homeowners across five counties in the greater Richmond, Virginia metro area. Whether you need interior renovation, outdoor construction, or a full-property transformation, we bring the same level of craftsmanship to every community we work in.</p>
 
       <div class="related-services" style="margin-top: var(--space-xl);">
-        <a href="/service-areas/richmond" class="county-chip">Richmond</a>
+        <a href="/service-areas/richmond-city" class="county-chip">Richmond City</a>
         <a href="/service-areas/chesterfield-county" class="county-chip">Chesterfield County</a>
         <a href="/service-areas/henrico-county" class="county-chip">Henrico County</a>
         <a href="/service-areas/hanover-county" class="county-chip">Hanover County</a>

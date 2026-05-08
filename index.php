@@ -33,7 +33,6 @@ $schemaMarkup = '[
     },
     "areaServed": [
       {"@type": "City", "name": "Richmond, Virginia"},
-      {"@type": "AdministrativeArea", "name": "Richmond, Virginia"},
       {"@type": "AdministrativeArea", "name": "Chesterfield County, Virginia"},
       {"@type": "AdministrativeArea", "name": "Henrico County, Virginia"},
       {"@type": "AdministrativeArea", "name": "Hanover County, Virginia"},
@@ -431,7 +430,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
             <p>Greenstone Home Solutions serves homeowners across the greater Richmond metro area including Richmond City, Chesterfield County, Henrico County, Hanover County, King William County, New Kent County, and Charles City County. Whether you need a <a href="/services/bathroom-remodeling" style="color: var(--primary); font-weight: 600;">bathroom remodel</a> in Henrico or a <a href="/services/greenscape-landscape-design" style="color: var(--primary); font-weight: 600;">landscape redesign</a> in Chesterfield, we bring the same craftsmanship to every project.</p>
           </div>
           <div class="county-list">
-            <a href="/service-areas/richmond" class="county-chip"><i data-lucide="map-pin"></i> Richmond</a>
+            <a href="/service-areas/richmond-city" class="county-chip"><i data-lucide="map-pin"></i> Richmond City</a>
             <a href="/service-areas/chesterfield-county" class="county-chip"><i data-lucide="map-pin"></i> Chesterfield County</a>
             <a href="/service-areas/henrico-county" class="county-chip"><i data-lucide="map-pin"></i> Henrico County</a>
             <a href="/service-areas/hanover-county" class="county-chip"><i data-lucide="map-pin"></i> Hanover County</a>

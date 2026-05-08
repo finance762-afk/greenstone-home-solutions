@@ -299,6 +299,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         <a href="/services/laundry-room-remodeling" class="related-chip">Laundry Room Remodeling</a>
         <a href="/services/design-services" class="related-chip">Design Services</a>
         <a href="/services/bathroom-remodeling" class="related-chip">Bathroom Remodeling</a>
+        <a href="/services/kitchen-remodeling" class="related-chip">Kitchen Remodeling</a>
       </div>
       <p class="last-updated">Last Updated: <?php echo date('F Y'); ?></p>
     </div>

@@ -102,7 +102,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         <!-- LEFT: Form -->
         <div class="reveal-up">
           <h2 class="section-title" style="text-align: left; margin-bottom: var(--space-xl);">Request a Free Estimate</h2>
-          <form action="https://formsubmit.co/greenstonehomesolutions@gmail.com" method="POST">
+          <form action="https://db.pageone.cloud/functions/v1/leads/greenstone-home-solutions" method="POST">
             <input type="hidden" name="_next" value="https://greenstonehomesolutions.com/thank-you">
             <input type="hidden" name="_captcha" value="false">
             <input type="hidden" name="_honey" value="">

@@ -2,7 +2,7 @@
 $pageTitle       = "Home Renovation & Landscaping in King William County, VA | Greenstone Home Solutions";
 $pageDescription = "Greenstone Home Solutions serves King William County, VA with bathroom remodeling, kitchen renovation, irrigation, lawn care, deck construction & more. Call (804) 218-6459.";
 $canonicalUrl    = "https://greenstonehomesolutions.com/service-areas/king-william-county";
-$ogImage         = "https://i.imgur.com/64BxPuI.jpeg";
+$ogImage         = "/assets/images/custom-tile-shower-installation-completed-by-gre-960.webp";
 $currentPage     = "service-areas";
 $heroImage       = "";
 $useSwiper       = false;
@@ -79,7 +79,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           <a href="/contact" class="btn-primary" style="margin-top: var(--space-xl);">Schedule a Consultation <i data-lucide="chevron-right" style="width:18px;height:18px;"></i></a>
         </div>
         <div class="service-img reveal-left" data-animate="wipe-right">
-          <img src="https://i.imgur.com/64BxPuI.jpeg" alt="Custom tile shower installation completed by Greenstone Home Solutions in King William County, VA" width="800" height="600" loading="lazy" style="aspect-ratio:4/3; object-fit:cover; border-radius: var(--radius);">
+          <img src="/assets/images/custom-tile-shower-installation-completed-by-gre-960.webp" srcset="/assets/images/custom-tile-shower-installation-completed-by-gre-480.webp 480w, /assets/images/custom-tile-shower-installation-completed-by-gre-960.webp 960w" sizes="(max-width: 768px) 100vw, 800px" alt="Custom tile shower installation completed by Greenstone Home Solutions in King William County, VA" width="800" height="600" loading="lazy" style="aspect-ratio:4/3; object-fit:cover; border-radius: var(--radius);">
         </div>
       </div>
     </div>
@@ -113,7 +113,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <div class="container">
       <div class="split-reverse" data-animate="fade-up">
         <div class="service-img reveal-left" data-animate="wipe-right">
-          <img src="https://i.imgur.com/PY64Pn5.jpeg" alt="Irrigation sprinkler head installed on a large King William County lawn by Greenstone Home Solutions" width="800" height="600" loading="lazy" style="aspect-ratio:4/3; object-fit:cover; border-radius: var(--radius);">
+          <img src="/assets/images/irrigation-sprinkler-head-installed-on-a-large-k-960.webp" srcset="/assets/images/irrigation-sprinkler-head-installed-on-a-large-k-480.webp 480w, /assets/images/irrigation-sprinkler-head-installed-on-a-large-k-960.webp 960w" sizes="(max-width: 768px) 100vw, 800px" alt="Irrigation sprinkler head installed on a large King William County lawn by Greenstone Home Solutions" width="800" height="600" loading="lazy" style="aspect-ratio:4/3; object-fit:cover; border-radius: var(--radius);">
         </div>
         <div class="reveal-up">
           <h2>Irrigation & Land Management for Large Lots</h2>

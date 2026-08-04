@@ -2,9 +2,9 @@
 $pageTitle       = "Greenstone Home Solutions | Home Remodeling & Landscape Design in Richmond, VA";
 $pageDescription = "Greenstone Home Solutions provides expert home remodeling, kitchen and bathroom renovations, outdoor construction, and landscape design in Richmond, Virginia and surrounding counties. Call (804) 218-6459.";
 $canonicalUrl    = "https://greenstonehomesolutions.com";
-$ogImage         = "https://i.imgur.com/CN2OKqv.jpeg";
+$ogImage         = "/assets/images/greenstone-home-solutions-farmhouse-renovation-b-480.webp";
 $currentPage     = "home";
-$heroImage       = "https://i.imgur.com/jOXKoUD.jpeg";
+$heroImage       = "/assets/images/custom-stone-patio-with-pergola-and-outdoor-fire-1600.webp";
 $useSwiper       = false;
 $useTilt         = false;
 $useTyped        = false;
@@ -19,7 +19,7 @@ $schemaMarkup = '[
     "url": "https://greenstonehomesolutions.com",
     "telephone": "(804) 218-6459",
     "email": "greenstonehomesolutions@gmail.com",
-    "image": "https://i.imgur.com/JuesTnb.png",
+    "image": "/assets/images/logo.png",
     "priceRange": "$$",
     "founder": {
       "@type": "Person",
@@ -176,7 +176,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           <a href="/about" class="btn-primary" style="margin-top: var(--space-xl);">Meet Our Team <i data-lucide="chevron-right" style="width:18px;height:18px;"></i></a>
         </div>
         <div class="img-framed">
-          <img src="https://i.imgur.com/jOXKoUD.jpeg" alt="Custom stone patio with pergola and outdoor fireplace built by Greenstone Home Solutions in Richmond, VA" width="800" height="600" loading="lazy">
+          <img src="/assets/images/custom-stone-patio-with-pergola-and-outdoor-fire-960.webp" srcset="/assets/images/custom-stone-patio-with-pergola-and-outdoor-fire-480.webp 480w, /assets/images/custom-stone-patio-with-pergola-and-outdoor-fire-960.webp 960w, /assets/images/custom-stone-patio-with-pergola-and-outdoor-fire-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 800px" alt="Custom stone patio with pergola and outdoor fireplace built by Greenstone Home Solutions in Richmond, VA" width="800" height="600" loading="lazy">
         </div>
       </div>
     </div>
@@ -294,7 +294,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
       <div class="showcase-grid" data-animate="fade-up">
         <div class="showcase-item">
           <span class="showcase-label">Before & After</span>
-          <img src="https://i.imgur.com/TmwpMiR.jpeg" alt="Before and after bedroom remodel by Greenstone Home Solutions — new flooring, paint, and trim work in Richmond, VA" width="800" height="1000" loading="lazy">
+          <img src="/assets/images/before-and-after-bedroom-remodel-by-greenstone-h-480.webp" alt="Before and after bedroom remodel by Greenstone Home Solutions — new flooring, paint, and trim work in Richmond, VA" width="800" height="1000" loading="lazy">
           <div class="showcase-caption">
             <h3>Bedroom Renovation</h3>
             <p>New flooring, fresh paint, updated trim — a complete room transformation.</p>
@@ -303,7 +303,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 
         <div class="showcase-item">
           <span class="showcase-label">Before & After</span>
-          <img src="https://i.imgur.com/QyW3uBL.jpeg" alt="Before and after bedroom remodel with teal accent wall by Greenstone Home Solutions in Richmond, VA" width="800" height="1000" loading="lazy">
+          <img src="/assets/images/before-and-after-bedroom-remodel-with-teal-accen-480.webp" alt="Before and after bedroom remodel with teal accent wall by Greenstone Home Solutions in Richmond, VA" width="800" height="1000" loading="lazy">
           <div class="showcase-caption">
             <h3>Bedroom Redesign</h3>
             <p>Bold accent wall, new flooring, and modern fixtures create a completely new feel.</p>
@@ -312,7 +312,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 
         <div class="showcase-item">
           <span class="showcase-label">Before & After</span>
-          <img src="https://i.imgur.com/s6CaPFG.jpeg" alt="Before and after hallway and landing remodel by Greenstone Home Solutions in Richmond, VA" width="800" height="1000" loading="lazy">
+          <img src="/assets/images/before-and-after-hallway-and-landing-remodel-by-480.webp" alt="Before and after hallway and landing remodel by Greenstone Home Solutions in Richmond, VA" width="800" height="1000" loading="lazy">
           <div class="showcase-caption">
             <h3>Hallway & Landing Remodel</h3>
             <p>Updated railing, new flooring, and fresh paint transform an overlooked space.</p>
@@ -321,7 +321,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 
         <div class="showcase-item">
           <span class="showcase-label">Before & After</span>
-          <img src="https://i.imgur.com/GUyKwFV.jpeg" alt="Before and after TV mount with hidden wiring by Greenstone Home Solutions in Richmond, VA" width="800" height="600" loading="lazy">
+          <img src="/assets/images/before-and-after-tv-mount-with-hidden-wiring-by-960.webp" srcset="/assets/images/before-and-after-tv-mount-with-hidden-wiring-by-480.webp 480w, /assets/images/before-and-after-tv-mount-with-hidden-wiring-by-960.webp 960w" sizes="(max-width: 768px) 100vw, 800px" alt="Before and after TV mount with hidden wiring by Greenstone Home Solutions in Richmond, VA" width="800" height="600" loading="lazy">
           <div class="showcase-caption">
             <h3>Clean TV Installation</h3>
             <p>Professional wall mount with completely hidden wiring for a seamless look.</p>
@@ -411,7 +411,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           </div>
         </div>
         <div class="img-framed reveal-left" data-animate="wipe-right">
-          <img src="https://i.imgur.com/RpfvKM4.jpeg" alt="Custom built-in shelving with integrated lighting by Greenstone Home Solutions in Richmond, VA" width="600" height="800" loading="lazy">
+          <img src="/assets/images/custom-built-in-shelving-with-integrated-lightin-960.webp" srcset="/assets/images/custom-built-in-shelving-with-integrated-lightin-480.webp 480w, /assets/images/custom-built-in-shelving-with-integrated-lightin-960.webp 960w, /assets/images/custom-built-in-shelving-with-integrated-lightin-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 600px" alt="Custom built-in shelving with integrated lighting by Greenstone Home Solutions in Richmond, VA" width="600" height="800" loading="lazy">
         </div>
       </div>
     </div>

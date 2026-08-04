@@ -2,7 +2,7 @@
 $pageTitle       = "Lawn Care & Maintenance in Richmond, VA | Greenstone Home Solutions";
 $pageDescription = "Science-based lawn care in Richmond, VA — mowing, fertilization, aeration, overseeding, weed control. $150–$400/month. Call (804) 218-6459 for a free lawn assessment.";
 $canonicalUrl    = "https://greenstonehomesolutions.com/services/lawn-care-maintenance";
-$ogImage         = "https://i.imgur.com/OG56JL6.jpeg";
+$ogImage         = "/assets/images/dense-healthy-green-lawn-maintained-by-greenston-960.webp";
 $currentPage     = "services";
 $heroImage       = "";
 $useSwiper       = false;
@@ -119,7 +119,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           <p class="prose">Lucas holds a B.S. in Environmental Horticulture with a minor in Crop and Soil Sciences from Virginia Tech. His turf science training means we approach lawn care the way an agronomist would — with soil tests, grass variety identification, and targeted treatment plans rather than generic spray-and-pray schedules.</p>
         </div>
         <div class="service-img reveal-right">
-          <img src="https://i.imgur.com/OG56JL6.jpeg" alt="Dense healthy green lawn maintained by Greenstone Home Solutions in Richmond VA" width="800" height="600" loading="lazy">
+          <img src="/assets/images/dense-healthy-green-lawn-maintained-by-greenston-960.webp" srcset="/assets/images/dense-healthy-green-lawn-maintained-by-greenston-480.webp 480w, /assets/images/dense-healthy-green-lawn-maintained-by-greenston-960.webp 960w" sizes="(max-width: 768px) 100vw, 800px" alt="Dense healthy green lawn maintained by Greenstone Home Solutions in Richmond VA" width="800" height="600" loading="lazy">
         </div>
       </div>
     </div>

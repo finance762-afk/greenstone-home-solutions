@@ -2,7 +2,7 @@
 $pageTitle       = "Remodeling & Outdoor Living in Chesterfield County, VA | Greenstone Home Solutions";
 $pageDescription = "Kitchen and bathroom remodeling, patio construction, landscape design, and irrigation for Chesterfield County, VA. Midlothian, Chester, Bon Air, Brandermill, Woodlake, Moseley. Call (804) 218-6459.";
 $canonicalUrl    = "https://greenstonehomesolutions.com/service-areas/chesterfield-county";
-$ogImage         = "https://i.imgur.com/qfmHYwo.jpeg";
+$ogImage         = "/assets/images/completed-shower-remodel-in-richmond-city-va-by-960.webp";
 $currentPage     = "service-areas";
 $heroImage       = "";
 $useSwiper       = false;
@@ -66,7 +66,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <div class="container">
       <div class="split-reverse">
         <div class="service-img" data-animate="wipe-right">
-          <img src="https://i.imgur.com/nqzt0xW.jpeg" alt="Landscape bed with perennials and river rock border installed by Greenstone Home Solutions in Chesterfield County VA" width="800" height="600" loading="lazy">
+          <img src="/assets/images/curved-landscape-bed-with-perennials-and-greensc-960.webp" srcset="/assets/images/curved-landscape-bed-with-perennials-and-greensc-480.webp 480w, /assets/images/curved-landscape-bed-with-perennials-and-greensc-960.webp 960w" sizes="(max-width: 768px) 100vw, 800px" alt="Landscape bed with perennials and river rock border installed by Greenstone Home Solutions in Chesterfield County VA" width="800" height="600" loading="lazy">
         </div>
         <div>
           <p class="prose" style="margin-bottom: var(--space-lg);"><strong>Greenstone Home Solutions provides remodeling, landscaping, and hardscaping services in Chesterfield County, Virginia.</strong> Greenstone Home Solutions is a licensed and insured remodeling and landscape design company based in Richmond, serving Chesterfield County communities including Midlothian, Chester, Bon Air, Brandermill, Woodlake, Moseley, and the Hull Street Road corridor.</p>
@@ -88,7 +88,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           <p class="prose" data-animate="fade-up">Bon Air and Chester sit at the older end of Chesterfield&rsquo;s housing stock, with homes built from the 1960s through 1980s that benefit most from full kitchen and bathroom renovations, flooring replacement, and trim updates. Moseley and the newer communities west of Route 288 are at the other end &mdash; newer construction where the interiors are modern but the landscaping is still the developer&rsquo;s original install. We work across all of it, scaling our approach to the home and the neighborhood.</p>
         </div>
         <div class="service-img" data-animate="wipe-right">
-          <img src="https://i.imgur.com/jOXKoUD.jpeg" alt="Paver patio with pergola and outdoor fireplace built by Greenstone Home Solutions for a Chesterfield County VA home" width="800" height="600" loading="lazy">
+          <img src="/assets/images/custom-stone-patio-with-pergola-and-outdoor-fire-960.webp" srcset="/assets/images/custom-stone-patio-with-pergola-and-outdoor-fire-480.webp 480w, /assets/images/custom-stone-patio-with-pergola-and-outdoor-fire-960.webp 960w, /assets/images/custom-stone-patio-with-pergola-and-outdoor-fire-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 800px" alt="Paver patio with pergola and outdoor fireplace built by Greenstone Home Solutions for a Chesterfield County VA home" width="800" height="600" loading="lazy">
         </div>
       </div>
     </div>
@@ -170,7 +170,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <div class="container">
       <div class="split-reverse">
         <div class="service-img" data-animate="wipe-right">
-          <img src="https://i.imgur.com/PY64Pn5.jpeg" alt="Irrigation sprinkler head installed in a Chesterfield County VA lawn by Greenstone Home Solutions" width="800" height="600" loading="lazy">
+          <img src="/assets/images/irrigation-sprinkler-head-installed-on-a-large-k-960.webp" srcset="/assets/images/irrigation-sprinkler-head-installed-on-a-large-k-480.webp 480w, /assets/images/irrigation-sprinkler-head-installed-on-a-large-k-960.webp 960w" sizes="(max-width: 768px) 100vw, 800px" alt="Irrigation sprinkler head installed in a Chesterfield County VA lawn by Greenstone Home Solutions" width="800" height="600" loading="lazy">
         </div>
         <div>
           <span class="eyebrow-label" data-animate="fade-up">Large-Lot Outdoor Work</span>

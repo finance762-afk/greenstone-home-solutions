@@ -32,10 +32,10 @@
   <?php endif; ?>
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="https://i.imgur.com/Tq3YbDp.png">
+  <link rel="icon" type="image/png" href="/assets/images/logo-2.png">
 
   <!-- Stylesheet -->
-  <link rel="stylesheet" href="/assets/css/styles.css?v=9">
+  <link rel="stylesheet" href="/assets/css/styles.css?v=10">
 
   <!-- Preconnect / DNS Prefetch -->
   <link rel="preconnect" href="https://unpkg.com">

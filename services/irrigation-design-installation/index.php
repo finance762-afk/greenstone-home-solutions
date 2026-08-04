@@ -2,7 +2,7 @@
 $pageTitle       = "Irrigation Design & Installation in Richmond, VA | Greenstone Home Solutions";
 $pageDescription = "Irrigation systems and drainage solutions in Richmond, VA — sprinklers, drip irrigation, channel drains, French drains. $1,500–$8,000. Call (804) 218-6459.";
 $canonicalUrl    = "https://greenstonehomesolutions.com/services/irrigation-design-installation";
-$ogImage         = "https://i.imgur.com/PY64Pn5.jpeg";
+$ogImage         = "/assets/images/irrigation-sprinkler-head-installed-on-a-large-k-960.webp";
 $currentPage     = "services";
 $heroImage       = "";
 $useSwiper       = false;
@@ -119,7 +119,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           <p class="prose">This approach saves water, reduces runoff, and keeps your landscape healthier. Overwatering is the number one cause of root rot and fungal disease in residential landscapes across the Richmond area. A properly zoned system prevents that.</p>
         </div>
         <div class="service-img reveal-right">
-          <img src="https://i.imgur.com/PY64Pn5.jpeg" alt="Pop-up sprinkler head installed flush in ground cover by Greenstone Home Solutions in Richmond VA" width="800" height="600" loading="lazy">
+          <img src="/assets/images/irrigation-sprinkler-head-installed-on-a-large-k-960.webp" srcset="/assets/images/irrigation-sprinkler-head-installed-on-a-large-k-480.webp 480w, /assets/images/irrigation-sprinkler-head-installed-on-a-large-k-960.webp 960w" sizes="(max-width: 768px) 100vw, 800px" alt="Pop-up sprinkler head installed flush in ground cover by Greenstone Home Solutions in Richmond VA" width="800" height="600" loading="lazy">
         </div>
       </div>
     </div>
@@ -144,15 +144,15 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
       <p class="prose" style="margin-bottom: var(--space-2xl);" data-animate="fade-up">A properly installed irrigation system is invisible when it is working and easy to maintain when it needs service. Here is what the installation process looks like — from the initial trench work through final head adjustment and zone programming.</p>
       <div class="service-gallery" data-animate="fade-up" data-stagger>
         <div class="service-gallery-item">
-          <img src="https://i.imgur.com/UfjHreO.jpeg" alt="Irrigation trench with pipe and sprinkler head being set during installation in Richmond VA" width="800" height="600" loading="lazy">
+          <img src="/assets/images/irrigation-trench-with-pipe-and-sprinkler-head-b-960.webp" srcset="/assets/images/irrigation-trench-with-pipe-and-sprinkler-head-b-480.webp 480w, /assets/images/irrigation-trench-with-pipe-and-sprinkler-head-b-960.webp 960w" sizes="(max-width: 768px) 100vw, 800px" alt="Irrigation trench with pipe and sprinkler head being set during installation in Richmond VA" width="800" height="600" loading="lazy">
           <div class="gallery-caption">Trenching &amp; head placement</div>
         </div>
         <div class="service-gallery-item">
-          <img src="https://i.imgur.com/PY64Pn5.jpeg" alt="Pop-up sprinkler head installed flush with ground cover in Richmond VA lawn" width="800" height="600" loading="lazy">
+          <img src="/assets/images/irrigation-sprinkler-head-installed-on-a-large-k-960.webp" srcset="/assets/images/irrigation-sprinkler-head-installed-on-a-large-k-480.webp 480w, /assets/images/irrigation-sprinkler-head-installed-on-a-large-k-960.webp 960w" sizes="(max-width: 768px) 100vw, 800px" alt="Pop-up sprinkler head installed flush with ground cover in Richmond VA lawn" width="800" height="600" loading="lazy">
           <div class="gallery-caption">Pop-up head flush install</div>
         </div>
         <div class="service-gallery-item">
-          <img src="https://i.imgur.com/Z7J5rzU.jpeg" alt="Old corroded irrigation valves being replaced during system renovation in Richmond VA" width="800" height="600" loading="lazy">
+          <img src="/assets/images/old-corroded-irrigation-valves-being-replaced-du-960.webp" srcset="/assets/images/old-corroded-irrigation-valves-being-replaced-du-480.webp 480w, /assets/images/old-corroded-irrigation-valves-being-replaced-du-960.webp 960w" sizes="(max-width: 768px) 100vw, 800px" alt="Old corroded irrigation valves being replaced during system renovation in Richmond VA" width="800" height="600" loading="lazy">
           <div class="gallery-caption">Corroded valve replacement</div>
         </div>
       </div>
@@ -164,7 +164,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <div class="container">
       <div class="split-reverse">
         <div class="service-img reveal-left" data-animate="wipe-right">
-          <img src="https://i.imgur.com/UfjHreO.jpeg" alt="Irrigation pipe and sprinkler head installation in progress in a Richmond VA residential yard" width="800" height="600" loading="lazy">
+          <img src="/assets/images/irrigation-trench-with-pipe-and-sprinkler-head-b-960.webp" srcset="/assets/images/irrigation-trench-with-pipe-and-sprinkler-head-b-480.webp 480w, /assets/images/irrigation-trench-with-pipe-and-sprinkler-head-b-960.webp 960w" sizes="(max-width: 768px) 100vw, 800px" alt="Irrigation pipe and sprinkler head installation in progress in a Richmond VA residential yard" width="800" height="600" loading="lazy">
         </div>
         <div class="reveal-right">
           <h2 data-animate="fade-up">Sprinkler &amp; Drip Irrigation Systems</h2>
@@ -210,15 +210,15 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
       <p class="prose" style="margin-bottom: var(--space-2xl);" data-animate="fade-up">Water pooling against your foundation is not just a landscaping problem — it is a structural threat. Richmond's clay-heavy soils in many neighborhoods drain slowly, especially during the heavy spring rains that are common in Virginia. Channel drains, French drains, and downspout redirections move water away from your foundation before damage occurs.</p>
       <div class="service-gallery" data-animate="fade-up" data-stagger>
         <div class="service-gallery-item">
-          <img src="https://i.imgur.com/9DHmrI4.jpeg" alt="Downspout area prepped for channel drain installation at Richmond VA home" width="800" height="600" loading="lazy">
+          <img src="/assets/images/downspout-area-prepped-for-channel-drain-install-960.webp" srcset="/assets/images/downspout-area-prepped-for-channel-drain-install-480.webp 480w, /assets/images/downspout-area-prepped-for-channel-drain-install-960.webp 960w, /assets/images/downspout-area-prepped-for-channel-drain-install-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 800px" alt="Downspout area prepped for channel drain installation at Richmond VA home" width="800" height="600" loading="lazy">
           <div class="gallery-caption">Downspout area prep</div>
         </div>
         <div class="service-gallery-item">
-          <img src="https://i.imgur.com/Dehigaz.jpeg" alt="Channel drain installed along foundation of Richmond VA residence" width="800" height="600" loading="lazy">
+          <img src="/assets/images/channel-drain-installed-along-foundation-of-rich-960.webp" srcset="/assets/images/channel-drain-installed-along-foundation-of-rich-480.webp 480w, /assets/images/channel-drain-installed-along-foundation-of-rich-960.webp 960w, /assets/images/channel-drain-installed-along-foundation-of-rich-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 800px" alt="Channel drain installed along foundation of Richmond VA residence" width="800" height="600" loading="lazy">
           <div class="gallery-caption">Foundation channel drain</div>
         </div>
         <div class="service-gallery-item">
-          <img src="https://i.imgur.com/F7VlHNd.jpeg" alt="L-shape channel drains installed along patio corner for water management in Richmond VA" width="800" height="600" loading="lazy">
+          <img src="/assets/images/channel-drains-installed-along-a-patio-by-greens-960.webp" srcset="/assets/images/channel-drains-installed-along-a-patio-by-greens-480.webp 480w, /assets/images/channel-drains-installed-along-a-patio-by-greens-960.webp 960w, /assets/images/channel-drains-installed-along-a-patio-by-greens-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 800px" alt="L-shape channel drains installed along patio corner for water management in Richmond VA" width="800" height="600" loading="lazy">
           <div class="gallery-caption">Patio corner L-drain</div>
         </div>
       </div>
@@ -252,7 +252,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           </ul>
         </div>
         <div class="service-img reveal-right" data-animate="wipe-right">
-          <img src="https://i.imgur.com/Dehigaz.jpeg" alt="Completed channel drain along home foundation protecting against water damage in Richmond VA" width="800" height="600" loading="lazy">
+          <img src="/assets/images/channel-drain-installed-along-foundation-of-rich-960.webp" srcset="/assets/images/channel-drain-installed-along-foundation-of-rich-480.webp 480w, /assets/images/channel-drain-installed-along-foundation-of-rich-960.webp 960w, /assets/images/channel-drain-installed-along-foundation-of-rich-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 800px" alt="Completed channel drain along home foundation protecting against water damage in Richmond VA" width="800" height="600" loading="lazy">
         </div>
       </div>
     </div>

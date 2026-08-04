@@ -2,7 +2,7 @@
 $pageTitle       = "Home Renovation & Landscaping in Charles City County, VA | Greenstone Home Solutions";
 $pageDescription = "Greenstone Home Solutions serves Charles City County, VA — bathroom remodeling, kitchen renovation, landscape design, lawn care, building additions & more. Call (804) 218-6459.";
 $canonicalUrl    = "https://greenstonehomesolutions.com/service-areas/charles-city-county";
-$ogImage         = "https://i.imgur.com/TmwpMiR.jpeg";
+$ogImage         = "/assets/images/before-and-after-bedroom-remodel-by-greenstone-h-480.webp";
 $currentPage     = "service-areas";
 $heroImage       = "";
 $useSwiper       = false;
@@ -93,7 +93,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           <a href="/contact" class="btn-primary" style="margin-top: var(--space-xl);">Schedule a Consultation <i data-lucide="chevron-right" style="width:18px;height:18px;"></i></a>
         </div>
         <div class="service-img reveal-left" data-animate="wipe-right">
-          <img src="https://i.imgur.com/TmwpMiR.jpeg" alt="Before and after bedroom renovation by Greenstone Home Solutions in Charles City County, VA" width="800" height="600" loading="lazy" style="aspect-ratio:4/3; object-fit:cover; border-radius: var(--radius);">
+          <img src="/assets/images/before-and-after-bedroom-remodel-by-greenstone-h-480.webp" alt="Before and after bedroom renovation by Greenstone Home Solutions in Charles City County, VA" width="800" height="600" loading="lazy" style="aspect-ratio:4/3; object-fit:cover; border-radius: var(--radius);">
         </div>
       </div>
     </div>
@@ -126,7 +126,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <div class="container">
       <div class="split-reverse" data-animate="fade-up">
         <div class="service-img reveal-left" data-animate="wipe-right">
-          <img src="https://i.imgur.com/F7VlHNd.jpeg" alt="Channel drains installed along a patio by Greenstone Home Solutions in Charles City County, VA" width="800" height="600" loading="lazy" style="aspect-ratio:4/3; object-fit:cover; border-radius: var(--radius);">
+          <img src="/assets/images/channel-drains-installed-along-a-patio-by-greens-960.webp" srcset="/assets/images/channel-drains-installed-along-a-patio-by-greens-480.webp 480w, /assets/images/channel-drains-installed-along-a-patio-by-greens-960.webp 960w, /assets/images/channel-drains-installed-along-a-patio-by-greens-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 800px" alt="Channel drains installed along a patio by Greenstone Home Solutions in Charles City County, VA" width="800" height="600" loading="lazy" style="aspect-ratio:4/3; object-fit:cover; border-radius: var(--radius);">
         </div>
         <div class="reveal-up">
           <h2>Drainage, Irrigation & Outdoor Solutions</h2>

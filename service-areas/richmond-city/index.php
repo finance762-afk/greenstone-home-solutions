@@ -2,7 +2,7 @@
 $pageTitle       = "Home Renovation & Landscaping in Richmond City, VA | Greenstone Home Solutions";
 $pageDescription = "Greenstone Home Solutions serves Richmond City, VA — kitchen remodeling, bathroom renovation, landscape design, patio construction, and more. Call (804) 218-6459 for a free estimate.";
 $canonicalUrl    = "https://greenstonehomesolutions.com/service-areas/richmond-city";
-$ogImage         = "https://i.imgur.com/rD9LF6J.jpeg";
+$ogImage         = "/assets/images/kitchen-renovation-with-modern-finishes-for-a-ri-1600.webp";
 $currentPage     = "service-areas";
 $heroImage       = "";
 $useSwiper       = false;
@@ -71,7 +71,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           <p class="prose">If you are searching for home renovation near me in Richmond City, Greenstone brings the same craftsmanship we deliver across the metro area to every project within city limits.</p>
         </div>
         <div class="service-img">
-          <img src="https://i.imgur.com/rD9LF6J.jpeg" alt="Kitchen renovation with modern finishes for a Richmond City homeowner by Greenstone Home Solutions" width="800" height="600" loading="lazy">
+          <img src="/assets/images/kitchen-renovation-with-modern-finishes-for-a-ri-960.webp" srcset="/assets/images/kitchen-renovation-with-modern-finishes-for-a-ri-480.webp 480w, /assets/images/kitchen-renovation-with-modern-finishes-for-a-ri-960.webp 960w, /assets/images/kitchen-renovation-with-modern-finishes-for-a-ri-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 800px" alt="Kitchen renovation with modern finishes for a Richmond City homeowner by Greenstone Home Solutions" width="800" height="600" loading="lazy">
         </div>
       </div>
     </div>
@@ -153,7 +153,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <div class="container">
       <div class="split-reverse">
         <div class="service-img" data-animate="wipe-right">
-          <img src="https://i.imgur.com/qfmHYwo.jpeg" alt="Completed shower remodel in Richmond City VA by Greenstone Home Solutions" width="600" height="800" loading="lazy">
+          <img src="/assets/images/completed-shower-remodel-in-richmond-city-va-by-960.webp" srcset="/assets/images/completed-shower-remodel-in-richmond-city-va-by-480.webp 480w, /assets/images/completed-shower-remodel-in-richmond-city-va-by-960.webp 960w" sizes="(max-width: 768px) 100vw, 600px" alt="Completed shower remodel in Richmond City VA by Greenstone Home Solutions" width="600" height="800" loading="lazy">
         </div>
         <div>
           <span class="eyebrow-label" data-animate="fade-up">Local Knowledge</span>

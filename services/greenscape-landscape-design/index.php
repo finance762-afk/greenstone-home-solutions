@@ -2,7 +2,7 @@
 $pageTitle       = "Greenscape & Landscape Design in Richmond, VA | Greenstone Home Solutions";
 $pageDescription = "Custom landscape design in Richmond, VA backed by Virginia Tech horticultural science. Curved beds, native plants, soil analysis. $3K–$15K+. Call (804) 218-6459.";
 $canonicalUrl    = "https://greenstonehomesolutions.com/services/greenscape-landscape-design";
-$ogImage         = "https://i.imgur.com/nqzt0xW.jpeg";
+$ogImage         = "/assets/images/curved-landscape-bed-with-perennials-and-greensc-960.webp";
 $currentPage     = "services";
 $heroImage       = "";
 $useSwiper       = false;
@@ -114,7 +114,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <div class="container">
       <div class="split-reverse">
         <div class="service-img reveal-left">
-          <img src="https://i.imgur.com/nqzt0xW.jpeg" alt="Curved river-rock garden bed with colorful perennials installed by Greenstone Home Solutions in Richmond VA" width="800" height="600" loading="lazy">
+          <img src="/assets/images/curved-landscape-bed-with-perennials-and-greensc-960.webp" srcset="/assets/images/curved-landscape-bed-with-perennials-and-greensc-480.webp 480w, /assets/images/curved-landscape-bed-with-perennials-and-greensc-960.webp 960w" sizes="(max-width: 768px) 100vw, 800px" alt="Curved river-rock garden bed with colorful perennials installed by Greenstone Home Solutions in Richmond VA" width="800" height="600" loading="lazy">
         </div>
         <div class="reveal-right">
           <p class="prose" style="margin-bottom: var(--space-lg);"><strong>Greenstone Home Solutions is a licensed and insured landscape design company based in Richmond, VA.</strong> Professional landscape design in Richmond typically costs $3,000 to $15,000 or more depending on property size and complexity. We provide custom landscape design backed by Virginia Tech horticultural science for homeowners in Richmond, VA and surrounding counties including Henrico, Hanover, King William, New Kent, and Charles City.</p>
@@ -183,7 +183,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           </ul>
         </div>
         <div class="service-img reveal-right" data-animate="wipe-right">
-          <img src="https://i.imgur.com/pGk5QcC.jpeg" alt="Greenstone crew installing shrubs and arborvitae along a fence line in Richmond VA" width="800" height="600" loading="lazy">
+          <img src="/assets/images/greenstone-home-solutions-crew-installing-shrubs-960.webp" srcset="/assets/images/greenstone-home-solutions-crew-installing-shrubs-480.webp 480w, /assets/images/greenstone-home-solutions-crew-installing-shrubs-960.webp 960w, /assets/images/greenstone-home-solutions-crew-installing-shrubs-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 800px" alt="Greenstone crew installing shrubs and arborvitae along a fence line in Richmond VA" width="800" height="600" loading="lazy">
         </div>
       </div>
     </div>

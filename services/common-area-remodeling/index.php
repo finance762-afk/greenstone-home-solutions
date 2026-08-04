@@ -2,7 +2,7 @@
 $pageTitle       = "Common Area Remodeling in Richmond, VA | Greenstone Home Solutions";
 $pageDescription = "Common area remodeling in Richmond, VA — hallways, stairwells, living rooms, and landings from $4,000. Call Greenstone Home Solutions at (804) 218-6459 for a free estimate.";
 $canonicalUrl    = "https://greenstonehomesolutions.com/services/common-area-remodeling";
-$ogImage         = "https://i.imgur.com/s6CaPFG.jpeg";
+$ogImage         = "/assets/images/before-and-after-hallway-and-landing-remodel-by-480.webp";
 $currentPage     = "services";
 $heroImage       = "";
 $useSwiper       = false;
@@ -101,7 +101,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section style="background: var(--bg);">
     <div class="container">
       <div class="before-after-large">
-        <img src="https://i.imgur.com/s6CaPFG.jpeg" alt="Before and after hallway remodel in Richmond VA showing fresh paint and white railing replacing dark paneling by Greenstone Home Solutions" width="1200" height="600" loading="lazy">
+        <img src="/assets/images/before-and-after-hallway-and-landing-remodel-by-480.webp" alt="Before and after hallway remodel in Richmond VA showing fresh paint and white railing replacing dark paneling by Greenstone Home Solutions" width="1200" height="600" loading="lazy">
         <span class="ba-label">Before & After</span>
       </div>
     </div>
@@ -112,7 +112,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <div class="container">
       <div class="split-reverse">
         <div class="service-img reveal-left" data-animate="wipe-right">
-          <img src="https://i.imgur.com/s6CaPFG.jpeg" alt="Updated hallway with white painted railing and fresh walls in Richmond VA home" width="800" height="600" loading="lazy">
+          <img src="/assets/images/before-and-after-hallway-and-landing-remodel-by-480.webp" alt="Updated hallway with white painted railing and fresh walls in Richmond VA home" width="800" height="600" loading="lazy">
         </div>
         <div class="reveal-right">
           <span class="eyebrow-label">Connective Spaces Matter</span>

@@ -2,7 +2,7 @@
 $pageTitle       = "Service Areas | Greenstone Home Solutions — Richmond, VA & Surrounding Counties";
 $pageDescription = "Greenstone Home Solutions serves homeowners in Richmond, Chesterfield County, Henrico County, Hanover County, King William County, New Kent County, and Charles City County. Call (804) 218-6459.";
 $canonicalUrl    = "https://greenstonehomesolutions.com/service-areas";
-$ogImage         = "https://i.imgur.com/jOXKoUD.jpeg";
+$ogImage         = "/assets/images/custom-stone-patio-with-pergola-and-outdoor-fire-1600.webp";
 $currentPage     = "service-areas";
 $heroImage       = "";
 $useSwiper       = false;

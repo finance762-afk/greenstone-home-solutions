@@ -2,7 +2,7 @@
 $pageTitle       = "Page Not Found | Greenstone Home Solutions";
 $pageDescription = "The page you're looking for may have been moved or no longer exists. Visit our homepage or browse our services.";
 $canonicalUrl    = "https://greenstonehomesolutions.com/404";
-$ogImage         = "https://i.imgur.com/JuesTnb.png";
+$ogImage         = "/assets/images/logo.png";
 $currentPage     = "";
 $heroImage       = "";
 $useSwiper       = false;

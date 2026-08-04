@@ -2,7 +2,7 @@
 $pageTitle       = "Kitchen Remodeling in Richmond, VA | Greenstone Home Solutions";
 $pageDescription = "Kitchen remodeling in Richmond, VA — backsplash, countertops, cabinetry, and full renovations. $12K–$40K+. Call (804) 218-6459 for a free design consultation.";
 $canonicalUrl    = "https://greenstonehomesolutions.com/services/kitchen-remodeling";
-$ogImage         = "https://i.imgur.com/rD9LF6J.jpeg";
+$ogImage         = "/assets/images/kitchen-renovation-with-modern-finishes-for-a-ri-1600.webp";
 $currentPage     = "services";
 $heroImage       = "";
 $useSwiper       = false;
@@ -114,7 +114,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <div class="container">
       <div class="split-reverse">
         <div class="service-img reveal-left">
-          <img src="https://i.imgur.com/rD9LF6J.jpeg" alt="Completed kitchen remodel in Richmond VA with subway tile backsplash, granite countertops, and gas range" width="800" height="600" loading="lazy">
+          <img src="/assets/images/kitchen-renovation-with-modern-finishes-for-a-ri-960.webp" srcset="/assets/images/kitchen-renovation-with-modern-finishes-for-a-ri-480.webp 480w, /assets/images/kitchen-renovation-with-modern-finishes-for-a-ri-960.webp 960w, /assets/images/kitchen-renovation-with-modern-finishes-for-a-ri-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 800px" alt="Completed kitchen remodel in Richmond VA with subway tile backsplash, granite countertops, and gas range" width="800" height="600" loading="lazy">
         </div>
         <div class="reveal-right">
           <p class="prose" style="margin-bottom: var(--space-lg);"><strong>Greenstone Home Solutions is a licensed and insured kitchen remodeling company based in Richmond, VA.</strong> A kitchen remodel in the Richmond area ranges from $12,000 for a cosmetic refresh to $40,000 or more for a full renovation with layout changes. We provide kitchen renovation services for homeowners in Richmond and surrounding counties including Henrico, Hanover, King William, New Kent, and Charles City.</p>
@@ -147,7 +147,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           <p class="prose" data-animate="fade-up">This hands-on approach prevents the most common kitchen remodel regret: materials that looked great in a store but clash with your home. For the project shown here, tile samples were evaluated directly against the client's existing granite countertop to ensure the new subway tile backsplash would complement rather than compete with the natural stone pattern.</p>
         </div>
         <div class="service-img reveal-right" data-animate="wipe-right">
-          <img src="https://i.imgur.com/VQxrnUv.jpeg" alt="Kitchen design consultation with tile samples laid out on granite countertop in Richmond VA" width="800" height="600" loading="lazy">
+          <img src="/assets/images/kitchen-design-consultation-with-tile-samples-la-960.webp" srcset="/assets/images/kitchen-design-consultation-with-tile-samples-la-480.webp 480w, /assets/images/kitchen-design-consultation-with-tile-samples-la-960.webp 960w, /assets/images/kitchen-design-consultation-with-tile-samples-la-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 800px" alt="Kitchen design consultation with tile samples laid out on granite countertop in Richmond VA" width="800" height="600" loading="lazy">
         </div>
       </div>
     </div>
@@ -158,7 +158,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <div class="container">
       <div class="split-reverse">
         <div class="service-img reveal-right" data-animate="wipe-right">
-          <img src="https://i.imgur.com/ljNethn.jpeg" alt="Kitchen backsplash tile installation in progress in Richmond VA home" width="800" height="600" loading="lazy">
+          <img src="/assets/images/kitchen-backsplash-tile-installation-in-progress-960.webp" srcset="/assets/images/kitchen-backsplash-tile-installation-in-progress-480.webp 480w, /assets/images/kitchen-backsplash-tile-installation-in-progress-960.webp 960w, /assets/images/kitchen-backsplash-tile-installation-in-progress-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 800px" alt="Kitchen backsplash tile installation in progress in Richmond VA home" width="800" height="600" loading="lazy">
         </div>
         <div class="reveal-left">
           <h2 data-animate="fade-up">Backsplash Installation</h2>

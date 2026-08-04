@@ -2,7 +2,7 @@
 $pageTitle       = "Home Renovation & Landscaping in New Kent County, VA | Greenstone Home Solutions";
 $pageDescription = "Greenstone Home Solutions serves New Kent County, VA — landscape design, irrigation, kitchen & bathroom remodeling, patios, and lawn care. Call (804) 218-6459.";
 $canonicalUrl    = "https://greenstonehomesolutions.com/service-areas/new-kent-county";
-$ogImage         = "https://i.imgur.com/pGk5QcC.jpeg";
+$ogImage         = "/assets/images/greenstone-home-solutions-crew-installing-shrubs-1600.webp";
 $currentPage     = "service-areas";
 $heroImage       = "";
 $useSwiper       = false;
@@ -70,7 +70,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <div class="container">
       <div class="split-reverse" data-animate="fade-up">
         <div class="service-img reveal-left" data-animate="wipe-right">
-          <img src="https://i.imgur.com/pGk5QcC.jpeg" alt="Greenstone Home Solutions crew installing shrubs and arborvitae at a New Kent County residence" width="800" height="600" loading="lazy" style="aspect-ratio:4/3; object-fit:cover; border-radius: var(--radius);">
+          <img src="/assets/images/greenstone-home-solutions-crew-installing-shrubs-960.webp" srcset="/assets/images/greenstone-home-solutions-crew-installing-shrubs-480.webp 480w, /assets/images/greenstone-home-solutions-crew-installing-shrubs-960.webp 960w, /assets/images/greenstone-home-solutions-crew-installing-shrubs-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 800px" alt="Greenstone Home Solutions crew installing shrubs and arborvitae at a New Kent County residence" width="800" height="600" loading="lazy" style="aspect-ratio:4/3; object-fit:cover; border-radius: var(--radius);">
         </div>
         <div class="reveal-up">
           <span class="section-subtitle--accent">Replacing builder-grade with real character</span>
@@ -120,7 +120,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           </div>
         </div>
         <div class="service-img reveal-left" data-animate="wipe-right">
-          <img src="https://i.imgur.com/qfmHYwo.jpeg" alt="Completed shower remodel with custom tile work by Greenstone Home Solutions in New Kent County" width="800" height="600" loading="lazy" style="aspect-ratio:4/3; object-fit:cover; border-radius: var(--radius);">
+          <img src="/assets/images/completed-shower-remodel-in-richmond-city-va-by-960.webp" srcset="/assets/images/completed-shower-remodel-in-richmond-city-va-by-480.webp 480w, /assets/images/completed-shower-remodel-in-richmond-city-va-by-960.webp 960w" sizes="(max-width: 768px) 100vw, 800px" alt="Completed shower remodel with custom tile work by Greenstone Home Solutions in New Kent County" width="800" height="600" loading="lazy" style="aspect-ratio:4/3; object-fit:cover; border-radius: var(--radius);">
         </div>
       </div>
     </div>

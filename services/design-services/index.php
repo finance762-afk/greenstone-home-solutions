@@ -2,7 +2,7 @@
 $pageTitle       = "Design Services in Richmond, VA | Light Fixtures, Ceiling Fans & TV Mounting";
 $pageDescription = "Light fixture replacement, ceiling fan installation, and TV wall mounting in Richmond, VA. Clean finishes, concealed wiring, $150-$500 per fixture. Call (804) 218-6459.";
 $canonicalUrl    = "https://greenstonehomesolutions.com/services/design-services";
-$ogImage         = "https://i.imgur.com/zhnFTMI.jpeg";
+$ogImage         = "/assets/images/before-and-after-plastic-dome-light-replaced-wit-960.webp";
 $currentPage     = "services";
 $heroImage       = "";
 $useSwiper       = false;
@@ -121,7 +121,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         <div class="service-img reveal-right">
           <div class="before-after-large">
             <div class="ba-label">Before &amp; After</div>
-            <img src="https://i.imgur.com/zhnFTMI.jpeg" alt="Before and after: plastic dome light replaced with modern flush-mount fixture in Richmond VA home" width="800" height="600" loading="lazy">
+            <img src="/assets/images/before-and-after-plastic-dome-light-replaced-wit-960.webp" srcset="/assets/images/before-and-after-plastic-dome-light-replaced-wit-480.webp 480w, /assets/images/before-and-after-plastic-dome-light-replaced-wit-960.webp 960w" sizes="(max-width: 768px) 100vw, 800px" alt="Before and after: plastic dome light replaced with modern flush-mount fixture in Richmond VA home" width="800" height="600" loading="lazy">
           </div>
         </div>
       </div>
@@ -138,15 +138,15 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 
       <div class="service-gallery" data-animate="fade-up" data-stagger>
         <div class="service-gallery-item">
-          <img src="https://i.imgur.com/zhnFTMI.jpeg" alt="Before and after: plastic dome light replaced with modern flush-mount ceiling fixture" width="800" height="600" loading="lazy">
+          <img src="/assets/images/before-and-after-plastic-dome-light-replaced-wit-960.webp" srcset="/assets/images/before-and-after-plastic-dome-light-replaced-wit-480.webp 480w, /assets/images/before-and-after-plastic-dome-light-replaced-wit-960.webp 960w" sizes="(max-width: 768px) 100vw, 800px" alt="Before and after: plastic dome light replaced with modern flush-mount ceiling fixture" width="800" height="600" loading="lazy">
           <div class="gallery-caption">Dome to flush mount</div>
         </div>
         <div class="service-gallery-item">
-          <img src="https://i.imgur.com/L9cHp6H.jpeg" alt="New 3-bulb industrial dining chandelier installed over table in Richmond home" width="800" height="600" loading="lazy">
+          <img src="/assets/images/new-3-bulb-industrial-dining-chandelier-installe-960.webp" srcset="/assets/images/new-3-bulb-industrial-dining-chandelier-installe-480.webp 480w, /assets/images/new-3-bulb-industrial-dining-chandelier-installe-960.webp 960w" sizes="(max-width: 768px) 100vw, 800px" alt="New 3-bulb industrial dining chandelier installed over table in Richmond home" width="800" height="600" loading="lazy">
           <div class="gallery-caption">Industrial dining chandelier</div>
         </div>
         <div class="service-gallery-item">
-          <img src="https://i.imgur.com/kPAteGr.jpeg" alt="Old ornate bronze chandelier before replacement in Henrico County home" width="800" height="600" loading="lazy">
+          <img src="/assets/images/old-ornate-bronze-chandelier-before-replacement-960.webp" srcset="/assets/images/old-ornate-bronze-chandelier-before-replacement-480.webp 480w, /assets/images/old-ornate-bronze-chandelier-before-replacement-960.webp 960w" sizes="(max-width: 768px) 100vw, 800px" alt="Old ornate bronze chandelier before replacement in Henrico County home" width="800" height="600" loading="lazy">
           <div class="gallery-caption">Before: dated bronze chandelier</div>
         </div>
       </div>
@@ -179,7 +179,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         <div class="service-img reveal-left">
           <div class="before-after-large">
             <div class="ba-label">Before &amp; After</div>
-            <img src="https://i.imgur.com/E7TKmsh.jpeg" alt="Before and after: recessed light replaced with modern industrial ceiling fan with light kit" width="800" height="600" loading="lazy">
+            <img src="/assets/images/before-and-after-recessed-light-replaced-with-mo-960.webp" srcset="/assets/images/before-and-after-recessed-light-replaced-with-mo-480.webp 480w, /assets/images/before-and-after-recessed-light-replaced-with-mo-960.webp 960w" sizes="(max-width: 768px) 100vw, 800px" alt="Before and after: recessed light replaced with modern industrial ceiling fan with light kit" width="800" height="600" loading="lazy">
           </div>
         </div>
         <div class="reveal-right">
@@ -203,7 +203,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         <div class="service-img reveal-right">
           <div class="before-after-large">
             <div class="ba-label">Before &amp; After</div>
-            <img src="https://i.imgur.com/1W5jbgW.jpeg" alt="Before and after: old brown ceiling fan replaced with modern fan with crystal light kit" width="800" height="600" loading="lazy">
+            <img src="/assets/images/before-and-after-old-brown-ceiling-fan-replaced-960.webp" srcset="/assets/images/before-and-after-old-brown-ceiling-fan-replaced-480.webp 480w, /assets/images/before-and-after-old-brown-ceiling-fan-replaced-960.webp 960w" sizes="(max-width: 768px) 100vw, 800px" alt="Before and after: old brown ceiling fan replaced with modern fan with crystal light kit" width="800" height="600" loading="lazy">
           </div>
         </div>
       </div>
@@ -219,15 +219,15 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 
       <div class="service-gallery" data-animate="fade-up" data-stagger>
         <div class="service-gallery-item">
-          <img src="https://i.imgur.com/10tWIKJ.jpeg" alt="TV mounting bracket with 4-panel arm and in-wall wiring detail" width="800" height="600" loading="lazy">
+          <img src="/assets/images/tv-mounting-bracket-with-4-panel-arm-and-in-wall-960.webp" srcset="/assets/images/tv-mounting-bracket-with-4-panel-arm-and-in-wall-480.webp 480w, /assets/images/tv-mounting-bracket-with-4-panel-arm-and-in-wall-960.webp 960w" sizes="(max-width: 768px) 100vw, 800px" alt="TV mounting bracket with 4-panel arm and in-wall wiring detail" width="800" height="600" loading="lazy">
           <div class="gallery-caption">Bracket &amp; in-wall wiring</div>
         </div>
         <div class="service-gallery-item">
-          <img src="https://i.imgur.com/DSzLdu6.jpeg" alt="TV bracket arm positioning detail during wall mount installation" width="800" height="600" loading="lazy">
+          <img src="/assets/images/tv-bracket-arm-positioning-detail-during-wall-mo-960.webp" srcset="/assets/images/tv-bracket-arm-positioning-detail-during-wall-mo-480.webp 480w, /assets/images/tv-bracket-arm-positioning-detail-during-wall-mo-960.webp 960w" sizes="(max-width: 768px) 100vw, 800px" alt="TV bracket arm positioning detail during wall mount installation" width="800" height="600" loading="lazy">
           <div class="gallery-caption">Articulating arm positioning</div>
         </div>
         <div class="service-gallery-item">
-          <img src="https://i.imgur.com/GUyKwFV.jpeg" alt="Before and after: dangling TV cords replaced with clean hidden-wire wall mount" width="800" height="600" loading="lazy">
+          <img src="/assets/images/before-and-after-tv-mount-with-hidden-wiring-by-960.webp" srcset="/assets/images/before-and-after-tv-mount-with-hidden-wiring-by-480.webp 480w, /assets/images/before-and-after-tv-mount-with-hidden-wiring-by-960.webp 960w" sizes="(max-width: 768px) 100vw, 800px" alt="Before and after: dangling TV cords replaced with clean hidden-wire wall mount" width="800" height="600" loading="lazy">
           <div class="gallery-caption">Before &amp; after: hidden wires</div>
         </div>
       </div>
@@ -241,7 +241,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         <div class="service-img reveal-left">
           <div class="before-after-large">
             <div class="ba-label">Before &amp; After</div>
-            <img src="https://i.imgur.com/aGK6VEK.jpeg" alt="Before and after: bare TV bracket replaced with finished concealed-outlet wall mount" width="800" height="600" loading="lazy">
+            <img src="/assets/images/before-and-after-bare-tv-bracket-replaced-with-f-960.webp" srcset="/assets/images/before-and-after-bare-tv-bracket-replaced-with-f-480.webp 480w, /assets/images/before-and-after-bare-tv-bracket-replaced-with-f-960.webp 960w" sizes="(max-width: 768px) 100vw, 800px" alt="Before and after: bare TV bracket replaced with finished concealed-outlet wall mount" width="800" height="600" loading="lazy">
           </div>
         </div>
       </div>

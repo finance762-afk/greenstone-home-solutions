@@ -4,7 +4,7 @@
 <nav class="navbar" aria-label="Main navigation">
   <div class="container">
     <a href="/" class="navbar-logo">
-      <img src="https://i.imgur.com/JuesTnb.png" alt="Greenstone Home Solutions" width="180" height="50">
+      <img src="/assets/images/logo.png" alt="Greenstone Home Solutions" width="180" height="50">
     </a>
 
     <ul class="nav-links">

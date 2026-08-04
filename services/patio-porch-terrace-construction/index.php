@@ -2,7 +2,7 @@
 $pageTitle       = "Patio, Porch & Terrace Construction in Richmond, VA | Greenstone Home Solutions";
 $pageDescription = "Award-winning patio, porch, and terrace construction in Richmond, VA. Belgard Hardscape Hero Award winner. Pavers, stone, fireplaces, pergolas. Call (804) 218-6459.";
 $canonicalUrl    = "https://greenstonehomesolutions.com/services/patio-porch-terrace-construction";
-$ogImage         = "https://i.imgur.com/jOXKoUD.jpeg";
+$ogImage         = "/assets/images/custom-stone-patio-with-pergola-and-outdoor-fire-1600.webp";
 $currentPage     = "services";
 $heroImage       = "";
 $useSwiper       = false;
@@ -114,7 +114,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <div class="container">
       <div class="split">
         <div class="service-img reveal-left" data-animate="wipe-right">
-          <img src="https://i.imgur.com/jOXKoUD.jpeg" alt="Belgard Hardscape Hero Award-winning patio with wood pergola, stone fireplace, and paver patio in Richmond, Virginia" width="800" height="600" loading="lazy">
+          <img src="/assets/images/custom-stone-patio-with-pergola-and-outdoor-fire-960.webp" srcset="/assets/images/custom-stone-patio-with-pergola-and-outdoor-fire-480.webp 480w, /assets/images/custom-stone-patio-with-pergola-and-outdoor-fire-960.webp 960w, /assets/images/custom-stone-patio-with-pergola-and-outdoor-fire-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 800px" alt="Belgard Hardscape Hero Award-winning patio with wood pergola, stone fireplace, and paver patio in Richmond, Virginia" width="800" height="600" loading="lazy">
         </div>
         <div class="reveal-right">
           <span class="eyebrow-label">Belgard Hardscape Hero Award Winner</span>
@@ -256,7 +256,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           </div>
         </div>
         <div class="service-img reveal-right">
-          <img src="https://i.imgur.com/jOXKoUD.jpeg" alt="Paver patio with integrated drainage and outdoor living features in Richmond, VA" width="800" height="600" loading="lazy">
+          <img src="/assets/images/custom-stone-patio-with-pergola-and-outdoor-fire-960.webp" srcset="/assets/images/custom-stone-patio-with-pergola-and-outdoor-fire-480.webp 480w, /assets/images/custom-stone-patio-with-pergola-and-outdoor-fire-960.webp 960w, /assets/images/custom-stone-patio-with-pergola-and-outdoor-fire-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 800px" alt="Paver patio with integrated drainage and outdoor living features in Richmond, VA" width="800" height="600" loading="lazy">
         </div>
       </div>
     </div>

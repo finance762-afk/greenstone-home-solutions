@@ -2,7 +2,7 @@
 $pageTitle       = "Home Renovation & Outdoor Living Services | Greenstone Home Solutions";
 $pageDescription = "Greenstone Home Solutions offers kitchen and bathroom remodeling, outdoor construction, landscape design, irrigation, and lawn care in Richmond, VA. Call (804) 218-6459 for a free estimate.";
 $canonicalUrl    = "https://greenstonehomesolutions.com/services";
-$ogImage         = "https://i.imgur.com/CN2OKqv.jpeg";
+$ogImage         = "/assets/images/greenstone-home-solutions-farmhouse-renovation-b-480.webp";
 $currentPage     = "services";
 $heroImage       = "";
 $useSwiper       = false;

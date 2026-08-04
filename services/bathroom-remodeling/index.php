@@ -2,7 +2,7 @@
 $pageTitle       = "Bathroom Remodeling in Richmond, VA | Greenstone Home Solutions";
 $pageDescription = "Full bathroom remodeling in Richmond, VA — demo to finish. Custom tile, dual showerheads, accessibility upgrades. $8K–$25K. Call (804) 218-6459 for a free estimate.";
 $canonicalUrl    = "https://greenstonehomesolutions.com/services/bathroom-remodeling";
-$ogImage         = "https://i.imgur.com/qfmHYwo.jpeg";
+$ogImage         = "/assets/images/completed-shower-remodel-in-richmond-city-va-by-960.webp";
 $currentPage     = "services";
 $heroImage       = "";
 $useSwiper       = false;
@@ -119,7 +119,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           <p class="prose">Richmond homes built between the 1950s and 1990s often have outdated plumbing, deteriorating subfloors, and inefficient layouts. A full renovation addresses these hidden issues while transforming the space into something that works for how you live now, not how the original builder designed it decades ago.</p>
         </div>
         <div class="service-img reveal-left" data-animate="wipe-right">
-          <img src="https://i.imgur.com/qfmHYwo.jpeg" alt="Completed bathroom remodel in Richmond VA with dual showerhead, subway tile, grab bar, and recessed niche" width="800" height="600" loading="lazy">
+          <img src="/assets/images/completed-shower-remodel-in-richmond-city-va-by-960.webp" srcset="/assets/images/completed-shower-remodel-in-richmond-city-va-by-480.webp 480w, /assets/images/completed-shower-remodel-in-richmond-city-va-by-960.webp 960w" sizes="(max-width: 768px) 100vw, 800px" alt="Completed bathroom remodel in Richmond VA with dual showerhead, subway tile, grab bar, and recessed niche" width="800" height="600" loading="lazy">
         </div>
       </div>
     </div>
@@ -143,15 +143,15 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
       <p class="prose" style="margin-bottom: var(--space-2xl);" data-animate="fade-up">Most of the critical work in a bathroom remodel happens before any tile goes up. Subfloor inspection, plumbing relocation, waterproofing, and proper backer board installation determine whether your new bathroom will last five years or twenty-five. Here is what that process actually looks like.</p>
       <div class="service-gallery" data-animate="fade-up" data-stagger>
         <div class="service-gallery-item">
-          <img src="https://i.imgur.com/C5eOiQX.jpeg" alt="Full bathroom demolition to subfloor in Richmond VA home" width="800" height="600" loading="lazy">
+          <img src="/assets/images/full-bathroom-demolition-to-subfloor-in-richmond-960.webp" srcset="/assets/images/full-bathroom-demolition-to-subfloor-in-richmond-480.webp 480w, /assets/images/full-bathroom-demolition-to-subfloor-in-richmond-960.webp 960w" sizes="(max-width: 768px) 100vw, 800px" alt="Full bathroom demolition to subfloor in Richmond VA home" width="800" height="600" loading="lazy">
           <div class="gallery-caption">Full demo to subfloor</div>
         </div>
         <div class="service-gallery-item">
-          <img src="https://i.imgur.com/dGXy7pY.jpeg" alt="Bathroom gutted to studs with plumbing rough-in visible" width="800" height="600" loading="lazy">
+          <img src="/assets/images/bathroom-gutted-to-studs-with-plumbing-rough-in-960.webp" srcset="/assets/images/bathroom-gutted-to-studs-with-plumbing-rough-in-480.webp 480w, /assets/images/bathroom-gutted-to-studs-with-plumbing-rough-in-960.webp 960w" sizes="(max-width: 768px) 100vw, 800px" alt="Bathroom gutted to studs with plumbing rough-in visible" width="800" height="600" loading="lazy">
           <div class="gallery-caption">Gutted to studs with rough-in</div>
         </div>
         <div class="service-gallery-item">
-          <img src="https://i.imgur.com/8WQKJy9.jpeg" alt="Rough-in framing and subfloor with shower drain placement" width="800" height="600" loading="lazy">
+          <img src="/assets/images/rough-in-framing-and-subfloor-with-shower-drain-960.webp" srcset="/assets/images/rough-in-framing-and-subfloor-with-shower-drain-480.webp 480w, /assets/images/rough-in-framing-and-subfloor-with-shower-drain-960.webp 960w, /assets/images/rough-in-framing-and-subfloor-with-shower-drain-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 800px" alt="Rough-in framing and subfloor with shower drain placement" width="800" height="600" loading="lazy">
           <div class="gallery-caption">Framing &amp; drain placement</div>
         </div>
       </div>
@@ -163,7 +163,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <div class="container">
       <div class="split-reverse">
         <div class="service-img reveal-right" data-animate="wipe-right">
-          <img src="https://i.imgur.com/GgFoDNb.jpeg" alt="Shower wall tile setting in progress during Richmond bathroom remodel" width="800" height="600" loading="lazy">
+          <img src="/assets/images/shower-wall-tile-setting-in-progress-during-rich-960.webp" srcset="/assets/images/shower-wall-tile-setting-in-progress-during-rich-480.webp 480w, /assets/images/shower-wall-tile-setting-in-progress-during-rich-960.webp 960w" sizes="(max-width: 768px) 100vw, 800px" alt="Shower wall tile setting in progress during Richmond bathroom remodel" width="800" height="600" loading="lazy">
         </div>
         <div class="reveal-left">
           <span class="section-subtitle--accent">Built to last</span>
@@ -191,7 +191,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           </ul>
         </div>
         <div class="service-img reveal-right" data-animate="wipe-right">
-          <img src="https://i.imgur.com/xTwOMrc.jpeg" alt="Tile installation with hexagon mosaic niche accents in Richmond VA bathroom" width="800" height="600" loading="lazy">
+          <img src="/assets/images/tile-installation-with-hexagon-mosaic-niche-acce-960.webp" srcset="/assets/images/tile-installation-with-hexagon-mosaic-niche-acce-480.webp 480w, /assets/images/tile-installation-with-hexagon-mosaic-niche-acce-960.webp 960w" sizes="(max-width: 768px) 100vw, 800px" alt="Tile installation with hexagon mosaic niche accents in Richmond VA bathroom" width="800" height="600" loading="lazy">
         </div>
       </div>
     </div>
@@ -212,7 +212,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <div class="container">
       <div class="split-reverse">
         <div class="service-img reveal-left" data-animate="wipe-right">
-          <img src="https://i.imgur.com/64BxPuI.jpeg" alt="Completed bathroom remodel with curved rod, hex niches, grab bar, and natural light in Richmond VA" width="800" height="600" loading="lazy">
+          <img src="/assets/images/custom-tile-shower-installation-completed-by-gre-960.webp" srcset="/assets/images/custom-tile-shower-installation-completed-by-gre-480.webp 480w, /assets/images/custom-tile-shower-installation-completed-by-gre-960.webp 960w" sizes="(max-width: 768px) 100vw, 800px" alt="Completed bathroom remodel with curved rod, hex niches, grab bar, and natural light in Richmond VA" width="800" height="600" loading="lazy">
         </div>
         <div class="reveal-right">
           <h2 data-animate="fade-up">The Finished Product</h2>

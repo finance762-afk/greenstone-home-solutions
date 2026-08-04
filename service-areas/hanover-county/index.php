@@ -2,7 +2,7 @@
 $pageTitle       = "Home Renovation & Landscaping in Hanover County, VA | Greenstone Home Solutions";
 $pageDescription = "Building additions, landscape design, irrigation, lawn care, and interior renovation for Hanover County homeowners. Mechanicsville, Ashland, Atlee. Call (804) 218-6459.";
 $canonicalUrl    = "https://greenstonehomesolutions.com/service-areas/hanover-county";
-$ogImage         = "https://i.imgur.com/nqzt0xW.jpeg";
+$ogImage         = "/assets/images/curved-landscape-bed-with-perennials-and-greensc-960.webp";
 $currentPage     = "service-areas";
 $heroImage       = "";
 $useSwiper       = false;
@@ -63,7 +63,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <div class="container">
       <div class="split-reverse">
         <div class="service-img reveal-left">
-          <img src="https://i.imgur.com/nqzt0xW.jpeg" alt="Curved landscape bed with perennials and greenscape design in Hanover County VA" width="800" height="600" loading="lazy">
+          <img src="/assets/images/curved-landscape-bed-with-perennials-and-greensc-960.webp" srcset="/assets/images/curved-landscape-bed-with-perennials-and-greensc-480.webp 480w, /assets/images/curved-landscape-bed-with-perennials-and-greensc-960.webp 960w" sizes="(max-width: 768px) 100vw, 800px" alt="Curved landscape bed with perennials and greenscape design in Hanover County VA" width="800" height="600" loading="lazy">
         </div>
         <div class="reveal-up">
           <p class="prose" style="margin-bottom: var(--space-lg);"><strong>Greenstone Home Solutions provides home renovation, building additions, landscape design, and property maintenance for homeowners in Hanover County, VA.</strong> Greenstone Home Solutions is a licensed and insured remodeling and landscaping company based in Richmond, serving Hanover County communities including Mechanicsville, Ashland, and the Atlee-Rutland corridor.</p>
@@ -97,7 +97,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           <p class="prose" data-animate="fade-up">Kitchen and bathroom renovations remain popular in Hanover County ranch homes, where thoughtful interior updates combined with an outdoor living upgrade deliver more livable square footage and more resale value than either project on its own.</p>
         </div>
         <div class="service-img reveal-left" data-animate="wipe-right">
-          <img src="https://i.imgur.com/OCoqun0.jpeg" alt="Loft addition construction in progress in Hanover County VA home" width="800" height="600" loading="lazy">
+          <img src="/assets/images/loft-addition-construction-in-progress-in-hanove-960.webp" srcset="/assets/images/loft-addition-construction-in-progress-in-hanove-480.webp 480w, /assets/images/loft-addition-construction-in-progress-in-hanove-960.webp 960w, /assets/images/loft-addition-construction-in-progress-in-hanove-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 800px" alt="Loft addition construction in progress in Hanover County VA home" width="800" height="600" loading="lazy">
         </div>
       </div>
     </div>

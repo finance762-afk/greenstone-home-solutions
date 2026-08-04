@@ -2,7 +2,7 @@
 $pageTitle       = "Bedroom Remodeling in Richmond, VA | Greenstone Home Solutions";
 $pageDescription = "Bedroom remodeling in Richmond, VA — paneling removal, paint, flooring, built-ins, and full renovations. $5K–$15K. Call (804) 218-6459 for a free estimate.";
 $canonicalUrl    = "https://greenstonehomesolutions.com/services/bedroom-remodeling";
-$ogImage         = "https://i.imgur.com/TmwpMiR.jpeg";
+$ogImage         = "/assets/images/before-and-after-bedroom-remodel-by-greenstone-h-480.webp";
 $currentPage     = "services";
 $heroImage       = "";
 $useSwiper       = false;
@@ -120,11 +120,11 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
       <p class="prose" style="margin-bottom: var(--space-2xl);" data-animate="fade-up">These bedrooms went from dark, paneled rooms to bright, modern spaces. The transformations below show what is possible when you address the walls, flooring, and functionality in a single coordinated renovation.</p>
       <div class="grid-2" data-animate="fade-up" data-stagger>
         <div class="before-after-large">
-          <img src="https://i.imgur.com/TmwpMiR.jpeg" alt="Before and after bedroom remodel in Richmond VA — built-in desk replaces dark wood paneling" width="800" height="600" loading="lazy">
+          <img src="/assets/images/before-and-after-bedroom-remodel-by-greenstone-h-480.webp" alt="Before and after bedroom remodel in Richmond VA — built-in desk replaces dark wood paneling" width="800" height="600" loading="lazy">
           <span class="ba-label">Before &amp; After</span>
         </div>
         <div class="before-after-large">
-          <img src="https://i.imgur.com/QyW3uBL.jpeg" alt="Before and after bedroom remodel — teal accent walls and new furnishings replace empty paneled room" width="800" height="600" loading="lazy">
+          <img src="/assets/images/before-and-after-bedroom-remodel-with-teal-accen-480.webp" alt="Before and after bedroom remodel — teal accent walls and new furnishings replace empty paneled room" width="800" height="600" loading="lazy">
           <span class="ba-label">Before &amp; After</span>
         </div>
       </div>
@@ -143,7 +143,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           <p class="prose" data-animate="fade-up">We assess the wall condition during our initial consultation so there are no surprises once demo starts. Every estimate accounts for what we expect to find behind the paneling based on the home's age and construction style.</p>
         </div>
         <div class="service-img reveal-left" data-animate="wipe-right">
-          <img src="https://i.imgur.com/TmwpMiR.jpeg" alt="Bedroom transformation showing built-in desk area after paneling removal in Richmond VA" width="800" height="600" loading="lazy">
+          <img src="/assets/images/before-and-after-bedroom-remodel-by-greenstone-h-480.webp" alt="Bedroom transformation showing built-in desk area after paneling removal in Richmond VA" width="800" height="600" loading="lazy">
         </div>
       </div>
     </div>
@@ -174,7 +174,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <div class="container">
       <div class="split-reverse">
         <div class="service-img reveal-left" data-animate="wipe-right">
-          <img src="https://i.imgur.com/QyW3uBL.jpeg" alt="Renovated bedroom with teal accent walls and modern furnishings in Richmond VA home" width="800" height="600" loading="lazy">
+          <img src="/assets/images/before-and-after-bedroom-remodel-with-teal-accen-480.webp" alt="Renovated bedroom with teal accent walls and modern furnishings in Richmond VA home" width="800" height="600" loading="lazy">
         </div>
         <div class="reveal-right">
           <h2 data-animate="fade-up">Built-Ins, Storage &amp; Functional Upgrades</h2>

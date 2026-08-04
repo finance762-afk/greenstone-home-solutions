@@ -2,7 +2,7 @@
 $pageTitle       = "About Greenstone Home Solutions | Richmond Indoor & Outdoor Renovation";
 $pageDescription = "Meet Lucas Walton, founder of Greenstone Home Solutions — Virginia Tech graduate, Belgard award winner, and Richmond's specialist in home renovation and landscape design.";
 $canonicalUrl    = "https://greenstonehomesolutions.com/about";
-$ogImage         = "https://i.imgur.com/CN2OKqv.jpeg";
+$ogImage         = "/assets/images/greenstone-home-solutions-farmhouse-renovation-b-480.webp";
 $currentPage     = "about";
 $heroImage       = "";
 $useSwiper       = false;
@@ -113,8 +113,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         </div>
         <div class="service-img reveal-left" data-animate="wipe-right">
           <picture>
-            <source srcset="https://i.imgur.com/CN2OKqv.jpeg" type="image/jpeg">
-            <img src="https://i.imgur.com/CN2OKqv.jpeg" alt="Greenstone Home Solutions farmhouse renovation before and after in Richmond, Virginia" width="800" height="600" loading="lazy">
+            <source srcset="/assets/images/greenstone-home-solutions-farmhouse-renovation-b-480.webp" type="image/jpeg">
+            <img src="/assets/images/greenstone-home-solutions-farmhouse-renovation-b-480.webp" alt="Greenstone Home Solutions farmhouse renovation before and after in Richmond, Virginia" width="800" height="600" loading="lazy">
           </picture>
         </div>
       </div>
@@ -176,8 +176,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
       <div class="split-reverse">
         <div class="service-img reveal-left" data-animate="wipe-right">
           <picture>
-            <source srcset="https://i.imgur.com/nqzt0xW.jpeg" type="image/jpeg">
-            <img src="https://i.imgur.com/nqzt0xW.jpeg" alt="Greenstone Home Solutions curved landscape bed design in Richmond, Virginia" width="800" height="600" loading="lazy">
+            <source srcset="/assets/images/curved-landscape-bed-with-perennials-and-greensc-960.webp" type="image/jpeg">
+            <img src="/assets/images/curved-landscape-bed-with-perennials-and-greensc-960.webp" srcset="/assets/images/curved-landscape-bed-with-perennials-and-greensc-480.webp 480w, /assets/images/curved-landscape-bed-with-perennials-and-greensc-960.webp 960w" sizes="(max-width: 768px) 100vw, 800px" alt="Greenstone Home Solutions curved landscape bed design in Richmond, Virginia" width="800" height="600" loading="lazy">
           </picture>
         </div>
         <div class="split-content reveal-right">

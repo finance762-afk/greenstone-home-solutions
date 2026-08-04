@@ -911,7 +911,7 @@ section.bg-dark .eyebrow-label { color: var(--accent); }
 
 /* === HERO — left-weighted gradient === */
 .hero-home {
-  background-image: url('https://i.imgur.com/jOXKoUD.jpeg');
+  background-image: url('/assets/images/custom-stone-patio-with-pergola-and-outdoor-fire-1600.webp');
   background-position: center 40%;
 }
 .hero-home::before {

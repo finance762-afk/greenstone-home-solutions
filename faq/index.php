@@ -2,7 +2,7 @@
 $pageTitle       = "FAQ — Greenstone Home Solutions | Richmond, VA";
 $pageDescription = "Answers to common questions about Greenstone Home Solutions — scheduling, services, permits, financing, and more for Richmond and surrounding counties.";
 $canonicalUrl    = "https://greenstonehomesolutions.com/faq";
-$ogImage         = "https://i.imgur.com/JuesTnb.png";
+$ogImage         = "/assets/images/logo.png";
 $currentPage     = "faq";
 $schemaMarkup    = '[
   {

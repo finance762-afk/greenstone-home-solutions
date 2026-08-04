@@ -2,7 +2,7 @@
 $pageTitle       = "Laundry Room Remodeling in Richmond, VA | Greenstone Home Solutions";
 $pageDescription = "Laundry room remodeling in Richmond, VA starting at $3,000. New flooring, storage, plumbing, and layout upgrades. Call Greenstone Home Solutions at (804) 218-6459.";
 $canonicalUrl    = "https://greenstonehomesolutions.com/services/laundry-room-remodeling";
-$ogImage         = "https://i.imgur.com/RZgGUFE.jpeg";
+$ogImage         = "/assets/images/before-and-after-laundry-room-remodel-in-richmon-480.webp";
 $currentPage     = "services";
 $heroImage       = "";
 $useSwiper       = false;
@@ -111,7 +111,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           </div>
         </div>
         <div class="service-img reveal-left">
-          <img src="https://i.imgur.com/RZgGUFE.jpeg" alt="Before and after laundry room remodel in Richmond VA showing updated flooring and modern layout by Greenstone Home Solutions" width="800" height="600" loading="lazy">
+          <img src="/assets/images/before-and-after-laundry-room-remodel-in-richmon-480.webp" alt="Before and after laundry room remodel in Richmond VA showing updated flooring and modern layout by Greenstone Home Solutions" width="800" height="600" loading="lazy">
         </div>
       </div>
     </div>

@@ -2,7 +2,7 @@
 $pageTitle       = "Home Renovation & Landscaping in Henrico County, VA | Greenstone Home Solutions";
 $pageDescription = "Kitchen remodeling, bathroom renovation, patios, decks, and landscape design for Henrico County homeowners. Short Pump, Glen Allen, Tuckahoe, West End. Call (804) 218-6459.";
 $canonicalUrl    = "https://greenstonehomesolutions.com/service-areas/henrico-county";
-$ogImage         = "https://i.imgur.com/rD9LF6J.jpeg";
+$ogImage         = "/assets/images/kitchen-renovation-with-modern-finishes-for-a-ri-1600.webp";
 $currentPage     = "service-areas";
 $heroImage       = "";
 $useSwiper       = false;
@@ -68,7 +68,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           <p class="prose">If you are searching for home renovation near me in Henrico County, we handle everything from a single kitchen remodel to a full outdoor living transformation with patios, pergolas, and landscape redesign.</p>
         </div>
         <div class="service-img reveal-left">
-          <img src="https://i.imgur.com/rD9LF6J.jpeg" alt="Completed kitchen remodel in Henrico County VA with modern finishes and updated cabinetry" width="800" height="600" loading="lazy">
+          <img src="/assets/images/kitchen-renovation-with-modern-finishes-for-a-ri-960.webp" srcset="/assets/images/kitchen-renovation-with-modern-finishes-for-a-ri-480.webp 480w, /assets/images/kitchen-renovation-with-modern-finishes-for-a-ri-960.webp 960w, /assets/images/kitchen-renovation-with-modern-finishes-for-a-ri-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 800px" alt="Completed kitchen remodel in Henrico County VA with modern finishes and updated cabinetry" width="800" height="600" loading="lazy">
         </div>
       </div>
     </div>
@@ -151,7 +151,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <div class="container">
       <div class="split-reverse">
         <div class="service-img reveal-left" data-animate="wipe-right">
-          <img src="https://i.imgur.com/jOXKoUD.jpeg" alt="Patio and pergola construction for Henrico County home near Short Pump VA" width="800" height="600" loading="lazy">
+          <img src="/assets/images/custom-stone-patio-with-pergola-and-outdoor-fire-960.webp" srcset="/assets/images/custom-stone-patio-with-pergola-and-outdoor-fire-480.webp 480w, /assets/images/custom-stone-patio-with-pergola-and-outdoor-fire-960.webp 960w, /assets/images/custom-stone-patio-with-pergola-and-outdoor-fire-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 800px" alt="Patio and pergola construction for Henrico County home near Short Pump VA" width="800" height="600" loading="lazy">
         </div>
         <div class="reveal-up">
           <span class="eyebrow-label" data-animate="fade-up">Outdoor Living</span>

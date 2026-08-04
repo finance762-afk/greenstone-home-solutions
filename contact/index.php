@@ -2,7 +2,7 @@
 $pageTitle       = "Contact Greenstone Home Solutions — Free Estimates in Richmond, VA";
 $pageDescription = "Request a free estimate from Greenstone Home Solutions in Richmond, VA. Call (804) 218-6459 or fill out our form for remodeling, outdoor construction, and landscape services.";
 $canonicalUrl    = "https://greenstonehomesolutions.com/contact";
-$ogImage         = "https://i.imgur.com/JuesTnb.png";
+$ogImage         = "/assets/images/logo.png";
 $currentPage     = "contact";
 $heroImage       = "";
 $useSwiper       = false;
@@ -22,7 +22,7 @@ $schemaMarkup = '[
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "Greenstone Home Solutions",
-    "image": "https://i.imgur.com/JuesTnb.png",
+    "image": "/assets/images/logo.png",
     "telephone": "+1-804-218-6459",
     "email": "greenstonehomesolutions@gmail.com",
     "url": "https://greenstonehomesolutions.com",

@@ -2,7 +2,7 @@
 $pageTitle       = "Thank You | Greenstone Home Solutions";
 $pageDescription = "Thank you for contacting Greenstone Home Solutions. We will be in touch within one business day.";
 $canonicalUrl    = "https://greenstonehomesolutions.com/thank-you";
-$ogImage         = "https://i.imgur.com/JuesTnb.png";
+$ogImage         = "/assets/images/logo.png";
 $currentPage     = "";
 $heroImage       = "";
 $useSwiper       = false;

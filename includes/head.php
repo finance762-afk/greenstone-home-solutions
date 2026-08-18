@@ -35,7 +35,7 @@
   <link rel="icon" type="image/png" href="/assets/images/logo-2.png">
 
   <!-- Stylesheet -->
-  <link rel="stylesheet" href="/assets/css/styles.css?v=10">
+  <link rel="stylesheet" href="/assets/css/styles.css?v=11">
 
   <!-- Preconnect / DNS Prefetch -->
   <link rel="preconnect" href="https://unpkg.com">

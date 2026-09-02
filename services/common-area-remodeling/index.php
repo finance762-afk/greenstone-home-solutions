@@ -60,17 +60,6 @@ $schemaMarkup = '[
         }
       }
     ]
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "AggregateRating",
-    "itemReviewed": {
-      "@type": "LocalBusiness",
-      "name": "Greenstone Home Solutions LLC"
-    },
-    "ratingValue": "4.9",
-    "reviewCount": "47",
-    "bestRating": "5"
   }
 ]';
 

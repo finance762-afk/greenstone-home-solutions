@@ -63,6 +63,7 @@
       <a href="https://www.pageoneinsights.com" rel="dofollow" target="_blank">Web Design & Hosting by Page One Insights, LLC</a>
     </div>
   </div>
+  <?php include __DIR__ . '/partner-badge.php'; ?>
 </footer>
 
 <!-- Back to Top -->

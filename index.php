@@ -449,6 +449,18 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <!-- ============================================
        10. FAQ SECTION
        ============================================ -->
+<!-- ============ GOOGLE REVIEWS (Page One reviews feed: real reviews, refreshed nightly) ============ -->
+<?php
+require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/google-reviews.php';
+$p1HomeReviews = p1_google_reviews('greenstone-home-solutions', ['heading' => 'What customers say on Google']);
+if ($p1HomeReviews !== ''): ?>
+<section class="section home-reviews" aria-label="Google reviews" style="background: var(--color-paper-2, var(--color-bg-alt, #f4f6f9)); padding-block: clamp(3rem, 6vw, 5rem);">
+    <div class="container">
+        <?php echo $p1HomeReviews; ?>
+    </div>
+</section>
+<?php endif; ?>
+
   <section class="faq-section bg-alt">
     <div class="container">
       <div class="text-center" style="margin-bottom: var(--space-2xl);" data-animate="fade-up">
